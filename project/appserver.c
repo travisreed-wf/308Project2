@@ -61,8 +61,8 @@ FILE * get_file(char * filename){
 }
 
 void handle_input(){
-    char str[201];
-    fgets(str, 200, stdin);
+    char str[100];
+    fgets(str, 99, stdin);
     request req;
     gettimeofday(&req.start, NULL);
     printf("ID 1\n");
@@ -78,8 +78,8 @@ void handle_input(){
     root->next = 0;
     root->r = req;
     while (take_input == 1){
-        char str[201];
-        fgets(str, 200, stdin);
+        char str[100];
+        fgets(str, 99, stdin);
         request req;
         gettimeofday(&req.start, NULL);
         printf("ID %d\n", num_of_requests);
@@ -130,7 +130,7 @@ void handle_input(){
 
 void run_command(request req){
 
-    char list [21][20] = {"","","","","","","","","","","","","","","","","","","","","", ""};
+    char list [21][20] = {"","","","","","","","","","","","","","","","","","","","",""};
     char* token;
     int i = 0;
     token = strtok(req.command, " ");
@@ -180,27 +180,25 @@ void handle_balance_check(int request_id, int account_id, struct timeval start){
 
 }
 void handle_transaction(int request_id, char list[21][20], struct timeval start) {
-    int args;
+    int args = 0;
     output_file = fopen(output_file_name, "a");
     int safe = 1;
     int successful = 0;
     while (successful == 0){
-        // flockfile(output_file);
-        for (args=0;args<21;args++){
-            if (!strcmp(list[args], "")) {
-                break;
-            }
+        flockfile(output_file);
+        while(strcmp(list[args], "")){
+            args++;
         }
-        // fprintf(output_file, "Number of args %d\n", args);
         for (int m =1; m<args;m=m+2){
             if (atoi(list[m]) > num_of_accounts || atoi(list[m]) <= 0){
-                fprintf(output_file,"%d Invalid Input due to account arg %d %d\n", request_id, atoi(list[m]), m);
+                fprintf(output_file,"%d Invalid Input\n", request_id);
                 fclose(output_file);
-                // funlockfile(output_file);
+                funlockfile(output_file);
                 printf("Invalid account number");
                 return;
             }
         }
+        fprintf(output_file, "Number of args %d\n", args);
         for (int i = 1;i<args;i=i+2){
             fprintf(output_file, "Trying on %d (arg %d of %d)\n", atoi(list[i]), i, args);
             if (pthread_mutex_trylock(&accounts[atoi(list[i])-1].lock) != 0){
@@ -211,8 +209,8 @@ void handle_transaction(int request_id, char list[21][20], struct timeval start)
                         pthread_mutex_unlock(&accounts[atoi(list[j])-1].lock);
                     }
                 }
-                // funlockfile(output_file);
-                usleep(300000);
+                funlockfile(output_file);
+                usleep(50000);
             }
             else {
                fprintf(output_file, "Aquired lock on %d (arg %d of %d)\n", atoi(list[i]), i, args);
@@ -251,7 +249,7 @@ void handle_transaction(int request_id, char list[21][20], struct timeval start)
                pthread_mutex_unlock(&accounts[atoi(list[i])-1].lock);
             }
             successful = 1;
-            // funlockfile(output_file);
+            funlockfile(output_file);
         }
         fclose(output_file);
     }
