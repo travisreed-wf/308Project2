@@ -19,6 +19,7 @@ char output_file_name[20] = "";
 int num_of_requests = 2;
 int take_input = 1;
 int num_of_worker_threads = 0;
+int num_of_accounts = 0;
 
 int main(int argc, char * argv[]) {
 //entry point for the program
@@ -29,7 +30,7 @@ int main(int argc, char * argv[]) {
         return 0;
     }
     num_of_worker_threads = atoi(argv[1]);
-    int num_of_accounts = atoi(argv[2]);
+    num_of_accounts = atoi(argv[2]);
     strcpy(output_file_name, argv[3]);
     output_file = get_file(output_file_name);
     fclose(output_file);
@@ -158,8 +159,8 @@ void handle_end(int request_id){
 
 }
 void handle_balance_check(int request_id, int account_id, struct timeval start){
-    if (account_id > num_of_accounts or account_id <= 0){
-        fprintf(output_file"%d Invalid Input", request_id);
+    if (account_id > num_of_accounts || account_id <= 0){
+        fprintf(output_file,"%d Invalid Input", request_id);
         fclose(output_file);
         printf("Invalid account number");
         return;
@@ -183,9 +184,9 @@ void handle_transaction(int request_id, char list[21][20], struct timeval start)
         while(strcmp(list[args], "")){
             args++;
         }
-        for (int m =1; i<args;i=i+2){
-            if (atoi(list[j]) > num_of_accounts or atoi(list[j]) <= 0){
-                fprintf(output_file"%d Invalid Input", request_id);
+        for (int m =1; m<args;m=m+2){
+            if (atoi(list[m]) > num_of_accounts || atoi(list[m]) <= 0){
+                fprintf(output_file,"%d Invalid Input", request_id);
                 fclose(output_file);
                 printf("Invalid account number");
                 return;
