@@ -112,11 +112,14 @@ void handle_input(){
 
         }
         pthread_mutex_unlock(&mutex);
-        output_file = fopen(output_file_name, "a");
+        // output_file = fopen(output_file_name, "a");
         // fprintf(output_file, "Request %d received: %s\n", num_of_requests, str);
-        fclose(output_file);
+        // fclose(output_file);
         num_of_requests++;
     }
+    output_file = fopen(output_file_name, "a");
+    fprintf(output_file, "END command received by main\n");
+    fclose(output_file);
     for (int i = 0;i < num_of_worker_threads; i++){
         pthread_join(threads[i], NULL);
     }
@@ -199,7 +202,7 @@ void handle_transaction(int request_id, char list[21][20], struct timeval start)
             if (pthread_mutex_trylock(&accounts[atoi(list[i])-1].lock) != 0){
                 safe = 0;
                 if (i > 1){
-                   for (int j=i-2;j>1;j=j-2){
+                   for (int j=i-2;j>=1;j=j-2){
                         fprintf(output_file, "Unsafe - Unlocking %d\n", atoi(list[j]));
                         pthread_mutex_unlock(&accounts[atoi(list[j])-1].lock);
                         usleep(50000);
