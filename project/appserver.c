@@ -146,7 +146,7 @@ void run_command(request req){
         handle_transaction(req.request_id, list, req.start);
     }
     else{
-        printf("Invalid Input");
+        printf("Invalid Input\n");
     }
 }
 
@@ -160,9 +160,10 @@ void handle_end(int request_id){
 }
 void handle_balance_check(int request_id, int account_id, struct timeval start){
     if (account_id > num_of_accounts || account_id <= 0){
-        fprintf(output_file,"%d Invalid Input", request_id);
+        output_file = fopen(output_file_name, "a");
+        fprintf(output_file,"%d Invalid Input\n", request_id);
         fclose(output_file);
-        printf("Invalid account number");
+        printf("Invalid account number\n");
         return;
     }
     pthread_mutex_lock(&accounts[account_id-1].lock);
@@ -186,7 +187,7 @@ void handle_transaction(int request_id, char list[21][20], struct timeval start)
         }
         for (int m =1; m<args;m=m+2){
             if (atoi(list[m]) > num_of_accounts || atoi(list[m]) <= 0){
-                fprintf(output_file,"%d Invalid Input", request_id);
+                fprintf(output_file,"%d Invalid Input\n", request_id);
                 fclose(output_file);
                 printf("Invalid account number");
                 return;
