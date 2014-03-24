@@ -1,0 +1,19 @@
+1 BAL 0 TIME 1395670220.259049 1395670220.360154
+Number of args 9
+Trying on 3
+Aquired lock on 3
+Trying on 4
+Aquired lock on 4
+Trying on 6
+Aquired lock on 6
+Trying on 7
+Aquired lock on 7
+Changing 3 to be 2 from 0
+Changing 4 to be 8 from 0
+Changing 6 to be 8 from 0
+Changing 7 to be 12 from 0
+2 OK TIME 1395670246.147021 1395670247.351813
+Unlocking 3
+Unlocking 4
+Unlocking 6
+Unlocking 7
