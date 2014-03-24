@@ -61,8 +61,8 @@ FILE * get_file(char * filename){
 }
 
 void handle_input(){
-    char str[100];
-    fgets(str, 99, stdin);
+    char str[200];
+    fgets(str, 199, stdin);
     request req;
     gettimeofday(&req.start, NULL);
     printf("ID 1\n");
@@ -78,8 +78,8 @@ void handle_input(){
     root->next = 0;
     root->r = req;
     while (take_input == 1){
-        char str[100];
-        fgets(str, 99, stdin);
+        char str[200];
+        fgets(str, 199, stdin);
         request req;
         gettimeofday(&req.start, NULL);
         printf("ID %d\n", num_of_requests);
@@ -186,6 +186,11 @@ void handle_transaction(int request_id, char list[21][20], struct timeval start)
     int successful = 0;
     while (successful == 0){
         flockfile(output_file);
+        // for (args=0;args<21;args++){
+        //     if (!strcmp(list[args], "")) {
+        //         break;
+        //     }
+        // }
         while(strcmp(list[args], "")){
             args++;
         }
