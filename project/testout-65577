@@ -1,0 +1,46 @@
+Picking up request 1 command - TRANS 1 1000000 2 1000000 3 1000000 4 1000000 5 1000000 6 1000000 7 1000000 8 1000000 9 1000000 10
+Number of args 20
+Picking up request 2 command -  1000000
+Trying on 1
+Trying on 2
+Aquired lock on 2
+Trying on 3
+Aquired lock on 3
+Trying on 4
+Request 3 received: TRANS 11 1000000 12 1000000 13 1000000 14 1000000 15 1000000 16 1000000 17 1000000 18 1000000 19 1
+Picking up request 3 command - TRANS 11 1000000 12 1000000 13 1000000 14 1000000 15 1000000 16 1000000 17 1000000 18 1000000 19 1
+Number of args 19
+Trying on 11
+Aquired lock on 11
+Trying on 12
+Aquired lock on 12
+Aquired lock on 6
+Trying on 7
+Aquired lock on 7
+Trying on 8
+Aquired lock on 8
+Trying on 9
+Aquired lock on 9
+Trying on 10
+Aquired lock on 10
+Changing 1 to be 1000000 from 0
+Changing 2 to be 1000000 from 0
+Changing 3 to be 1000000 from 0
+Changing 4 to be 1000000 from 0
+Changing 5 to be 1000000 from 0
+Changing 6 to be 1000000 from 0
+Changing 7 to be 1000000 from 0
+Changing 8 to be 1000000 from 0
+Changing 9 to be 1000000 from 0
+Changing 10 to be 0 from 0
+1 OK TIME 1395641282.247448 1395641285.261202
+Unlocking 1
+Unlocking 2
+Unlocking 3
+Unlocking 4
+Unlocking 5
+Unlocking 6
+Unlocking 7
+Unlocking 8
+Unlocking 9
+Unlocking 10

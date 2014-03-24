@@ -1,0 +1,86 @@
+Picking up request 1 command - TRANS 1 1000000 2 1000000 3 1000000 4 1000000 5 1000000 6 1000000 7 1000000 8 1000000 9 1000000 10
+Picking up request 2 command -  1000000
+Number of args 20
+Trying on 1
+Aquired lock on 1
+Trying on 2
+Aquired lock on 2
+Picking up request 3 command - TRANS 11 1000000 12 1000000 13 1000000 14 1000000 15 1000000 16 1000000 17 1000000 18 1000000 19 1
+Aquired lock on 3
+Trying on 4
+Trying on 5
+Trying on 11
+Aquired lock on 11
+Aquired lock on 6
+Trying on 12
+Picking up request 5 command - TRANS 21 1000000 22 1000000 23 1000000 24 1000000 25 1000000 26 1000000 27 1000000 28 1000000 29 1
+Aquired lock on 12
+Aquired lock on 7
+Trying on 13
+Trying on 8
+Aquired lock on 13
+Request 6 received: 000000 30 1000000
+Picking up request 6 command - 000000 30 1000000
+Trying on 9
+Trying on 14
+Aquired lock on 9
+Number of args 19
+Trying on 10
+Picking up request 7 command - TRANS 31 1000000 32 1000000 33 1000000 34 1000000 35 1000000 36 1000000 37 1000000 38 1000000 39 1
+Aquired lock on 10
+Aquired lock on 21
+Trying on 22
+Request 8 received: 000000 40 1000000
+Trying on 31
+Aquired lock on 31
+Trying on 32
+Request 9 received: TRANS 41 1000000 42 1000000 43 1000000 44 1000000 45 1000000 46 1000000 47 1000000 48 1000000 49 1
+Aquired lock on 32
+Trying on 23
+Request 10 received: 000000 50 1000000
+Number of args 19
+Trying on 33
+Trying on 41
+Picking up request 11 command - TRANS 51 1000000 52 1000000 53 1000000 54 1000000 55 1000000 56 1000000 57 1000000 58 1000000 59 1
+Aquired lock on 42
+Trying on 51
+Trying on 43
+Aquired lock on 51
+Aquired lock on 43
+Trying on 52
+Aquired lock on 52
+Trying on 45
+Trying on 53
+Aquired lock on 46
+Trying on 47
+Trying on 54
+Aquired lock on 47
+Aquired lock on 54
+Trying on 55
+Aquired lock on 55
+Trying on 56
+Aquired lock on 56
+Trying on 57
+Aquired lock on 57
+Trying on 58
+Aquired lock on 58
+Trying on 59
+Aquired lock on 59
+Trying on 7
+Request 2 received:  1000000
+Request 3 received: TRANS 11 1000000 12 1000000 13 1000000 14 1000000 15 1000000 16 1000000 17 1000000 18 1000000 19 1
+Number of args 19
+Request 4 received: 000000 20 1000000
+Trying on 6
+Request 5 received: TRANS 21 1000000 22 1000000 23 1000000 24 1000000 25 1000000 26 1000000 27 1000000 28 1000000 29 1
+Number of args 19
+Aquired lock on 8
+Trying on 21
+Request 7 received: TRANS 31 1000000 32 1000000 33 1000000 34 1000000 35 1000000 36 1000000 37 1000000 38 1000000 39 1
+Aquired lock on 41
+Request 11 received: TRANS 51 1000000 52 1000000 53 1000000 54 1000000 55 1000000 56 1000000 57 1000000 58 1000000 59 1
+Aquired lock on 22
+Picking up request 9 command - TRANS 41 1000000 42 1000000 43 1000000 44 1000000 45 1000000 46 1000000 47 1000000 48 1000000 49 1
+Picking up request 10 command - 000000 50 1000000
+Trying on 44
+Aquired lock on 53

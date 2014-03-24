@@ -1,0 +1,3846 @@
+Picking up request 1 command - TRANS 1 1000000 2 1000000 3 1000000 4 1000000 5 1000000 6 1000000 7 1000000 8 1000000 9 1000000 10
+Number of args 20
+Picking up request 3 command - TRANS 11 1000000 12 1000000 13 1000000 14 1000000 15 1000000 16 1000000 17 1000000 18 1000000 19 1
+Request 4 received: 000000 20 1000000
+Picking up request 4 command - 000000 20 1000000
+Picking up request 5 command - TRANS 21 1000000 22 1000000 23 1000000 24 1000000 25 1000000 26 1000000 27 1000000 28 1000000 29 1
+Picking up request 6 command - 000000 30 1000000
+Request 7 received: TRANS 31 1000000 32 1000000 33 1000000 34 1000000 35 1000000 36 1000000 37 1000000 38 1000000 39 1
+Picking up request 7 command - TRANS 31 1000000 32 1000000 33 1000000 34 1000000 35 1000000 36 1000000 37 1000000 38 1000000 39 1
+Request 8 received: 000000 40 1000000
+Aquired lock on 31
+Picking up request 8 command - 000000 40 1000000
+Trying on 32
+Request 9 received: TRANS 41 1000000 42 1000000 43 1000000 44 1000000 45 1000000 46 1000000 47 1000000 48 1000000 49 1
+Picking up request 9 command - TRANS 41 1000000 42 1000000 43 1000000 44 1000000 45 1000000 46 1000000 47 1000000 48 1000000 49 1
+Request 10 received: 000000 50 1000000
+Picking up request 10 command - 000000 50 1000000
+Request 11 received: TRANS 51 1000000 52 1000000 53 1000000 54 1000000 55 1000000 56 1000000 57 1000000 58 1000000 59 1
+Picking up request 11 command - TRANS 51 1000000 52 1000000 53 1000000 54 1000000 55 1000000 56 1000000 57 1000000 58 1000000 59 1
+Picking up request 12 command - 000000 60 1000000
+Request 12 received: 000000 60 1000000
+Aquired lock on 59
+Picking up request 13 command - TRANS 61 1000000 62 1000000 63 1000000 64 1000000 65 1000000 66 1000000 67 1000000 68 1000000 69 1
+Number of args 19
+Request 14 received: 000000 70 1000000
+Picking up request 14 command - 000000 70 1000000
+Request 15 received: TRANS 71 1000000 72 1000000 73 1000000 74 1000000 75 1000000 76 1000000 77 1000000 78 1000000 79 1
+Picking up request 15 command - TRANS 71 1000000 72 1000000 73 1000000 74 1000000 75 1000000 76 1000000 77 1000000 78 1000000 79 1
+Picking up request 16 command - 000000 80 1000000
+Picking up request 17 command - TRANS 81 1000000 82 1000000 83 1000000 84 1000000 85 1000000 86 1000000 87 1000000 88 1000000 89 1
+Number of args 19
+Picking up request 18 command - 000000 90 1000000
+Trying on 81
+Request 19 received: TRANS 91 1000000 92 1000000 93 1000000 94 1000000 95 1000000 96 1000000 97 1000000 98 1000000 99 1
+Request 20 received: 000000 100 1000000
+Request 21 received: TRANS 101 1000000 102 1000000 103 1000000 104 1000000 105 1000000 106 1000000 107 1000000 108 1000
+Request 22 received: 000 109 1000000 110 1000000
+Aquired lock on 96
+Request 23 received: TRANS 111 1000000 112 1000000 113 1000000 114 1000000 115 1000000 116 1000000 117 1000000 118 1000
+Request 24 received: 000 119 1000000 120 1000000
+Request 25 received: TRANS 121 1000000 122 1000000 123 1000000 124 1000000 125 1000000 126 1000000 127 1000000 128 1000
+Request 26 received: 000 129 1000000 130 1000000
+Request 27 received: TRANS 131 1000000 132 1000000 133 1000000 134 1000000 135 1000000 136 1000000 137 1000000 138 1000
+Request 28 received: 000 139 1000000 140 1000000
+Request 29 received: TRANS 141 1000000 142 1000000 143 1000000 144 1000000 145 1000000 146 1000000 147 1000000 148 1000
+Request 30 received: 000 149 1000000 150 1000000
+Request 31 received: TRANS 151 1000000 152 1000000 153 1000000 154 1000000 155 1000000 156 1000000 157 1000000 158 1000
+Request 32 received: 000 159 1000000 160 1000000
+Request 33 received: TRANS 161 1000000 162 1000000 163 1000000 164 1000000 165 1000000 166 1000000 167 1000000 168 1000
+Request 34 received: 000 169 1000000 170 1000000
+Request 35 received: TRANS 171 1000000 172 1000000 173 1000000 174 1000000 175 1000000 176 1000000 177 1000000 178 1000
+Request 36 received: 000 179 1000000 180 1000000
+Request 37 received: TRANS 181 1000000 182 1000000 183 1000000 184 1000000 185 1000000 186 1000000 187 1000000 188 1000
+Request 38 received: 000 189 1000000 190 1000000
+Request 39 received: TRANS 191 1000000 192 1000000 193 1000000 194 1000000 195 1000000 196 1000000 197 1000000 198 1000
+Request 40 received: 000 199 1000000 200 1000000
+Request 41 received: TRANS 201 1000000 202 1000000 203 1000000 204 1000000 205 1000000 206 1000000 207 1000000 208 1000
+Request 42 received: 000 209 1000000 210 1000000
+Request 43 received: TRANS 211 1000000 212 1000000 213 1000000 214 1000000 215 1000000 216 1000000 217 1000000 218 1000
+Request 44 received: 000 219 1000000 220 1000000
+Request 45 received: TRANS 221 1000000 222 1000000 223 1000000 224 1000000 225 1000000 226 1000000 227 1000000 228 1000
+Request 46 received: 000 229 1000000 230 1000000
+Request 47 received: TRANS 231 1000000 232 1000000 233 1000000 234 1000000 235 1000000 236 1000000 237 1000000 238 1000
+Request 48 received: 000 239 1000000 240 1000000
+Request 49 received: TRANS 241 1000000 242 1000000 243 1000000 244 1000000 245 1000000 246 1000000 247 1000000 248 1000
+Request 50 received: 000 249 1000000 250 1000000
+Request 51 received: TRANS 251 1000000 252 1000000 253 1000000 254 1000000 255 1000000 256 1000000 257 1000000 258 1000
+Request 52 received: 000 259 1000000 260 1000000
+Request 53 received: TRANS 261 1000000 262 1000000 263 1000000 264 1000000 265 1000000 266 1000000 267 1000000 268 1000
+Request 54 received: 000 269 1000000 270 1000000
+Request 55 received: TRANS 271 1000000 272 1000000 273 1000000 274 1000000 275 1000000 276 1000000 277 1000000 278 1000
+Request 56 received: 000 279 1000000 280 1000000
+Request 57 received: TRANS 281 1000000 282 1000000 283 1000000 284 1000000 285 1000000 286 1000000 287 1000000 288 1000
+Request 58 received: 000 289 1000000 290 1000000
+Request 59 received: TRANS 291 1000000 292 1000000 293 1000000 294 1000000 295 1000000 296 1000000 297 1000000 298 1000
+Request 60 received: 000 299 1000000 300 1000000
+Request 61 received: TRANS 301 1000000 302 1000000 303 1000000 304 1000000 305 1000000 306 1000000 307 1000000 308 1000
+Request 62 received: 000 309 1000000 310 1000000
+Request 63 received: TRANS 311 1000000 312 1000000 313 1000000 314 1000000 315 1000000 316 1000000 317 1000000 318 1000
+Request 64 received: 000 319 1000000 320 1000000
+Request 65 received: TRANS 321 1000000 322 1000000 323 1000000 324 1000000 325 1000000 326 1000000 327 1000000 328 1000
+Request 66 received: 000 329 1000000 330 1000000
+Request 67 received: TRANS 331 1000000 332 1000000 333 1000000 334 1000000 335 1000000 336 1000000 337 1000000 338 1000
+Request 68 received: 000 339 1000000 340 1000000
+Request 69 received: TRANS 341 1000000 342 1000000 343 1000000 344 1000000 345 1000000 346 1000000 347 1000000 348 1000
+Request 70 received: 000 349 1000000 350 1000000
+Request 71 received: TRANS 351 1000000 352 1000000 353 1000000 354 1000000 355 1000000 356 1000000 357 1000000 358 1000
+Request 72 received: 000 359 1000000 360 1000000
+Request 73 received: TRANS 361 1000000 362 1000000 363 1000000 364 1000000 365 1000000 366 1000000 367 1000000 368 1000
+Request 74 received: 000 369 1000000 370 1000000
+Request 75 received: TRANS 371 1000000 372 1000000 373 1000000 374 1000000 375 1000000 376 1000000 377 1000000 378 1000
+Request 76 received: 000 379 1000000 380 1000000
+Request 77 received: TRANS 381 1000000 382 1000000 383 1000000 384 1000000 385 1000000 386 1000000 387 1000000 388 1000
+Request 78 received: 000 389 1000000 390 1000000
+Request 79 received: TRANS 391 1000000 392 1000000 393 1000000 394 1000000 395 1000000 396 1000000 397 1000000 398 1000
+Request 80 received: 000 399 1000000 400 1000000
+Request 81 received: TRANS 401 1000000 402 1000000 403 1000000 404 1000000 405 1000000 406 1000000 407 1000000 408 1000
+Request 82 received: 000 409 1000000 410 1000000
+Request 83 received: TRANS 411 1000000 412 1000000 413 1000000 414 1000000 415 1000000 416 1000000 417 1000000 418 1000
+Request 84 received: 000 419 1000000 420 1000000
+Request 85 received: TRANS 421 1000000 422 1000000 423 1000000 424 1000000 425 1000000 426 1000000 427 1000000 428 1000
+Request 86 received: 000 429 1000000 430 1000000
+Request 87 received: TRANS 431 1000000 432 1000000 433 1000000 434 1000000 435 1000000 436 1000000 437 1000000 438 1000
+Request 88 received: 000 439 1000000 440 1000000
+Request 89 received: TRANS 441 1000000 442 1000000 443 1000000 444 1000000 445 1000000 446 1000000 447 1000000 448 1000
+Request 90 received: 000 449 1000000 450 1000000
+Request 91 received: TRANS 451 1000000 452 1000000 453 1000000 454 1000000 455 1000000 456 1000000 457 1000000 458 1000
+Request 92 received: 000 459 1000000 460 1000000
+Request 93 received: TRANS 461 1000000 462 1000000 463 1000000 464 1000000 465 1000000 466 1000000 467 1000000 468 1000
+Request 94 received: 000 469 1000000 470 1000000
+Request 95 received: TRANS 471 1000000 472 1000000 473 1000000 474 1000000 475 1000000 476 1000000 477 1000000 478 1000
+Request 96 received: 000 479 1000000 480 1000000
+Request 97 received: TRANS 481 1000000 482 1000000 483 1000000 484 1000000 485 1000000 486 1000000 487 1000000 488 1000
+Request 98 received: 000 489 1000000 490 1000000
+Request 99 received: TRANS 491 1000000 492 1000000 493 1000000 494 1000000 495 1000000 496 1000000 497 1000000 498 1000
+Request 100 received: 000 499 1000000 500 1000000
+Request 101 received: TRANS 501 1000000 502 1000000 503 1000000 504 1000000 505 1000000 506 1000000 507 1000000 508 1000
+Request 102 received: 000 509 1000000 510 1000000
+Request 103 received: TRANS 511 1000000 512 1000000 513 1000000 514 1000000 515 1000000 516 1000000 517 1000000 518 1000
+Request 104 received: 000 519 1000000 520 1000000
+Request 105 received: TRANS 521 1000000 522 1000000 523 1000000 524 1000000 525 1000000 526 1000000 527 1000000 528 1000
+Request 106 received: 000 529 1000000 530 1000000
+Request 107 received: TRANS 531 1000000 532 1000000 533 1000000 534 1000000 535 1000000 536 1000000 537 1000000 538 1000
+Request 108 received: 000 539 1000000 540 1000000
+Request 109 received: TRANS 541 1000000 542 1000000 543 1000000 544 1000000 545 1000000 546 1000000 547 1000000 548 1000
+Request 110 received: 000 549 1000000 550 1000000
+Request 111 received: TRANS 551 1000000 552 1000000 553 1000000 554 1000000 555 1000000 556 1000000 557 1000000 558 1000
+Request 112 received: 000 559 1000000 560 1000000
+Request 113 received: TRANS 561 1000000 562 1000000 563 1000000 564 1000000 565 1000000 566 1000000 567 1000000 568 1000
+Request 114 received: 000 569 1000000 570 1000000
+Request 115 received: TRANS 571 1000000 572 1000000 573 1000000 574 1000000 575 1000000 576 1000000 577 1000000 578 1000
+Request 116 received: 000 579 1000000 580 1000000
+Request 117 received: TRANS 581 1000000 582 1000000 583 1000000 584 1000000 585 1000000 586 1000000 587 1000000 588 1000
+Request 118 received: 000 589 1000000 590 1000000
+Request 119 received: TRANS 591 1000000 592 1000000 593 1000000 594 1000000 595 1000000 596 1000000 597 1000000 598 1000
+Request 120 received: 000 599 1000000 600 1000000
+Request 121 received: TRANS 601 1000000 602 1000000 603 1000000 604 1000000 605 1000000 606 1000000 607 1000000 608 1000
+Request 122 received: 000 609 1000000 610 1000000
+Request 123 received: TRANS 611 1000000 612 1000000 613 1000000 614 1000000 615 1000000 616 1000000 617 1000000 618 1000
+Request 124 received: 000 619 1000000 620 1000000
+Request 125 received: TRANS 621 1000000 622 1000000 623 1000000 624 1000000 625 1000000 626 1000000 627 1000000 628 1000
+Request 126 received: 000 629 1000000 630 1000000
+Request 127 received: TRANS 631 1000000 632 1000000 633 1000000 634 1000000 635 1000000 636 1000000 637 1000000 638 1000
+Request 128 received: 000 639 1000000 640 1000000
+Request 129 received: TRANS 641 1000000 642 1000000 643 1000000 644 1000000 645 1000000 646 1000000 647 1000000 648 1000
+Request 130 received: 000 649 1000000 650 1000000
+Request 131 received: TRANS 651 1000000 652 1000000 653 1000000 654 1000000 655 1000000 656 1000000 657 1000000 658 1000
+Request 132 received: 000 659 1000000 660 1000000
+Request 133 received: TRANS 661 1000000 662 1000000 663 1000000 664 1000000 665 1000000 666 1000000 667 1000000 668 1000
+Request 134 received: 000 669 1000000 670 1000000
+Request 135 received: TRANS 671 1000000 672 1000000 673 1000000 674 1000000 675 1000000 676 1000000 677 1000000 678 1000
+Request 136 received: 000 679 1000000 680 1000000
+Request 137 received: TRANS 681 1000000 682 1000000 683 1000000 684 1000000 685 1000000 686 1000000 687 1000000 688 1000
+Request 138 received: 000 689 1000000 690 1000000
+Request 139 received: TRANS 691 1000000 692 1000000 693 1000000 694 1000000 695 1000000 696 1000000 697 1000000 698 1000
+Request 140 received: 000 699 1000000 700 1000000
+Request 141 received: TRANS 701 1000000 702 1000000 703 1000000 704 1000000 705 1000000 706 1000000 707 1000000 708 1000
+Request 142 received: 000 709 1000000 710 1000000
+Request 143 received: TRANS 711 1000000 712 1000000 713 1000000 714 1000000 715 1000000 716 1000000 717 1000000 718 1000
+Request 144 received: 000 719 1000000 720 1000000
+Request 145 received: TRANS 721 1000000 722 1000000 723 1000000 724 1000000 725 1000000 726 1000000 727 1000000 728 1000
+Request 146 received: 000 729 1000000 730 1000000
+Request 147 received: TRANS 731 1000000 732 1000000 733 1000000 734 1000000 735 1000000 736 1000000 737 1000000 738 1000
+Request 148 received: 000 739 1000000 740 1000000
+Request 149 received: TRANS 741 1000000 742 1000000 743 1000000 744 1000000 745 1000000 746 1000000 747 1000000 748 1000
+Request 150 received: 000 749 1000000 750 1000000
+Request 151 received: TRANS 751 1000000 752 1000000 753 1000000 754 1000000 755 1000000 756 1000000 757 1000000 758 1000
+Request 152 received: 000 759 1000000 760 1000000
+Request 153 received: TRANS 761 1000000 762 1000000 763 1000000 764 1000000 765 1000000 766 1000000 767 1000000 768 1000
+Request 154 received: 000 769 1000000 770 1000000
+Request 155 received: TRANS 771 1000000 772 1000000 773 1000000 774 1000000 775 1000000 776 1000000 777 1000000 778 1000
+Request 156 received: 000 779 1000000 780 1000000
+Request 157 received: TRANS 781 1000000 782 1000000 783 1000000 784 1000000 785 1000000 786 1000000 787 1000000 788 1000
+Request 158 received: 000 789 1000000 790 1000000
+Request 159 received: TRANS 791 1000000 792 1000000 793 1000000 794 1000000 795 1000000 796 1000000 797 1000000 798 1000
+Request 160 received: 000 799 1000000 800 1000000
+Request 161 received: TRANS 801 1000000 802 1000000 803 1000000 804 1000000 805 1000000 806 1000000 807 1000000 808 1000
+Request 162 received: 000 809 1000000 810 1000000
+Request 163 received: TRANS 811 1000000 812 1000000 813 1000000 814 1000000 815 1000000 816 1000000 817 1000000 818 1000
+Request 164 received: 000 819 1000000 820 1000000
+Request 165 received: TRANS 821 1000000 822 1000000 823 1000000 824 1000000 825 1000000 826 1000000 827 1000000 828 1000
+Request 166 received: 000 829 1000000 830 1000000
+Request 167 received: TRANS 831 1000000 832 1000000 833 1000000 834 1000000 835 1000000 836 1000000 837 1000000 838 1000
+Request 168 received: 000 839 1000000 840 1000000
+Request 169 received: TRANS 841 1000000 842 1000000 843 1000000 844 1000000 845 1000000 846 1000000 847 1000000 848 1000
+Request 170 received: 000 849 1000000 850 1000000
+Request 171 received: TRANS 851 1000000 852 1000000 853 1000000 854 1000000 855 1000000 856 1000000 857 1000000 858 1000
+Request 172 received: 000 859 1000000 860 1000000
+Request 173 received: TRANS 861 1000000 862 1000000 863 1000000 864 1000000 865 1000000 866 1000000 867 1000000 868 1000
+Request 174 received: 000 869 1000000 870 1000000
+Request 175 received: TRANS 871 1000000 872 1000000 873 1000000 874 1000000 875 1000000 876 1000000 877 1000000 878 1000
+Request 176 received: 000 879 1000000 880 1000000
+Request 177 received: TRANS 881 1000000 882 1000000 883 1000000 884 1000000 885 1000000 886 1000000 887 1000000 888 1000
+Request 178 received: 000 889 1000000 890 1000000
+Request 179 received: TRANS 891 1000000 892 1000000 893 1000000 894 1000000 895 1000000 896 1000000 897 1000000 898 1000
+Request 180 received: 000 899 1000000 900 1000000
+Request 181 received: TRANS 901 1000000 902 1000000 903 1000000 904 1000000 905 1000000 906 1000000 907 1000000 908 1000
+Request 182 received: 000 909 1000000 910 1000000
+Request 183 received: TRANS 911 1000000 912 1000000 913 1000000 914 1000000 915 1000000 916 1000000 917 1000000 918 1000
+Request 184 received: 000 919 1000000 920 1000000
+Request 185 received: TRANS 921 1000000 922 1000000 923 1000000 924 1000000 925 1000000 926 1000000 927 1000000 928 1000
+Request 186 received: 000 929 1000000 930 1000000
+Request 187 received: TRANS 931 1000000 932 1000000 933 1000000 934 1000000 935 1000000 936 1000000 937 1000000 938 1000
+Request 188 received: 000 939 1000000 940 1000000
+Request 189 received: TRANS 941 1000000 942 1000000 943 1000000 944 1000000 945 1000000 946 1000000 947 1000000 948 1000
+Request 190 received: 000 949 1000000 950 1000000
+Request 191 received: TRANS 951 1000000 952 1000000 953 1000000 954 1000000 955 1000000 956 1000000 957 1000000 958 1000
+Request 192 received: 000 959 1000000 960 1000000
+Request 193 received: TRANS 961 1000000 962 1000000 963 1000000 964 1000000 965 1000000 966 1000000 967 1000000 968 1000
+Request 194 received: 000 969 1000000 970 1000000
+Request 195 received: TRANS 971 1000000 972 1000000 973 1000000 974 1000000 975 1000000 976 1000000 977 1000000 978 1000
+Request 196 received: 000 979 1000000 980 1000000
+Request 197 received: TRANS 981 1000000 982 1000000 983 1000000 984 1000000 985 1000000 986 1000000 987 1000000 988 1000
+Request 198 received: 000 989 1000000 990 1000000
+Request 199 received: TRANS 991 1000000 992 1000000 993 1000000 994 1000000 995 1000000 996 1000000 997 1000000 998 1000
+Request 200 received: 000 999 1000000 1000 1000000
+Changing 49 to be 1 from 0
+Unlocking 15
+Changing 29 to be 1 from 0
+Changing 69 to be 1 from 0
+Changing 39 to be 1 from 0
+Changing 59 to be 1 from 0
+19 OK TIME 1395641371.783404 1395641374.507325
+Unlocking 81
+Picking up request 20 command - 000000 100 1000000
+9 OK TIME 1395641371.783039 1395641374.507378
+Unlocking 16
+5 OK TIME 1395641371.782777 1395641374.507401
+13 OK TIME 1395641371.783203 1395641374.507411
+7 OK TIME 1395641371.782908 1395641374.507420
+11 OK TIME 1395641371.783131 1395641374.507429
+Unlocking 91
+Unlocking 82
+Picking up request 21 command - TRANS 101 1000000 102 1000000 103 1000000 104 1000000 105 1000000 106 1000000 107 1000000 108 1000
+Unlocking 42
+Number of args 17
+Unlocking 43
+Trying on 101
+Unlocking 44
+Aquired lock on 101
+Unlocking 45
+Trying on 102
+Unlocking 46
+Aquired lock on 102
+Unlocking 47
+Trying on 103
+Unlocking 48
+Aquired lock on 103
+Unlocking 49
+Trying on 104
+Aquired lock on 104
+Picking up request 23 command - TRANS 111 1000000 112 1000000 113 1000000 114 1000000 115 1000000 116 1000000 117 1000000 118 1000
+Number of args 17
+Trying on 111
+Aquired lock on 111
+Trying on 112
+Aquired lock on 112
+Trying on 113
+Aquired lock on 113
+Trying on 114
+Aquired lock on 114
+Trying on 115
+Aquired lock on 115
+Trying on 116
+Aquired lock on 116
+Trying on 117
+Aquired lock on 117
+Trying on 118
+Aquired lock on 118
+Changing 9 to be 1000000 from 0
+Changing 10 to be 0 from 0
+1 OK TIME 1395641371.782533 1395641374.809310
+Unlocking 1
+Unlocking 2
+Unlocking 3
+Unlocking 4
+Unlocking 5
+Unlocking 6
+Unlocking 7
+Unlocking 8
+Unlocking 9
+Unlocking 10
+Picking up request 24 command - 000 119 1000000 120 1000000
+Picking up request 25 command - TRANS 121 1000000 122 1000000 123 1000000 124 1000000 125 1000000 126 1000000 127 1000000 128 1000
+Number of args 17
+Trying on 121
+Aquired lock on 121
+Trying on 122
+Aquired lock on 122
+Trying on 123
+Aquired lock on 123
+Trying on 124
+Aquired lock on 124
+Trying on 125
+Aquired lock on 125
+Trying on 126
+Aquired lock on 126
+Trying on 127
+Aquired lock on 127
+Trying on 128
+Aquired lock on 128
+Changing 101 to be 1000000 from 0
+Changing 111 to be 1000000 from 0
+Changing 102 to be 1000000 from 0
+Changing 112 to be 1000000 from 0
+Changing 121 to be 1000000 from 0
+Changing 103 to be 1000000 from 0
+Changing 113 to be 1000000 from 0
+Changing 122 to be 1000000 from 0
+Changing 114 to be 1000000 from 0
+Changing 104 to be 1000000 from 0
+Changing 123 to be 1000000 from 0
+Changing 115 to be 1000000 from 0
+Changing 105 to be 1000000 from 0
+Changing 124 to be 1000000 from 0
+Changing 106 to be 1000000 from 0
+Changing 116 to be 1000000 from 0
+Changing 125 to be 1000000 from 0
+Changing 107 to be 1000000 from 0
+Changing 117 to be 1000000 from 0
+Changing 126 to be 1000000 from 0
+Changing 108 to be 1000 from 0
+Changing 118 to be 1000 from 0
+21 OK TIME 1395641371.783427 1395641376.928583
+23 OK TIME 1395641371.783471 1395641376.928608
+Unlocking 101
+Unlocking 111
+Unlocking 102
+Unlocking 112
+Unlocking 103
+Unlocking 113
+Unlocking 104
+Unlocking 114
+Unlocking 105
+Unlocking 115
+Unlocking 106
+Unlocking 116
+Unlocking 107
+Unlocking 117
+Unlocking 108
+Unlocking 118
+Picking up request 26 command - 000 129 1000000 130 1000000
+Picking up request 27 command - TRANS 131 1000000 132 1000000 133 1000000 134 1000000 135 1000000 136 1000000 137 1000000 138 1000
+Picking up request 29 command - TRANS 141 1000000 142 1000000 143 1000000 144 1000000 145 1000000 146 1000000 147 1000000 148 1000
+Trying on 131
+Number of args 17
+Trying on 141
+Aquired lock on 141
+Trying on 142
+Aquired lock on 142
+Trying on 143
+Aquired lock on 143
+Aquired lock on 131
+Trying on 144
+Trying on 132
+Aquired lock on 144
+Aquired lock on 132
+Trying on 145
+Trying on 133
+Aquired lock on 145
+Aquired lock on 133
+Trying on 146
+Trying on 134
+Aquired lock on 146
+Aquired lock on 134
+Trying on 147
+Trying on 135
+Aquired lock on 147
+Aquired lock on 135
+Trying on 148
+Trying on 136
+Aquired lock on 148
+Aquired lock on 136
+Trying on 137
+Aquired lock on 137
+Trying on 138
+Aquired lock on 138
+Changing 127 to be 1000000 from 0
+Changing 128 to be 1000 from 0
+25 OK TIME 1395641371.783491 1395641377.231735
+Unlocking 121
+Unlocking 122
+Unlocking 123
+Unlocking 124
+Unlocking 125
+Unlocking 126
+Unlocking 127
+Unlocking 128
+Picking up request 30 command - 000 149 1000000 150 1000000
+Picking up request 31 command - TRANS 151 1000000 152 1000000 153 1000000 154 1000000 155 1000000 156 1000000 157 1000000 158 1000
+Number of args 17
+Trying on 151
+Aquired lock on 151
+Trying on 152
+Aquired lock on 152
+Trying on 153
+Aquired lock on 153
+Trying on 154
+Aquired lock on 154
+Trying on 155
+Aquired lock on 155
+Trying on 156
+Aquired lock on 156
+Trying on 157
+Aquired lock on 157
+Trying on 158
+Aquired lock on 158
+Changing 141 to be 1000000 from 0
+Changing 131 to be 1000000 from 0
+Changing 142 to be 1000000 from 0
+Changing 132 to be 1000000 from 0
+Changing 151 to be 1000000 from 0
+Changing 143 to be 1000000 from 0
+Changing 133 to be 1000000 from 0
+Changing 152 to be 1000000 from 0
+Changing 144 to be 1000000 from 0
+Changing 134 to be 1000000 from 0
+Changing 153 to be 1000000 from 0
+Changing 145 to be 1000000 from 0
+Changing 135 to be 1000000 from 0
+Changing 154 to be 1000000 from 0
+Changing 146 to be 1000000 from 0
+Changing 136 to be 1000000 from 0
+Changing 155 to be 1000000 from 0
+Changing 147 to be 1000000 from 0
+Changing 137 to be 1000000 from 0
+Changing 156 to be 1000000 from 0
+Changing 148 to be 1000 from 0
+Changing 138 to be 1000 from 0
+29 OK TIME 1395641371.783527 1395641379.353467
+27 OK TIME 1395641371.783509 1395641379.353493
+Unlocking 141
+Unlocking 131
+Unlocking 142
+Unlocking 132
+Unlocking 143
+Unlocking 133
+Unlocking 144
+Unlocking 134
+Unlocking 145
+Unlocking 135
+Unlocking 146
+Unlocking 136
+Unlocking 147
+Unlocking 137
+Unlocking 148
+Unlocking 138
+Picking up request 34 command - 000 169 1000000 170 1000000
+Picking up request 33 command - TRANS 161 1000000 162 1000000 163 1000000 164 1000000 165 1000000 166 1000000 167 1000000 168 1000
+Picking up request 35 command - TRANS 171 1000000 172 1000000 173 1000000 174 1000000 175 1000000 176 1000000 177 1000000 178 1000
+Aquired lock on 165
+Number of args 17
+Trying on 166
+Trying on 171
+Aquired lock on 166
+Aquired lock on 171
+Trying on 167
+Trying on 172
+Aquired lock on 167
+Aquired lock on 172
+Trying on 168
+Trying on 173
+Aquired lock on 168
+Aquired lock on 173
+Trying on 174
+Aquired lock on 174
+Trying on 175
+Aquired lock on 175
+Trying on 176
+Aquired lock on 176
+Trying on 177
+Aquired lock on 177
+Trying on 178
+Aquired lock on 178
+Changing 157 to be 1000000 from 0
+Changing 158 to be 1000 from 0
+31 OK TIME 1395641371.783545 1395641379.655884
+Unlocking 151
+Unlocking 152
+Unlocking 153
+Unlocking 154
+Unlocking 155
+Unlocking 156
+Unlocking 157
+Unlocking 158
+Picking up request 36 command - 000 179 1000000 180 1000000
+Picking up request 37 command - TRANS 181 1000000 182 1000000 183 1000000 184 1000000 185 1000000 186 1000000 187 1000000 188 1000
+Number of args 17
+Trying on 181
+Aquired lock on 181
+Trying on 182
+Aquired lock on 182
+Trying on 183
+Aquired lock on 183
+Trying on 184
+Aquired lock on 184
+Trying on 185
+Aquired lock on 185
+Trying on 186
+Aquired lock on 186
+Trying on 187
+Aquired lock on 187
+Trying on 188
+Aquired lock on 188
+Changing 171 to be 1000000 from 0
+Changing 161 to be 1000000 from 0
+Changing 172 to be 1000000 from 0
+Changing 162 to be 1000000 from 0
+Changing 181 to be 1000000 from 0
+Changing 173 to be 1000000 from 0
+Changing 163 to be 1000000 from 0
+Changing 182 to be 1000000 from 0
+Changing 164 to be 1000000 from 0
+Changing 174 to be 1000000 from 0
+Changing 183 to be 1000000 from 0
+Changing 165 to be 1000000 from 0
+Changing 175 to be 1000000 from 0
+Changing 184 to be 1000000 from 0
+Changing 166 to be 1000000 from 0
+Changing 176 to be 1000000 from 0
+Changing 185 to be 1000000 from 0
+Changing 167 to be 1000000 from 0
+Changing 177 to be 1000000 from 0
+Changing 186 to be 1000000 from 0
+Changing 178 to be 1000 from 0
+35 OK TIME 1395641371.783581 1395641381.772139
+Unlocking 171
+Unlocking 172
+Unlocking 173
+Unlocking 174
+Unlocking 175
+Unlocking 176
+Unlocking 177
+Unlocking 178
+Picking up request 39 command - TRANS 191 1000000 192 1000000 193 1000000 194 1000000 195 1000000 196 1000000 197 1000000 198 1000
+Picking up request 38 command - 000 189 1000000 190 1000000
+Picking up request 40 command - 000 199 1000000 200 1000000
+Picking up request 41 command - TRANS 201 1000000 202 1000000 203 1000000 204 1000000 205 1000000 206 1000000 207 1000000 208 1000
+Number of args 17
+Trying on 201
+Aquired lock on 201
+Trying on 202
+Aquired lock on 202
+Trying on 203
+Aquired lock on 203
+Trying on 204
+Aquired lock on 204
+Trying on 205
+Aquired lock on 205
+Trying on 206
+Aquired lock on 206
+Trying on 207
+Aquired lock on 207
+Trying on 208
+Aquired lock on 208
+Changing 187 to be 1000000 from 0
+Changing 188 to be 1000 from 0
+37 OK TIME 1395641371.783600 1395641382.074342
+Unlocking 181
+Unlocking 182
+Unlocking 183
+Unlocking 184
+Unlocking 185
+Unlocking 186
+Unlocking 187
+Unlocking 188
+Picking up request 42 command - 000 209 1000000 210 1000000
+Picking up request 43 command - TRANS 211 1000000 212 1000000 213 1000000 214 1000000 215 1000000 216 1000000 217 1000000 218 1000
+Number of args 17
+Trying on 211
+Aquired lock on 211
+Trying on 212
+Aquired lock on 212
+Trying on 213
+Aquired lock on 213
+Trying on 214
+Aquired lock on 214
+Trying on 215
+Aquired lock on 215
+Trying on 216
+Aquired lock on 216
+Trying on 217
+Aquired lock on 217
+Trying on 218
+Aquired lock on 218
+Changing 191 to be 1000000 from 0
+Changing 201 to be 1000000 from 0
+Changing 192 to be 1000000 from 0
+Changing 202 to be 1000000 from 0
+Changing 211 to be 1000000 from 0
+Changing 193 to be 1000000 from 0
+Changing 203 to be 1000000 from 0
+Changing 212 to be 1000000 from 0
+Changing 194 to be 1000000 from 0
+Changing 204 to be 1000000 from 0
+Changing 213 to be 1000000 from 0
+Changing 195 to be 1000000 from 0
+Changing 205 to be 1000000 from 0
+Changing 214 to be 1000000 from 0
+Changing 196 to be 1000000 from 0
+Changing 206 to be 1000000 from 0
+Changing 215 to be 1000000 from 0
+Changing 197 to be 1000000 from 0
+Changing 207 to be 1000000 from 0
+Changing 216 to be 1000000 from 0
+Changing 198 to be 1000 from 0
+39 OK TIME 1395641371.783617 1395641384.195276
+Unlocking 191
+Unlocking 192
+Unlocking 193
+Unlocking 194
+Unlocking 195
+Unlocking 196
+Unlocking 197
+Unlocking 198
+Changing 208 to be 1000 from 0
+Picking up request 45 command - TRANS 221 1000000 222 1000000 223 1000000 224 1000000 225 1000000 226 1000000 227 1000000 228 1000
+Picking up request 46 command - 000 229 1000000 230 1000000
+Picking up request 47 command - TRANS 231 1000000 232 1000000 233 1000000 234 1000000 235 1000000 236 1000000 237 1000000 238 1000
+Number of args 17
+Trying on 231
+Aquired lock on 231
+Trying on 232
+Aquired lock on 232
+Trying on 233
+Aquired lock on 233
+Trying on 234
+Aquired lock on 234
+Trying on 235
+Aquired lock on 235
+Trying on 236
+Aquired lock on 236
+Trying on 237
+Aquired lock on 237
+Trying on 238
+Aquired lock on 238
+Changing 217 to be 1000000 from 0
+Changing 218 to be 1000 from 0
+43 OK TIME 1395641371.783664 1395641384.498558
+Unlocking 211
+Unlocking 212
+Unlocking 213
+Unlocking 214
+Unlocking 215
+Unlocking 216
+Unlocking 217
+Unlocking 218
+Picking up request 48 command - 000 239 1000000 240 1000000
+Picking up request 49 command - TRANS 241 1000000 242 1000000 243 1000000 244 1000000 245 1000000 246 1000000 247 1000000 248 1000
+Number of args 17
+Trying on 241
+Aquired lock on 241
+Trying on 242
+Aquired lock on 242
+Trying on 243
+Aquired lock on 243
+Trying on 244
+Aquired lock on 244
+Trying on 245
+Aquired lock on 245
+Trying on 246
+Aquired lock on 246
+Trying on 247
+Aquired lock on 247
+Trying on 248
+Aquired lock on 248
+Changing 231 to be 1000000 from 0
+Changing 221 to be 1000000 from 0
+Changing 232 to be 1000000 from 0
+Changing 222 to be 1000000 from 0
+Changing 241 to be 1000000 from 0
+Changing 233 to be 1000000 from 0
+Changing 223 to be 1000000 from 0
+Changing 242 to be 1000000 from 0
+Changing 234 to be 1000000 from 0
+Changing 224 to be 1000000 from 0
+Changing 243 to be 1000000 from 0
+Changing 225 to be 1000000 from 0
+Changing 235 to be 1000000 from 0
+Changing 244 to be 1000000 from 0
+Changing 236 to be 1000000 from 0
+Changing 226 to be 1000000 from 0
+Changing 245 to be 1000000 from 0
+Changing 237 to be 1000000 from 0
+Changing 227 to be 1000000 from 0
+Changing 246 to be 1000000 from 0
+Changing 238 to be 1000 from 0
+Changing 228 to be 1000 from 0
+47 OK TIME 1395641371.783699 1395641386.618815
+45 OK TIME 1395641371.783682 1395641386.618847
+Unlocking 231
+Unlocking 221
+Unlocking 232
+Unlocking 222
+Unlocking 233
+Unlocking 223
+Unlocking 234
+Unlocking 224
+Unlocking 235
+Unlocking 225
+Unlocking 236
+Unlocking 226
+Unlocking 237
+Unlocking 227
+Unlocking 238
+Unlocking 228
+Picking up request 50 command - 000 249 1000000 250 1000000
+Picking up request 51 command - TRANS 251 1000000 252 1000000 253 1000000 254 1000000 255 1000000 256 1000000 257 1000000 258 1000
+Picking up request 52 command - 000 259 1000000 260 1000000
+Trying on 251
+Aquired lock on 251
+Trying on 255
+Number of args 17
+Aquired lock on 255
+Trying on 261
+Trying on 256
+Aquired lock on 261
+Aquired lock on 256
+Trying on 262
+Trying on 257
+Aquired lock on 262
+Aquired lock on 257
+Trying on 263
+Trying on 258
+Aquired lock on 263
+Aquired lock on 258
+Trying on 264
+Aquired lock on 264
+Trying on 265
+Aquired lock on 265
+Trying on 266
+Aquired lock on 266
+Trying on 267
+Aquired lock on 267
+Trying on 268
+Aquired lock on 268
+Changing 247 to be 1000000 from 0
+Changing 248 to be 1000 from 0
+49 OK TIME 1395641371.783717 1395641386.921395
+Unlocking 241
+Unlocking 242
+Unlocking 243
+Unlocking 244
+Unlocking 245
+Unlocking 246
+Unlocking 247
+Unlocking 248
+Picking up request 54 command - 000 269 1000000 270 1000000
+Picking up request 55 command - TRANS 271 1000000 272 1000000 273 1000000 274 1000000 275 1000000 276 1000000 277 1000000 278 1000
+Number of args 17
+Trying on 271
+Aquired lock on 271
+Trying on 272
+Aquired lock on 272
+Trying on 273
+Aquired lock on 273
+Trying on 274
+Aquired lock on 274
+Trying on 275
+Aquired lock on 275
+Trying on 276
+Aquired lock on 276
+Trying on 277
+Aquired lock on 277
+Trying on 278
+Aquired lock on 278
+Changing 261 to be 1000000 from 0
+Changing 251 to be 1000000 from 0
+Changing 262 to be 1000000 from 0
+Changing 252 to be 1000000 from 0
+Changing 271 to be 1000000 from 0
+Changing 263 to be 1000000 from 0
+Changing 253 to be 1000000 from 0
+Changing 272 to be 1000000 from 0
+Changing 254 to be 1000000 from 0
+Changing 264 to be 1000000 from 0
+Changing 273 to be 1000000 from 0
+Changing 265 to be 1000000 from 0
+Changing 255 to be 1000000 from 0
+Changing 274 to be 1000000 from 0
+Changing 266 to be 1000000 from 0
+Changing 256 to be 1000000 from 0
+Changing 275 to be 1000000 from 0
+Changing 257 to be 1000000 from 0
+Changing 267 to be 1000000 from 0
+Changing 276 to be 1000000 from 0
+Changing 258 to be 1000 from 0
+Changing 268 to be 1000 from 0
+51 OK TIME 1395641371.783746 1395641389.041241
+53 OK TIME 1395641371.783764 1395641389.041255
+Unlocking 251
+Unlocking 261
+Unlocking 252
+Unlocking 262
+Unlocking 253
+Unlocking 263
+Unlocking 254
+Unlocking 264
+Unlocking 255
+Unlocking 265
+Unlocking 256
+Unlocking 266
+Unlocking 257
+Unlocking 267
+Unlocking 258
+Unlocking 268
+Picking up request 57 command - TRANS 281 1000000 282 1000000 283 1000000 284 1000000 285 1000000 286 1000000 287 1000000 288 1000
+Picking up request 58 command - 000 289 1000000 290 1000000
+Trying on 283
+Aquired lock on 283
+Trying on 284
+Aquired lock on 284
+Trying on 285
+AquiPicking up request 59 command - TRANS 291 1000000 292 1000000 293 1000000 294 1000000 295 1000000 296 1000000 297 1000000 298 1000
+Number of args 17
+Trying on 291
+Aquired lock on 291
+Trying on 292
+Aquired lock on 292
+Trying on 293
+Aquired lock on 293
+Trying on 294
+Aquired lock on 294
+Trying on 295
+Aquired lock on 295
+Trying on 296
+Aquired lock on 296
+Trying on 297
+Aquired lock on 297
+Trying on 298
+Aquired lock on 298
+Changing 277 to be 1000000 from 0
+Changing 278 to be 1000 from 0
+55 OK TIME 1395641371.783782 1395641389.339823
+Unlocking 271
+Unlocking 272
+Unlocking 273
+Unlocking 274
+Unlocking 275
+Unlocking 276
+Unlocking 277
+Unlocking 278
+Picking up request 60 command - 000 299 1000000 300 1000000
+Picking up request 61 command - TRANS 301 1000000 302 1000000 303 1000000 304 1000000 305 1000000 306 1000000 307 1000000 308 1000
+Number of args 17
+Trying on 301
+Aquired lock on 301
+Trying on 302
+Aquired lock on 302
+Trying on 303
+Aquired lock on 303
+Trying on 304
+Aquired lock on 304
+Trying on 305
+Aquired lock on 305
+Trying on 306
+Aquired lock on 306
+Trying on 307
+Aquired lock on 307
+Trying on 308
+Aquired lock on 308
+Changing 281 to be 1000000 from 0
+Changing 291 to be 1000000 from 0
+Changing 282 to be 1000000 from 0
+Changing 292 to be 1000000 from 0
+Changing 301 to be 1000000 from 0
+Changing 293 to be 1000000 from 0
+Changing 283 to be 1000000 from 0
+Changing 302 to be 1000000 from 0
+Changing 294 to be 1000000 from 0
+Changing 284 to be 1000000 from 0
+Changing 303 to be 1000000 from 0
+Changing 295 to be 1000000 from 0
+Changing 285 to be 1000000 from 0
+Changing 304 to be 1000000 from 0
+Changing 286 to be 1000000 from 0
+Changing 296 to be 1000000 from 0
+Changing 305 to be 1000000 from 0
+Changing 287 to be 1000000 from 0
+Changing 297 to be 1000000 from 0
+Changing 306 to be 1000000 from 0
+Changing 298 to be 1000 from 0
+Changing 288 to be 1000 from 0
+59 OK TIME 1395641371.783817 1395641391.460614
+57 OK TIME 1395641371.783799 1395641391.460627
+Unlocking 291
+Unlocking 281
+Unlocking 292
+Unlocking 282
+Unlocking 293
+Unlocking 283
+Unlocking 294
+Unlocking 284
+Unlocking 295
+Unlocking 285
+Unlocking 296
+Unlocking 286
+Unlocking 297
+Unlocking 287
+Unlocking 298
+Unlocking 288
+Picking up request 62 command - 000 309 1000000 310 1000000
+Picking up request 63 command - TRANS 311 1000000 312 1000000 313 1000000 314 1000000 315 1000000 316 1000000 317 1000000 318 1000
+Number of args 17
+Trying on 317
+Picking up request 65 command - TRANS 321 1000000 322 1000000 323 1000000 324 1000000 325 1000000 326 1000000 327 1000000 328 1000
+Aquired lock on 317
+Number of args 17
+Trying on 321
+Aquired lock on 321
+Trying on 322
+Aquired lock on 322
+Trying on 323
+Aquired lock on 323
+Trying on 324
+Aquired lock on 324
+Trying on 325
+Aquired lock on 325
+Trying on 326
+Aquired lock on 326
+Trying on 327
+Aquired lock on 327
+Trying on 328
+Aquired lock on 328
+Changing 307 to be 1000000 from 0
+Changing 308 to be 1000 from 0
+61 OK TIME 1395641371.783835 1395641391.756603
+Unlocking 301
+Unlocking 302
+Unlocking 303
+Unlocking 304
+Unlocking 305
+Unlocking 306
+Unlocking 307
+Unlocking 308
+Picking up request 66 command - 000 329 1000000 330 1000000
+Picking up request 67 command - TRANS 331 1000000 332 1000000 333 1000000 334 1000000 335 1000000 336 1000000 337 1000000 338 1000
+Number of args 17
+Trying on 331
+Aquired lock on 331
+Trying on 332
+Aquired lock on 332
+Trying on 333
+Aquired lock on 333
+Trying on 334
+Aquired lock on 334
+Trying on 335
+Aquired lock on 335
+Trying on 336
+Aquired lock on 336
+Trying on 337
+Aquired lock on 337
+Trying on 338
+Aquired lock on 338
+Changing 311 to be 1000000 from 0
+Changing 321 to be 1000000 from 0
+Changing 312 to be 1000000 from 0
+Changing 322 to be 1000000 from 0
+Changing 331 to be 1000000 from 0
+Changing 323 to be 1000000 from 0
+Changing 313 to be 1000000 from 0
+Changing 332 to be 1000000 from 0
+Changing 324 to be 1000000 from 0
+Changing 314 to be 1000000 from 0
+Changing 333 to be 1000000 from 0
+Changing 325 to be 1000000 from 0
+Changing 315 to be 1000000 from 0
+Changing 334 to be 1000000 from 0
+Changing 316 to be 1000000 from 0
+Changing 326 to be 1000000 from 0
+Changing 335 to be 1000000 from 0
+Changing 317 to be 1000000 from 0
+Changing 327 to be 1000000 from 0
+Changing 336 to be 1000000 from 0
+Changing 328 to be 1000 from 0
+65 OK TIME 1395641371.783870 1395641393.875149
+Changing 318 to be 1000 from 0
+Unlocking 321
+63 OK TIME 1395641371.783853 1395641393.875187
+Unlocking 322
+Unlocking 311
+Unlocking 323
+Unlocking 312
+Unlocking 324
+Unlocking 313
+Unlocking 325
+Unlocking 314
+Unlocking 326
+Unlocking 315
+Unlocking 327
+Unlocking 316
+Unlocking 328
+Unlocking 317
+Unlocking 318
+uest 68 command - 000 339 1000000 340 1000000
+Picking up request 69 command - TRANS 341 1000000 342 1000000 343 1000000 344 1000000 345 1000000 346 1000000 347 1000000 348 1000
+Picking up request 71 command - TRANS 351 1000000 352 1000000 353 1000000 354 1000000 355 1000000 356 1000000 357 1000000 358 1000
+Trying on 341
+Number of args 17
+Trying on 351
+Aquired lock on 351
+Trying on 352
+Aquired lock on 352
+Trying on 353
+Aquired lock on 353
+Trying on 354
+Aquired lock on 354
+                341
+Trying on 355
+Aquired lock on 355
+Trying on 356
+Trying on 342
+Aquired lock on 356
+Aquired lock on 342
+Trying on 357
+Trying on 343
+Aquired lock on 357
+Aquired lock on 343
+Trying on 358
+Trying on 344
+Aquired lock on 358
+Aquired lock on 344
+Trying on 345
+Aquired lock on 345
+Trying on 346
+Aquired lock on 346
+Trying on 347
+Aquired lock on 347
+Trying on 348
+Aquired lock on 348
+Changing 337 to be 1000000 from 0
+Changing 338 to be 1000 from 0
+67 OK TIME 1395641371.783888 1395641394.169916
+Unlocking 331
+Unlocking 332
+Unlocking 333
+Unlocking 334
+Unlocking 335
+Unlocking 336
+Unlocking 337
+Unlocking 338
+Picking up request 72 command - 000 359 1000000 360 1000000
+Picking up request 73 command - TRANS 361 1000000 362 1000000 363 1000000 364 1000000 365 1000000 366 1000000 367 1000000 368 1000
+Number of args 17
+Trying on 361
+Aquired lock on 361
+Trying on 362
+Aquired lock on 362
+Trying on 363
+Aquired lock on 363
+Trying on 364
+Aquired lock on 364
+Trying on 365
+Aquired lock on 365
+Trying on 366
+Aquired lock on 366
+Trying on 367
+Aquired lock on 367
+Trying on 368
+Aquired lock on 368
+Changing 351 to be 1000000 from 0
+Changing 341 to be 1000000 from 0
+Changing 342 to be 1000000 from 0
+Changing 352 to be 1000000 from 0
+Changing 361 to be 1000000 from 0
+Changing 343 to be 1000000 from 0
+Changing 353 to be 1000000 from 0
+Changing 362 to be 1000000 from 0
+Changing 344 to be 1000000 from 0
+Changing 354 to be 1000000 from 0
+Changing 363 to be 1000000 from 0
+Changing 345 to be 1000000 from 0
+Changing 355 to be 1000000 from 0
+Changing 364 to be 1000000 from 0
+Changing 346 to be 1000000 from 0
+Changing 356 to be 1000000 from 0
+Changing 365 to be 1000000 from 0
+Changing 347 to be 1000000 from 0
+Changing 357 to be 1000000 from 0
+Changing 366 to be 1000000 from 0
+Changing 348 to be 1000 from 0
+69 OK TIME 1395641371.783906 1395641396.295010
+Unlocking 341
+Unlocking 342
+Unlocking 343
+Unlocking 344
+Unlocking 345
+Unlocking 346
+Unlocking 347
+Unlocking 348
+Changing 358 to be 1000 from 0
+71 OK TIME 1395641371.783924 1395641396.295167
+ on 352
+Trying on 374Unlocking 351
+Unlocking 352
+ command - 000 369 1000000 370 1000000
+Unlocking 353
+Picking up request 75 command - TRANS 371 1000000 372 1000000 373 1000000 374 1000000 375 1000000 376 1000000 377 1000000 378 1000
+Picking up request 76 command - 000 379 1000000 380 1000000
+Picking up request 77 command - TRANS 381 1000000 382 1000000 383 1000000 384 1000000 385 1000000 386 1000000 387 1000000 388 1000
+Number of args 17
+Trying on 381
+Aquired lock on 381
+Trying on 382
+Aquired lock on 382
+Trying on 383
+Aquired lock on 383
+Trying on 384
+Aquired lock on 384
+Trying on 385
+Aquired lock on 385
+Trying on 386
+Aquired lock on 386
+Trying on 387
+Aquired lock on 387
+Trying on 388
+Aquired lock on 388
+Changing 367 to be 1000000 from 0
+Changing 368 to be 1000 from 0
+73 OK TIME 1395641371.783942 1395641396.584672
+Unlocking 361
+Unlocking 362
+Unlocking 363
+Unlocking 364
+Unlocking 365
+Unlocking 366
+Unlocking 367
+Unlocking 368
+Picking up request 78 command - 000 389 1000000 390 1000000
+Picking up request 79 command - TRANS 391 1000000 392 1000000 393 1000000 394 1000000 395 1000000 396 1000000 397 1000000 398 1000
+Request 201 received: TRANS 789 603862 519 -731274 170 45790 257 -701974
+Request 202 received: TRANS 733 440112 178 -321280 544 -559574 171 259306 287 -229352 852 392508
+Request 203 received: TRANS 985 366792 863 89658 779 201356
+Request 204 received: TRANS 226 -315828 482 724462 956 -229022 16 -994622
+Request 205 received: TRANS 46 135278 445 -964326 779 1112276 351 783958 785 -527936 878 851174
+Request 206 received: TRANS 391 -529630 848 -419844 296 -409560 439 -312296
+Request 207 received: TRANS 367 -520534
+Request 208 received: TRANS 623 85832 829 820166 341 277702 154 942744
+Request 209 received: TRANS 927 -447574 561 850996 409 57428
+Request 210 received: TRANS 96 255922
+Request 211 received: TRANS 433 -996320 684 -381264 722 -694058 167 525028 593 -907652
+Request 212 received: TRANS 839 573058
+Request 213 received: TRANS 960 614562 638 -865594 828 716660 382 705906
+Request 214 received: TRANS 685 45860 238 -862494 709 -779990 123 565876 4 -993756 9 -363850
+Request 215 received: TRANS 270 86726 272 650242 941 -162320 727 -798494
+Request 216 received: TRANS 128 49542 475 394494 417 -82052 15 -622968 8 238246 711 867364
+Request 217 received: TRANS 242 407906 763 376736 123 -1548100 92 475648 661 -3992 422 843432
+Request 218 received: TRANS 3 -659698 252 57964 136 198260 443 -523772
+Request 219 received: TRANS 336 -48496 475 -1320022 860 168668 728 -591974
+Request 220 received: TRANS 765 -583762 822 965142 226 380520
+Request 221 received: TRANS 61 -963932 509 877598 879 956500
+Request 222 received: TRANS 720 690734 177 -639108 176 -823696
+Request 223 received: TRANS 246 190762 847 47972 748 -263986 81 674510
+Request 224 received: TRANS 143 -55900 258 -668218
+Request 225 received: TRANS 802 -646036 26 -570350 501 -85340
+Request 226 received: TRANS 850 -518146 262 -377798
+Request 227 received: TRANS 994 240786 834 989244 203 -212674
+Request 228 received: TRANS 118 616302
+Request 229 received: TRANS 883 563612 103 -852588 188 -975018 542 291162
+Request 230 received: TRANS 138 372616 149 -211342 464 547442
+Request 231 received: TRANS 382 125852 971 -241936 441 -367212 47 -383906 229 83450
+Request 232 received: TRANS 243 443384 383 -706660
+Request 233 received: TRANS 113 -580068 558 286540 930 -923832 777 474282 730 -115478
+Request 234 received: TRANS 977 -53402
+Request 235 received: TRANS 133 -497316 437 848032 481 -937538
+Request 236 received: TRANS 675 -261522 815 -127344
+Request 237 received: TRANS 755 521812
+Request 238 received: TRANS 988 -707406 879 -1466552
+Request 239 received: TRANS 392 229772 260 762478 592 39760
+Request 240 received: TRANS 133 -117716 478 -905806
+Request 241 received: TRANS 903 941590 800 561758 742 -152336 522 -645760 402 941804
+Request 242 received: TRANS 222 -663594 351 49610 651 342006 724 586244
+Request 243 received: TRANS 918 -590550
+Request 244 received: TRANS 884 -809970 775 245142 81 -1202936 807 514300 878 -881876 318 -565496
+Request 245 received: TRANS 826 349728 802 307310 670 -927182 805 95886 749 -297770
+Request 246 received: TRANS 631 14666 527 -968810 977 -770522 636 -100000000 436 989908 119 156460 359 -120746
+Request 247 received: TRANS 899 -469916 870 -519668 456 -619020 531 -367040
+Request 248 received: TRANS 836 -602378
+Request 249 received: TRANS 825 572254 889 -84334
+Request 250 received: TRANS 213 509780
+Request 251 received: TRANS 93 266814 817 -460180
+Request 252 received: TRANS 610 -109476 196 -884692 803 -436164 781 -253860
+Request 253 received: TRANS 613 225106 178 494806
+Request 254 received: TRANS 948 306144 202 -817114 859 -133746 713 421904
+Request 255 received: TRANS 838 443158 406 692062
+Request 256 received: TRANS 513 -434098 783 -546028 259 -27056 908 58380
+Request 257 received: TRANS 150 789228 600 -768680 952 575752 932 901194 275 -702504
+Request 258 received: TRANS 228 -138270 976 461206 323 548822 287 -623764 734 -42114 243 670980
+Request 259 received: TRANS 951 149770
+Request 260 received: TRANS 632 -424612 263 504546 334 -772100
+Request 261 received: TRANS 633 -106562
+Request 262 received: TRANS 447 790860
+Request 263 received: TRANS 737 285224
+Request 264 received: TRANS 759 -768792 489 -601888 797 205616 468 -405094
+Request 265 received: TRANS 690 470298 61 26398
+Request 266 received: TRANS 469 713118 903 -371832 531 473492 69 -110518 787 976024
+Request 267 received: TRANS 976 -1267782 425 -150194 198 20308 705 -919244 385 399310
+Request 268 received: TRANS 93 -780104
+Request 269 received: TRANS 926 -464502
+Request 270 received: TRANS 205 -306242 83 -762896 488 -257136
+Request 271 received: TRANS 321 447924 452 335210 697 464746 674 -804190 494 815660
+Request 272 received: TRANS 899 222776 254 -325314 271 603022 141 706286 983 -590680
+Request 273 received: TRANS 602 678970 472 134100
+Request 274 received: TRANS 21 975150
+Request 275 received: TRANS 442 993864 950 -375932 339 -629476 243 -211436400 693 -110474 315 586526 901 482552
+Request 276 received: TRANS 924 -493770 661 -562574 901 489866 771 335002 341 -1088954 400 -746612
+Request 277 received: TRANS 465 -502994 594 909176 277 129188 570 -254804 856 619346 252 -629012
+Request 278 received: TRANS 479 -705332 332 125092 761 714136
+Request 279 received: TRANS 267 -929614
+Request 280 received: TRANS 905 22156 988 -58458 628 610518 878 782758 88 42308 845 -601930
+Request 281 received: TRANS 737 182158 201 904790 751 -955680 767 -533286 245 -112312
+Request 282 received: TRANS 28 921418
+Request 283 received: TRANS 682 766660 134 -798536 250 -894922 217 935056 271 -1067046
+Request 284 received: TRANS 693 749638 391 186370 193 -700572 620 -955212 901 1304010
+Request 285 received: TRANS 426 -793496 233 809004 327 492702 795 231192 82 132524 332 1082444
+Request 286 received: TRANS 166 28562
+Request 287 received: TRANS 467 -215180 910 805164 257 13672 989 299636 599 -930296 402 97270
+Request 288 received: TRANS 344 453936 51 456280 359 588474 383 83872 538 700626
+Request 289 received: TRANS 932 1342768 965 -874938 698 303452 126 259334 842 226370
+Request 290 received: TRANS 558 540552 270 388656 548 -690624
+Request 291 received: TRANS 443 69802
+Request 292 received: TRANS 717 -91950 586 -350604
+Request 293 received: TRANS 232 284588 704 -469098 277 259176 42 116916 64 -323394 63 -406214
+Request 294 received: TRANS 795 -514534 22 -352964 285 -301216 37 -64412
+Request 295 received: TRANS 851 886936 60 677684
+Request 296 received: TRANS 402 -1244072
+Request 297 received: TRANS 383 -311962 405 386358 794 -782048 413 945132 694 902290
+Request 298 received: TRANS 493 -585332 380 942860
+Request 299 received: TRANS 825 -366828
+Request 300 received: TRANS 6 -182140 529 -420306 825 260620 186 -200556
+Request 301 received: TRANS 858 590200 489 -397078
+Request 302 received: TRANS 465 -148324 539 -326148 328 -234228 917 812400 73 -897510
+Request 303 received: TRANS 2 -116272 227 -501038 344 -63378
+Request 304 received: TRANS 868 897108 562 852182
+Request 305 received: TRANS 457 -344648 955 -774248 705 43358 1 -499906
+Request 306 received: TRANS 570 151628 33 984264 767 47262 39 117448
+Request 307 received: TRANS 392 -319626 843 -471340
+Request 308 received: TRANS 949 62502 907 -61830 623 -150710
+Request 309 received: TRANS 688 376398 232 -442944 182 931540 210 326126 28 1720510
+Request 310 received: TRANS 982 977752 521 73680 82 -780944 750 -719130 415 267990 257 -144196
+Request 311 received: TRANS 60 -509680 376 -69558
+Request 312 received: TRANS 450 435388 862 -871664 480 -327884 12 541402
+Request 313 received: TRANS 546 799608
+Request 314 received: TRANS 398 592866 263 1478856 464 864788 799 -446320 298 -4174
+Request 315 received: TRANS 591 418520 4 -2626
+Request 316 received: TRANS 42 -462634 10 -921730 164 461874 94 -565366 144 -39532
+Request 317 received: TRANS 17 -736464 114 268536 324 500850
+Request 318 received: TRANS 267 -1462 595 -437748 414 -41598
+Request 319 received: TRANS 926 -326924 122 208168 689 -190468
+Request 320 received: TRANS 843 6798 956 -419606 566 -633736
+Request 321 received: TRANS 814 -911048 223 665438 739 587932 983 140894 620 -29098
+Request 322 received: TRANS 230 991256 636 -434100 86 -895850
+Request 323 received: TRANS 181 -461340 189 -841978 547 -153064 118 354108 782 804544 176 -114630
+Request 324 received: TRANS 8 -144316
+Request 325 received: TRANS 690 -454500 990 112452 889 213246
+Request 326 received: TRANS 935 375838 598 757032 845 61344 238 49692 906 728380 870 30406
+Request 327 received: TRANS 664 -872826
+Request 328 received: TRANS 633 122466 35 -511334 621 266806
+Request 329 received: TRANS 941 -663056 614 913872
+Request 330 received: TRANS 987 674582 311 -19114 655 270110
+Request 331 received: TRANS 168 -655040 660 -964314 135 -532698 497 278114
+Request 332 received: TRANS 937 12946 188 -4704 910 1512914 914 -789802 373 -634630
+Request 333 received: TRANS 82 225966 424 -180958
+Request 334 received: TRANS 168 157486 484 39850 230 -1211810 755 59754 476 986262
+Request 335 received: TRANS 220 691644 874 942148 638 82392 515 -681698 368 -34266
+Request 336 received: TRANS 151 -261298 968 -110444 33 166422 297 776582 772 -470242
+Request 337 received: TRANS 120 234010 281 -192784 182 -1414602 379 -100000000 929 -795630 24 -496142 470 424200
+Request 338 received: TRANS 448 -556148 97 -955252 290 -928592
+Request 339 received: TRANS 117 432516 495 971196
+Request 340 received: TRANS 695 -863374 27 -585718 169 -974036 492 -7172
+Request 341 received: TRANS 859 254628 938 307632 670 48976 798 -707456 978 948484
+Request 342 received: TRANS 853 405970 292 425194 232 -447050 123 2218 711 497544
+Request 343 received: TRANS 583 -595542
+Request 344 received: TRANS 147 -985252 380 458420 263 -1925114
+Request 345 received: TRANS 34 472586
+Request 346 received: TRANS 720 1200482 165 93432 620 13828 85 -190650 201 1889568 296 580528
+Request 347 received: TRANS 543 -525834 475 -68796 794 9094 191 -918154 659 -841058
+Request 348 received: TRANS 881 -933500 306 262646 515 148880 329 -915198 692 -196590 95 -115290
+Request 349 received: TRANS 540 637120 829 -914820 505 -148240
+Request 350 received: TRANS 681 -200910 99 -369252 761 -906894 363 -823524 714 738026
+Request 351 received: TRANS 520 387350 266 -260192 705 5652 707 794780
+Request 352 received: TRANS 125 -474830
+Request 353 received: TRANS 743 357592
+Request 354 received: TRANS 493 -108802 794 -110046 2 -793564
+Request 355 received: TRANS 670 69492 123 -10868 379 910162 607 653310 715 626454 100 -166026
+Request 356 received: TRANS 707 309198 33 -1981344
+Request 357 received: TRANS 109 -953996 184 199520 132 -375276 921 -752346
+Request 358 received: TRANS 997 666080 124 -309162 824 -339472 82 -250050 168 487844
+Request 359 received: TRANS 937 75278 337 -401978
+Request 360 received: TRANS 132 -618178 57 729084 896 -962374 856 792572 24 -434082
+Request 361 received: TRANS 233 -175670 738 972598 832 -452978 512 391166
+Request 362 received: TRANS 901 229584 230 -347544 861 347606
+Request 363 received: TRANS 261 448062 238 89030 52 534942 323 -1317212
+Request 364 received: TRANS 345 -622418 928 29398 736 222188
+Request 365 received: TRANS 355 -325172
+Request 366 received: TRANS 279 716488 189 -98898 105 690958 507 -772918 231 -126694 877 -229934
+Request 367 received: TRANS 784 -523416 216 38654 915 -828184 646 941906 320 552472 673 -488086
+Request 368 received: TRANS 784 131212
+Request 369 received: TRANS 569 512538 358 778754 643 -536502 494 1406142 988 -98474
+Request 370 received: TRANS 159 897746 652 983162 868 1608540 668 627594 26 116032 859 -244842
+Request 371 received: TRANS 669 -473848
+Request 372 received: TRANS 651 -538362 179 931972 77 -241774 131 767468
+Request 373 received: TRANS 935 -994824
+Request 374 received: TRANS 64 279312 41 -970094 901 -3021062 61 -49180
+Request 375 received: TRANS 279 -1038100 114 137682 897 147226
+Request 376 received: TRANS 112 -124452 704 506124
+Request 377 received: TRANS 827 266276 400 194168 144 -495054
+Request 378 received: TRANS 205 485450 394 390248 639 144588 73 -47052 202 173834 163 -619754
+Request 379 received: TRANS 171 688734 476 -1021096 569 276650
+Request 380 received: TRANS 172 -542992 244 -112222 526 -303874 418 616598 306 -145332
+Request 381 received: TRANS 134 19926
+Request 382 received: TRANS 290 11342 475 4920 148 -733726
+Request 383 received: TRANS 321 -1035214
+Request 384 received: TRANS 180 -316354 326 -801460 562 1528578 740 344474
+Request 385 received: TRANS 370 -845572 608 -764148 951 900708 927 -482884 742 -161440 811 -43152
+Request 386 received: TRANS 607 531130
+Request 387 received: TRANS 241 -532460
+Request 388 received: TRANS 891 79410 502 -117396 475 6772
+Request 389 received: TRANS 901 504 380 520164 382 33026 614 1396402 802 -488394 612 309172
+Request 390 received: TRANS 405 927384 307 -292122 172 -236296 139 -140990
+Request 391 received: TRANS 668 368090 631 615754 77 608684
+Request 392 received: TRANS 205 -1058684 926 -98586 455 -394694
+Request 393 received: TRANS 607 462958 457 446812
+Request 394 received: TRANS 235 -96902 533 -399034 254 -431972 827 419242
+Request 395 received: TRANS 315 460512 851 -1019212 709 -116720 454 -799070 869 -744608
+Request 396 received: TRANS 942 16292 37 648116 323 -21606 249 34148 441 -291506
+Request 397 received: TRANS 193 79578
+Request 398 received: TRANS 532 646808 847 -668254 398 -578094 621 -186098 417 -342152
+Request 399 received: TRANS 838 -263170 723 418588 16 2646
+Request 400 received: TRANS 725 -984186 447 845632 191 -77762
+Request 401 received: TRANS 383 6342 717 -829382 756 -419044 109 42974 763 -169854
+Request 402 received: TRANS 638 167508
+Request 403 received: TRANS 491 634042
+Request 404 received: TRANS 972 -92500 257 17132 878 1189094 896 3130 939 763702
+Request 405 received: TRANS 941 -66350 668 653288
+Request 406 received: TRANS 34 -373934 155 25324 507 174166 558 1223122
+Request 407 received: TRANS 368 340390 264 635738
+Request 408 received: TRANS 899 -685220
+Request 409 received: TRANS 223 110284
+Request 410 received: TRANS 146 -489096 459 450046 630 -749686 508 535532 120 -282292 431 824784
+Request 411 received: TRANS 623 181126 278 -457550 605 990196 494 777408 660 20430 761 693200
+Request 412 received: TRANS 240 -988710
+Request 413 received: TRANS 599 68508 276 216016 587 284376 592 -52086 290 35930
+Request 414 received: TRANS 356 -150214 704 274326 913 717668 603 -38588 818 -406244 111 -827088
+Request 415 received: TRANS 314 -365440 854 -673356
+Request 416 received: TRANS 863 -109708 942 449984 449 -216718
+Request 417 received: TRANS 965 -19980 85 -148118
+Request 418 received: TRANS 440 -139066 716 -115322 411 565686
+Request 419 received: TRANS 995 -905446 491 1287224 226 651842 973 814692
+Request 420 received: TRANS 20 -139110 654 395102
+Request 421 received: TRANS 423 -830254 318 -344262
+Request 422 received: TRANS 993 -842306
+Request 423 received: TRANS 482 637770 341 -11820
+Request 424 received: TRANS 81 -72164 2 -78450 689 123210 928 407946 198 -268422 656 442378
+Request 425 received: TRANS 478 56884
+Request 426 received: TRANS 232 -246078
+Request 427 received: TRANS 122 709882 344 -628660 307 -316236 298 -541786
+Request 428 received: TRANS 606 -390590 44 -150786 627 325546 885 983516 773 -47646 529 -517284
+Request 429 received: TRANS 774 485308 721 961710 437 -1351958 372 -47032
+Request 430 received: TRANS 827 -1264284
+Request 431 received: TRANS 331 617278 726 620914 328 379502 868 -2383416 532 -527106 769 500790
+Request 432 received: TRANS 812 -352168 108 981762 608 143072 821 -97568 349 -323876
+Request 433 received: TRANS 137 240660
+Request 434 received: TRANS 182 -1625354 818 -401566 711 -1726368 673 394638 577 -499830
+Request 435 received: TRANS 473 -938434 287 29414
+Request 436 received: TRANS 684 219122 930 51528 450 1174518
+Request 437 received: TRANS 260 -1248776 221 928314 829 813324 553 58084 557 -170874 453 -656108
+Request 438 received: TRANS 9 488754 894 -782858 375 51666 451 -558556 777 885490 381 374750
+Request 439 received: TRANS 15 214930 401 97150 581 -71824
+Request 440 received: TRANS 614 228838 355 -48412
+Request 441 received: TRANS 911 550058
+Request 442 received: TRANS 684 108144 665 715518 169 22916
+Request 443 received: TRANS 903 -157322 983 102246 465 39072
+Request 444 received: TRANS 917 134766 102 789192 534 -676474 642 -507710 19 469458
+Request 445 received: TRANS 77 -438722 347 -503264 540 606192 624 -436898 777 1205278 840 960106
+Request 446 received: TRANS 593 -72488 971 -123852
+Request 447 received: TRANS 77 -111132 91 486578 599 -31866 728 287042 368 -190626 427 741154
+Request 448 received: TRANS 455 -13600 586 -438712 74 -647612 450 1248066 114 -276518 902 511084
+Request 449 received: TRANS 358 201692 197 591468 116 183558 977 -463028 277 -400528
+Request 450 received: TRANS 648 -55904 984 397934 470 -441552 269 -63452
+Request 451 received: TRANS 250 -8428 311 -657268 9 873760 481 -62082 287 -163766
+Request 452 received: TRANS 132 -2790 601 -950442 490 -540076
+Request 453 received: TRANS 188 8410 543 30214 862 42344 935 156476 144 243150 993 -10948
+Request 454 received: TRANS 323 44472 588 -838110 908 -399752
+Request 455 received: TRANS 476 -233962 357 493110 75 972436 462 -239752 303 58020 197 -822516
+Request 456 received: TRANS 508 299612 143 -366412 362 237628 407 545724 227 -226332
+Request 457 received: TRANS 107 797946 686 827722
+Request 458 received: TRANS 528 -542420 148 -113352 76 712038 760 880110
+Request 459 received: TRANS 28 523076 131 -855768 521 758328 14 -859048 237 -859100
+Request 460 received: TRANS 557 -531298 659 -80022 654 568034 904 -402394 143 186356
+Request 461 received: TRANS 555 -569152 9 1869616
+Request 462 received: TRANS 152 237798 988 -77392 381 720610 906 -339666 649 452112 805 183174
+Request 463 received: TRANS 464 1491490
+Request 464 received: TRANS 1 393938 903 357866 440 247050 623 46406 313 568794
+Request 465 received: TRANS 635 -613922 573 1434 224 559340
+Request 466 received: TRANS 110 -931604 153 -909822
+Request 467 received: TRANS 340 -307946 616 -276098 680 543944 156 -126258
+Request 468 received: TRANS 857 900194 751 1864
+Request 469 received: TRANS 924 -242966
+Request 470 received: TRANS 334 149872 573 556030 647 -397730 315 -903890
+Request 471 received: TRANS 960 722654 565 -988598 984 1122762 893 263954 132 2490
+Request 472 received: TRANS 355 72076
+Request 473 received: TRANS 601 -23998 21 1562352 568 674988 670 161618 861 308228 417 395044
+Request 474 received: TRANS 844 677830 558 -1614712 329 -58214 868 -265610
+Request 475 received: TRANS 411 -1552400 365 88356 933 -940718 924 171684 945 -30176
+Request 476 received: TRANS 720 952490
+Request 477 received: TRANS 171 -908384 878 -1845494 829 -348158 992 721946 320 953474 482 358632
+Request 478 received: TRANS 796 -235156 625 285656 487 845310 534 136762 837 -280380
+Request 479 received: TRANS 168 -19046 949 -580766 624 464474 554 -713444 441 -323792 656 654400
+Request 480 received: TRANS 571 91678 458 -663366
+Request 481 received: TRANS 968 -220990 940 -84528 767 243456 974 586696 869 -72542 594 1325412
+Request 482 received: TRANS 801 -875280 65 742988 709 26192 87 486508
+Request 483 received: TRANS 131 307044 708 372262 699 932328 176 37058 125 -175926 644 763190
+Request 484 received: TRANS 395 495502 52 1509486 656 -1932434
+Request 485 received: TRANS 567 888422
+Request 486 received: TRANS 114 683926 762 136456 650 -49712 267 16608 959 -679278 691 -441048
+Request 487 received: TRANS 162 -942140 450 1546724 886 -603580 729 270126 263 782678
+Request 488 received: TRANS 787 1016946 26 -327596
+Request 489 received: TRANS 114 1339916 267 2318 579 -487814 344 556132
+Request 490 received: TRANS 120 -986 822 -1579838 583 -195536 996 -762084 259 355708
+Request 491 received: TRANS 745 540132 370 121346 456 -1014 327 -658408 742 -552292
+Request 492 received: TRANS 138 248356 141 1120672 594 -706198
+Request 493 received: TRANS 631 -1443480
+Request 494 received: TRANS 588 67192 64 495266
+Request 495 received: TRANS 782 -610338 689 626310
+Request 496 received: TRANS 708 -1341778
+Request 497 received: TRANS 623 447440 860 -504300 4 2172 516 -646044
+Request 498 received: TRANS 478 148034 707 -2046942
+Request 499 received: TRANS 68 848404 991 -815258 97 -11756 819 -681776 356 401796
+Request 500 received: TRANS 682 1268630 217 -180658 551 147092 839 1140264 946 -194566 943 680428
+Picking up request 81 command - TRANS 401 1000000 402 1000000 403 1000000 404 1000000 405 1000000 406 1000000 407 1000000 408 1000
+Picking up request 80 command - 000 399 1000000 400 1000000
+Number of args 17
+Trying on 401
+Aquired lock on 401
+Trying on 402
+Aquired lock on 402
+Trying on 403
+Aquired lock on 403
+Trying on 404
+Aquired lock on 404
+Trying on 405
+Aquired lock on 405
+Trying on 406
+Aquired lock on 406
+Trying on 407
+Aquired lock on 407
+Trying on 408
+Aquired lock on 408
+Picking up request 82 command - 000 409 1000000 410 1000000
+Picking up request 83 command - TRANS 411 1000000 412 1000000 413 1000000 414 1000000 415 1000000 416 1000000 417 1000000 418 1000
+Number of args 17
+Trying on 411
+Aquired lock on 411
+Trying on 412
+Aquired lock on 412
+Trying on 413
+Aquired lock on 413
+Trying on 414
+Aquired lock on 414
+Trying on 415
+Aquired lock on 415
+Trying on 416
+Aquired lock on 416
+Trying on 417
+Aquired lock on 417
+Trying on 418
+Aquired lock on 418
+Changing 397 to be 1000000 from 0
+Changing 398 to be 1000 from 0
+79 OK TIME 1395641371.784003 1395641399.001236
+Unlocking 391
+Unlocking 392
+Unlocking 393
+Unlocking 394
+Unlocking 395
+Unlocking 396
+Unlocking 397
+Unlocking 398
+Picking up request 84 command - 000 419 1000000 420 1000000
+Picking up request 85 command - TRANS 421 1000000 422 1000000 423 1000000 424 1000000 425 1000000 426 1000000 427 1000000 428 1000
+Number of args 17
+Trying on 421
+Aquired lock on 421
+Trying on 422
+Aquired lock on 422
+Trying on 423
+Aquired lock on 423
+Trying on 424
+Aquired lock on 424
+Trying on 425
+Aquired lock on 425
+Trying on 426
+Aquired lock on 426
+Trying on 427
+Aquired lock on 427
+Trying on 428
+Aquired lock on 428
+Changing 401 to be 1000000 from 0
+Changing 411 to be 1000000 from 0
+Changing 412 to be 1000000 from 0
+Changing 402 to be 1000000 from 0
+Changing 421 to be 1000000 from 0
+Changing 413 to be 1000000 from 0
+Changing 403 to be 1000000 from 0
+Changing 422 to be 1000000 from 0
+Changing 414 to be 1000000 from 0
+Changing 404 to be 1000000 from 0
+Changing 423 to be 1000000 from 0
+Changing 415 to be 1000000 from 0
+Changing 405 to be 1000000 from 0
+Changing 424 to be 1000000 from 0
+Changing 416 to be 1000000 from 0
+Changing 406 to be 1000000 from 0
+Changing 425 to be 1000000 from 0
+Changing 417 to be 1000000 from 0
+Changing 407 to be 1000000 from 0
+Changing 426 to be 1000000 from 0
+Changing 418 to be 1000 from 0
+Changing 408 to be 1000 from 0
+83 OK TIME 1395641371.784048 1395641401.134568
+81 OK TIME 1395641371.784021 1395641401.134589
+Unlocking 411
+Unlocking 401
+Unlocking 412
+Unlocking 402
+Unlocking 413
+Unlocking 403
+Unlocking 414
+Unlocking 404
+Unlocking 415
+Unlocking 405
+Unlocking 416
+Unlocking 406
+Unlocking 417
+Unlocking 407
+Unlocking 418
+Unlocking 408
+Picking up request 86 command - 000 429 1000000 430 1000000
+Picking up request 88 command - 000 439 1000000 440 1000000
+                   87 command - TRANS 431 1000000 432 1000000 433 1000000 434 1000000 435 1000000 436 1000000 437 1000000 438 1000
+Number of args 17
+Trying on 441
+Aquired lock on 441
+Trying on 442
+Aquired lock on 442
+Trying on 443
+Aquired lock on 443
+Trying on 444
+Aquired lock on 444
+Trying on 445
+Aquired lock on 445
+Trying on 446
+Aquired lock on 446
+Trying on 447
+Aquired lock on 447
+Trying on 448
+Aquired lock on 448
+Changing 427 to be 1000000 from 0
+Changing 428 to be 1000 from 0
+85 OK TIME 1395641371.784065 1395641401.421211
+Unlocking 421
+Unlocking 422
+Unlocking 423
+Unlocking 424
+Unlocking 425
+Unlocking 426
+Unlocking 427
+Unlocking 428
+Picking up request 90 command - 000 449 1000000 450 1000000
+Picking up request 91 command - TRANS 451 1000000 452 1000000 453 1000000 454 1000000 455 1000000 456 1000000 457 1000000 458 1000
+Number of args 17
+Trying on 451
+Aquired lock on 451
+Trying on 452
+Aquired lock on 452
+Trying on 453
+Aquired lock on 453
+Trying on 454
+Aquired lock on 454
+Trying on 455
+Aquired lock on 455
+Trying on 456
+Aquired lock on 456
+Trying on 457
+Aquired lock on 457
+Trying on 458
+Aquired lock on 458
+Changing 431 to be 1000000 from 0
+Changing 441 to be 1000000 from 0
+Changing 432 to be 1000000 from 0
+Changing 442 to be 1000000 from 0
+Changing 451 to be 1000000 from 0
+Changing 433 to be 1000000 from 0
+Changing 443 to be 1000000 from 0
+Changing 452 to be 1000000 from 0
+Changing 444 to be 1000000 from 0
+Changing 434 to be 1000000 from 0
+Changing 453 to be 1000000 from 0
+Changing 445 to be 1000000 from 0
+Changing 435 to be 1000000 from 0
+Changing 454 to be 1000000 from 0
+Changing 436 to be 1000000 from 0
+Changing 446 to be 1000000 from 0
+Changing 455 to be 1000000 from 0
+Changing 437 to be 1000000 from 0
+Changing 447 to be 1000000 from 0
+Changing 456 to be 1000000 from 0
+Changing 448 to be 1000 from 0
+Changing 438 to be 1000 from 0
+89 OK TIME 1395641371.784105 1395641403.553023
+87 OK TIME 1395641371.784082 1395641403.553033
+Unlocking 441
+Unlocking 431
+Unlocking 442
+Unlocking 432
+Unlocking 443
+Unlocking 433
+Unlocking 444
+Unlocking 434
+Unlocking 445
+Unlocking 435
+Unlocking 446
+Unlocking 436
+Unlocking 447
+Unlocking 437
+Unlocking 448
+Unlocking 438
+Picking up request 92 command - 000 459 1000000 460 1000000
+Picking up request 93 command - TRANS 461 1000000 462 1000000 463 1000000 464 1000000 465 1000000 466 1000000 467 1000000 468 1000
+Number of args 17
+Trying on 461
+Aquired lock on 461
+Trying on 462
+Aquired lock on 462
+Trying on 463
+Aquired lock on 463
+Trying on 464
+Aquired lock on 464
+Trying on 465
+Aquired lock on 465
+Trying on 466
+Aquired lock on 466
+Trying on 467
+Aquired lock on 467
+Trying on 468
+Aquired lock on 468
+Picking up request 95 command - TRANS 471 1000000 472 1000000 473 1000000 474 1000000 475 1000000 476 1000000 477 1000000 478 1000
+Number of args 17
+Trying on 471
+Aquired lock on 471
+Trying on 472
+Aquired lock on 472
+Trying on 473
+Aquired lock on 473
+Trying on 474
+Aquired lock on 474
+Trying on 475
+Aquired lock on 475
+Trying on 476
+Aquired lock on 476
+Trying on 477
+Aquired lock on 477
+Trying on 478
+Aquired lock on 478
+Changing 457 to be 1000000 from 0
+Changing 458 to be 1000 from 0
+91 OK TIME 1395641371.784121 1395641403.843602
+Unlocking 451
+Unlocking 452
+Unlocking 453
+Unlocking 454
+Unlocking 455
+Unlocking 456
+Unlocking 457
+Unlocking 458
+Picking up request 96 command - 000 479 1000000 480 1000000
+Picking up request 97 command - TRANS 481 1000000 482 1000000 483 1000000 484 1000000 485 1000000 486 1000000 487 1000000 488 1000
+Number of args 17
+Trying on 481
+Aquired lock on 481
+Trying on 482
+Aquired lock on 482
+Trying on 483
+Aquired lock on 483
+Trying on 484
+Aquired lock on 484
+Trying on 485
+Aquired lock on 485
+Trying on 486
+Aquired lock on 486
+Trying on 487
+Aquired lock on 487
+Trying on 488
+Aquired lock on 488
+Changing 471 to be 1000000 from 0
+Changing 461 to be 1000000 from 0
+Changing 472 to be 1000000 from 0
+Changing 462 to be 1000000 from 0
+Changing 481 to be 1000000 from 0
+Changing 473 to be 1000000 from 0
+Changing 463 to be 1000000 from 0
+Changing 482 to be 1000000 from 0
+Changing 474 to be 1000000 from 0
+Changing 464 to be 1000000 from 0
+Changing 483 to be 1000000 from 0
+Changing 475 to be 1000000 from 0
+Changing 465 to be 1000000 from 0
+Changing 484 to be 1000000 from 0
+Changing 476 to be 1000000 from 0
+Changing 466 to be 1000000 from 0
+Changing 485 to be 1000000 from 0
+Changing 477 to be 1000000 from 0
+Changing 467 to be 1000000 from 0
+Changing 486 to be 1000000 from 0
+Changing 478 to be 1000 from 0
+95 OK TIME 1395641371.784154 1395641405.975829
+Unlocking 471
+Unlocking 472
+Unlocking 473
+Unlocking 474
+Unlocking 475
+Unlocking 476
+Changing 468 to be 1000 from 0
+Unlocking 477
+93 OK TIME 1395641371.784138 1395641405.975889
+Unlocking 478
+Unlocking 461
+Picking up request 98 command - 000 489 1000000 490 1000000
+Unlocking 462
+Unlocking 467
+Picking up request 99 command - TRANS 491 1000000 492 1000000 493 1000000 494 1000000 495 1000000 496 1000000 497 1000000 498 1000
+Unlocking 468
+Picking up request 100 command - 000 499 1000000 500 1000000
+Picking up request 101 command - TRANS 501 1000000 502 1000000 503 1000000 504 1000000 505 1000000 506 1000000 507 1000000 508 1000
+Number of args 17
+Trying on 501
+Aquired lock on 501
+Trying on 502
+Aquired lock on 502
+Trying on 503
+Aquired lock on 503
+Trying on 504
+Aquired lock on 504
+Trying on 505
+Aquired lock on 505
+Trying on 506
+Aquired lock on 506
+Trying on 507
+Aquired lock on 507
+Trying on 508
+Aquired lock on 508
+Changing 487 to be 1000000 from 0
+Changing 488 to be 1000 from 0
+97 OK TIME 1395641371.784171 1395641406.266084
+Unlocking 481
+Unlocking 482
+Unlocking 483
+Unlocking 484
+Unlocking 485
+Unlocking 486
+Unlocking 487
+Unlocking 488
+Picking up request 102 command - 000 509 1000000 510 1000000
+Picking up request 103 command - TRANS 511 1000000 512 1000000 513 1000000 514 1000000 515 1000000 516 1000000 517 1000000 518 1000
+Number of args 17
+Trying on 511
+Aquired lock on 511
+Trying on 512
+Aquired lock on 512
+Trying on 513
+Aquired lock on 513
+Trying on 514
+Aquired lock on 514
+Trying on 515
+Aquired lock on 515
+Trying on 516
+Aquired lock on 516
+Trying on 517
+Aquired lock on 517
+Trying on 518
+Aquired lock on 518
+Changing 491 to be 1000000 from 0
+Changing 501 to be 1000000 from 0
+Changing 492 to be 1000000 from 0
+Changing 502 to be 1000000 from 0
+Changing 511 to be 1000000 from 0
+Changing 493 to be 1000000 from 0
+Changing 503 to be 1000000 from 0
+Changing 512 to be 1000000 from 0
+Changing 494 to be 1000000 from 0
+Changing 504 to be 1000000 from 0
+Changing 513 to be 1000000 from 0
+Changing 495 to be 1000000 from 0
+Changing 505 to be 1000000 from 0
+Changing 514 to be 1000000 from 0
+Changing 496 to be 1000000 from 0
+Changing 506 to be 1000000 from 0
+Changing 515 to be 1000000 from 0
+Changing 497 to be 1000000 from 0
+Changing 507 to be 1000000 from 0
+Changing 516 to be 1000000 from 0
+Changing 498 to be 1000 from 0
+99 OK TIME 1395641371.784188 1395641408.398660
+Unlocking 491
+Unlocking 492
+Unlocking 493
+Unlocking 494
+Unlocking 495
+Unlocking 496
+Unlocking 497
+Unlocking 498
+Changing 508 to be 1000 from 0
+Picking up request 105 command - TRANS 521 1000000 522 1000000 523 1000000 524 1000000 525 1000000 526 1000000 527 1000000 528 1000
+101 OK TIME 1395641371.784204 1395641408.398904
+Trying on 521
+Unlocking 501
+Aquired lock on 521
+Unlocking 502
+Trying on 522
+Unlocking 503
+Aquired lock on 522
+Unlocking 504
+Trying on 523
+Unlocking 505
+Aquired lock on 523
+Unlocking 506
+Trying on 524
+Unlocking 507
+Aquired lock on 524
+Unlocking 508
+Trying on 525
+Picking up request 106 command - 000 529 1000000 530 1000000
+Picking up request 107 command - TRANS 531 1000000 532 1000000 533 1000000 534 1000000 535 1000000 536 1000000 537 1000000 538 1000
+Number of args 17
+Trying on 531
+Aquired lock on 531
+Trying on 532
+Aquired lock on 532
+Trying on 533
+Aquired lock on 533
+Trying on 534
+Aquired lock on 534
+Trying on 535
+Aquired lock on 535
+Trying on 536
+Aquired lock on 536
+Trying on 537
+Aquired lock on 537
+Trying on 538
+Aquired lock on 538
+Changing 517 to be 1000000 from 0
+Changing 518 to be 1000 from 0
+103 OK TIME 1395641371.784221 1395641408.687927
+Unlocking 511
+Unlocking 512
+Unlocking 513
+Unlocking 514
+Unlocking 515
+Unlocking 516
+Unlocking 517
+Unlocking 518
+Picking up request 108 command - 000 539 1000000 540 1000000
+Picking up request 109 command - TRANS 541 1000000 542 1000000 543 1000000 544 1000000 545 1000000 546 1000000 547 1000000 548 1000
+Number of args 17
+Trying on 541
+Aquired lock on 541
+Trying on 542
+Aquired lock on 542
+Trying on 543
+Aquired lock on 543
+Trying on 544
+Aquired lock on 544
+Trying on 545
+Aquired lock on 545
+Trying on 546
+Aquired lock on 546
+Trying on 547
+Aquired lock on 547
+Trying on 548
+Aquired lock on 548
+Changing 531 to be 1000000 from 0
+Changing 521 to be 1000000 from 0
+Changing 532 to be 1000000 from 0
+Changing 522 to be 1000000 from 0
+Changing 541 to be 1000000 from 0
+Changing 523 to be 1000000 from 0
+Changing 533 to be 1000000 from 0
+Changing 542 to be 1000000 from 0
+Changing 524 to be 1000000 from 0
+Changing 534 to be 1000000 from 0
+Changing 543 to be 1000000 from 0
+Changing 525 to be 1000000 from 0
+Changing 535 to be 1000000 from 0
+Changing 544 to be 1000000 from 0
+Changing 526 to be 1000000 from 0
+Changing 536 to be 1000000 from 0
+Changing 545 to be 1000000 from 0
+Changing 537 to be 1000000 from 0
+Changing 527 to be 1000000 from 0
+Changing 546 to be 1000000 from 0
+Changing 538 to be 1000 from 0
+107 OK TIME 1395641371.784254 1395641410.818986
+Unlocking 531
+Unlocking 532
+Unlocking 533
+Unlocking 534
+Unlocking 535
+Unlocking 536
+Unlocking 537
+Unlocking 538
+Picking up request 110 command - 000 549 1000000 550 1000000
+Number of args 17
+Aquired lock on 551
+Picking up request 113 command - TRANS 561 1000000 562 1000000 563 1000000 564 1000000 565 1000000 566 1000000 567 1000000 568 1000
+Trying on 552
+Number of args 17
+Trying on 561
+Aquired lock on 561
+Trying on 562
+Aquired lock on 562
+Trying on 563
+Aquired lock on 563
+Trying on 564
+Aquired lock on 564
+Trying on 565
+Aquired lock on 565
+Trying on 566
+Aquired lock on 566
+Trying on 567
+Aquired lock on 567
+Trying on 568
+Aquired lock on 568
+Changing 547 to be 1000000 from 0
+Changing 548 to be 1000 from 0
+109 OK TIME 1395641371.784271 1395641411.109097
+Unlocking 541
+Unlocking 542
+Unlocking 543
+Unlocking 544
+Unlocking 545
+Unlocking 546
+Unlocking 547
+Unlocking 548
+Picking up request 114 command - 000 569 1000000 570 1000000
+Picking up request 115 command - TRANS 571 1000000 572 1000000 573 1000000 574 1000000 575 1000000 576 1000000 577 1000000 578 1000
+Number of args 17
+Trying on 571
+Aquired lock on 571
+Trying on 572
+Aquired lock on 572
+Trying on 573
+Aquired lock on 573
+Trying on 574
+Aquired lock on 574
+Trying on 575
+Aquired lock on 575
+Trying on 576
+Aquired lock on 576
+Trying on 577
+Aquired lock on 577
+Trying on 578
+Aquired lock on 578
+Changing 551 to be 1000000 from 0
+Changing 561 to be 1000000 from 0
+Changing 552 to be 1000000 from 0
+Changing 562 to be 1000000 from 0
+Changing 571 to be 1000000 from 0
+Changing 553 to be 1000000 from 0
+Changing 563 to be 1000000 from 0
+Changing 572 to be 1000000 from 0
+Changing 554 to be 1000000 from 0
+Changing 564 to be 1000000 from 0
+Changing 573 to be 1000000 from 0
+Changing 555 to be 1000000 from 0
+Changing 565 to be 1000000 from 0
+Changing 574 to be 1000000 from 0
+Changing 556 to be 1000000 from 0
+Changing 566 to be 1000000 from 0
+Changing 575 to be 1000000 from 0
+Changing 567 to be 1000000 from 0
+Changing 557 to be 1000000 from 0
+Changing 576 to be 1000000 from 0
+Changing 568 to be 1000 from 0
+113 OK TIME 1395641371.784304 1395641413.241877
+Unlocking 561
+Unlocking 562
+Unlocking 563
+Unlocking 564
+Unlocking 565
+Unlocking 566
+Unlocking 567
+Unlocking 568
+Changing 558 to be 1000 from 0
+111 OK TIME 1395641371.784288 1395641413.241936
+ 580 1000000
+Unlocking 551
+Unlocking 552
+Unlocking Picking up request g on117 command - Unlocking 554
+Unlocking 555
+Unlocking 557
+Number of args 17
+Unlocking 558
+Trying on 581
+Picking up request 118 command - 000 589 1000000 590 1000000
+Picking up request 119 command - TRANS 591 1000000 592 1000000 593 1000000 594 1000000 595 1000000 596 1000000 597 1000000 598 1000
+Number of args 17
+Trying on 591
+Aquired lock on 591
+Trying on 592
+Aquired lock on 592
+Trying on 593
+Aquired lock on 593
+Trying on 594
+Aquired lock on 594
+Trying on 595
+Aquired lock on 595
+Trying on 596
+Aquired lock on 596
+Trying on 597
+Aquired lock on 597
+Trying on 598
+Aquired lock on 598
+Changing 577 to be 1000000 from 0
+Changing 578 to be 1000 from 0
+115 OK TIME 1395641371.784324 1395641413.530175
+Unlocking 571
+Unlocking 572
+Unlocking 573
+Unlocking 574
+Unlocking 575
+Unlocking 576
+Unlocking 577
+Unlocking 578
+Picking up request 120 command - 000 599 1000000 600 1000000
+Picking up request 121 command - TRANS 601 1000000 602 1000000 603 1000000 604 1000000 605 1000000 606 1000000 607 1000000 608 1000
+Number of args 17
+Trying on 601
+Aquired lock on 601
+Trying on 602
+Aquired lock on 602
+Trying on 603
+Aquired lock on 603
+Trying on 604
+Aquired lock on 604
+Trying on 605
+Aquired lock on 605
+Trying on 606
+Aquired lock on 606
+Trying on 607
+Aquired lock on 607
+Trying on 608
+Aquired lock on 608
+Changing 581 to be 1000000 from 0
+Changing 591 to be 1000000 from 0
+Changing 582 to be 1000000 from 0
+Changing 592 to be 1000000 from 0
+Changing 601 to be 1000000 from 0
+Changing 583 to be 1000000 from 0
+Changing 593 to be 1000000 from 0
+Changing 602 to be 1000000 from 0
+Changing 584 to be 1000000 from 0
+Changing 594 to be 1000000 from 0
+Changing 603 to be 1000000 from 0
+Changing 585 to be 1000000 from 0
+Changing 595 to be 1000000 from 0
+Changing 604 to be 1000000 from 0
+Changing 586 to be 1000000 from 0
+Changing 596 to be 1000000 from 0
+Changing 605 to be 1000000 from 0
+Changing 597 to be 1000000 from 0
+Changing 587 to be 1000000 from 0
+Changing 606 to be 1000000 from 0
+Changing 598 to be 1000 from 0
+119 OK TIME 1395641371.784358 1395641415.663834
+Unlocking 591
+Unlocking 592
+Unlocking 593
+Unlocking 594
+Unlocking 595
+Unlocking 596
+Unlocking 597
+Unlocking 598
+Changing 588 to be 1000 from 0
+Picking up request 122 command - 000 609 1000000 610 1000000
+Picking up request 123 command - TRANS 611 1000000 612 1000000 613 1000000 614 1000000 615 1000000 616 1000000 617 1000000 618 1000
+Number of args 17
+Trying on 611
+Aquired lock on 611
+Trying on 612
+Picking up request 125 command - TRANS 621 1000000 622 1000000 623 1000000 624 1000000 625 1000000 626 1000000 627 1000000 628 1000
+Number of args 17
+Trying on 621
+Aquired lock on 621
+Trying on 622
+Aquired lock on 622
+Trying on 623
+Aquired lock on 623
+Trying on 624
+Aquired lock on 624
+Trying on 625
+Aquired lock on 625
+Trying on 626
+Aquired lock on 626
+Trying on 627
+Aquired lock on 627
+Trying on 628
+Aquired lock on 628
+Changing 607 to be 1000000 from 0
+Changing 608 to be 1000 from 0
+121 OK TIME 1395641371.784374 1395641415.950665
+Unlocking 601
+Unlocking 602
+Unlocking 603
+Unlocking 604
+Unlocking 605
+Unlocking 606
+Unlocking 607
+Unlocking 608
+Picking up request 126 command - 000 629 1000000 630 1000000
+Picking up request 127 command - TRANS 631 1000000 632 1000000 633 1000000 634 1000000 635 1000000 636 1000000 637 1000000 638 1000
+Number of args 17
+Trying on 631
+Aquired lock on 631
+Trying on 632
+Aquired lock on 632
+Trying on 633
+Aquired lock on 633
+Trying on 634
+Aquired lock on 634
+Trying on 635
+Aquired lock on 635
+Trying on 636
+Aquired lock on 636
+Trying on 637
+Aquired lock on 637
+Trying on 638
+Aquired lock on 638
+Changing 611 to be 1000000 from 0
+Changing 621 to be 1000000 from 0
+Changing 612 to be 1000000 from 0
+Changing 622 to be 1000000 from 0
+Changing 631 to be 1000000 from 0
+Changing 613 to be 1000000 from 0
+Changing 623 to be 1000000 from 0
+Changing 632 to be 1000000 from 0
+Changing 614 to be 1000000 from 0
+Changing 624 to be 1000000 from 0
+Changing 633 to be 1000000 from 0
+Changing 615 to be 1000000 from 0
+Changing 625 to be 1000000 from 0
+Changing 634 to be 1000000 from 0
+Changing 626 to be 1000000 from 0
+Changing 616 to be 1000000 from 0
+Changing 635 to be 1000000 from 0
+Changing 627 to be 1000000 from 0
+Changing 617 to be 1000000 from 0
+Changing 636 to be 1000000 from 0
+Changing 628 to be 1000 from 0
+125 OK TIME 1395641371.784408 1395641418.088697
+Unlocking 621
+Unlocking 622
+Unlocking 623
+Unlocking 624
+Unlocking 625
+Unlocking 626
+Unlocking 627
+Unlocking 628
+Picking up request 128 command - 000 639 1000000 640 1000000
+Picking up request 129 command - TRANS 641 1000000 642 1000000 643 1000000 644 1000000 645 1000000 646 1000000 647 1000000 648 1000
+Picking up request 130 command - 000 649 1000000 650 1000000
+Picking up request 131 command - TRANS 651 1000000 652 1000000 653 1000000 654 1000000 655 1000000 656 1000000 657 1000000 658 1000
+Aquired lock on 641
+Trying on args 17
+Trying on 651
+Aquired lock on 651
+Trying on 652
+Aquired lock on 652
+Trying on 653
+Aquired lock on 653
+Trying on 654
+Aquired lock on 654
+Trying on 655
+Aquired lock on 655
+Trying on 656
+Aquired lock on 656
+Trying on 657
+Aquired lock on 657
+Trying on 658
+Aquired lock on 658
+          642
+Aquired lock on 642
+Trying on 643
+Aquired lock on 643
+Trying on 644
+Aquired lock on 644
+Trying on 645
+Aquired lock on 645
+Trying on 646
+Aquired lock on 646
+Trying on 647
+Aquired lock on 647
+Trying on 648
+Aquired lock on 648
+Changing 637 to be 1000000 from 0
+Changing 638 to be 1000 from 0
+127 OK TIME 1395641371.784425 1395641418.372808
+Unlocking 631
+Unlocking 632
+Unlocking 633
+Unlocking 634
+Unlocking 635
+Unlocking 636
+Unlocking 637
+Unlocking 638
+Picking up request 132 command - 000 659 1000000 660 1000000
+Picking up request 133 command - TRANS 661 1000000 662 1000000 663 1000000 664 1000000 665 1000000 666 1000000 667 1000000 668 1000
+Number of args 17
+Trying on 661
+Aquired lock on 661
+Trying on 662
+Aquired lock on 662
+Trying on 663
+Aquired lock on 663
+Trying on 664
+Aquired lock on 664
+Trying on 665
+Aquired lock on 665
+Trying on 666
+Aquired lock on 666
+Trying on 667
+Aquired lock on 667
+Trying on 668
+Aquired lock on 668
+Changing 651 to be 1000000 from 0
+Changing 641 to be 1000000 from 0
+Changing 652 to be 1000000 from 0
+Changing 642 to be 1000000 from 0
+Changing 661 to be 1000000 from 0
+Changing 643 to be 1000000 from 0
+Changing 653 to be 1000000 from 0
+Changing 662 to be 1000000 from 0
+Changing 644 to be 1000000 from 0
+Changing 654 to be 1000000 from 0
+Changing 663 to be 1000000 from 0
+Changing 645 to be 1000000 from 0
+Changing 655 to be 1000000 from 0
+Changing 664 to be 1000000 from 0
+Changing 656 to be 1000000 from 0
+Changing 646 to be 1000000 from 0
+Changing 665 to be 1000000 from 0
+Changing 657 to be 1000000 from 0
+Changing 647 to be 1000000 from 0
+Changing 666 to be 1000000 from 0
+Changing 658 to be 1000 from 0
+Changing 648 to be 1000 from 0
+131 OK TIME 1395641371.784459 1395641420.510574
+129 OK TIME 1395641371.784441 1395641420.510588
+Unlocking 651
+Unlocking 641
+Unlocking 652
+Unlocking 642
+Unlocking 653
+Unlocking 643
+Unlocking 654
+Unlocking 644
+Unlocking 655
+Unlocking 645
+Unlocking 656
+Unlocking 646
+Unlocking 657
+Unlocking 647
+Unlocking 658
+Unlocking 648
+Picking up request 134 command - 000 669 1000000 670 1000000
+Picking up request 135 command - TRANS 671 1000000 672 1000000 673 1000000 674 1000000 675 1000000 676 1000000 677 1000000 678 1000
+Picking up request 136 command - 000 679 1000000 680 1000000
+Picking up request 137 command - TRANS 681 1000000 682 1000000 683 1000000 684 1000000 685 1000000 686 1000000 687 1000000 688 1000
+Number of args 17
+Trying on 681
+Aquired lock on 681
+Trying on 682
+Aquired lock on 682
+Trying on 683
+Aquired lock on 683
+Trying on 684
+Aquired lock on 684
+Trying on 685
+Aquired lock on 685
+Trying on 686
+Aquired lock on 686
+Trying on 687
+Aquired lock on 687
+Trying on 688
+Aquired lock on 688
+Changing 667 to be 1000000 from 0
+Changing 668 to be 1000 from 0
+133 OK TIME 1395641371.784475 1395641420.792013
+Unlocking 661
+Unlocking 662
+Unlocking 663
+Unlocking 664
+Unlocking 665
+Unlocking 666
+Unlocking 667
+Unlocking 668
+Picking up request 138 command - 000 689 1000000 690 1000000
+Picking up request 139 command - TRANS 691 1000000 692 1000000 693 1000000 694 1000000 695 1000000 696 1000000 697 1000000 698 1000
+Number of args 17
+Trying on 691
+Aquired lock on 691
+Trying on 692
+Aquired lock on 692
+Trying on 693
+Aquired lock on 693
+Trying on 694
+Aquired lock on 694
+Trying on 695
+Aquired lock on 695
+Trying on 696
+Aquired lock on 696
+Trying on 697
+Aquired lock on 697
+Trying on 698
+Aquired lock on 698
+Changing 681 to be 1000000 from 0
+Changing 671 to be 1000000 from 0
+Changing 682 to be 1000000 from 0
+Changing 672 to be 1000000 from 0
+Changing 691 to be 1000000 from 0
+Changing 683 to be 1000000 from 0
+Changing 673 to be 1000000 from 0
+Changing 692 to be 1000000 from 0
+Changing 684 to be 1000000 from 0
+Changing 674 to be 1000000 from 0
+Changing 693 to be 1000000 from 0
+Changing 685 to be 1000000 from 0
+Changing 675 to be 1000000 from 0
+Changing 694 to be 1000000 from 0
+Changing 686 to be 1000000 from 0
+Changing 676 to be 1000000 from 0
+Changing 695 to be 1000000 from 0
+Changing 687 to be 1000000 from 0
+Changing 677 to be 1000000 from 0
+Changing 696 to be 1000000 from 0
+Changing 688 to be 1000 from 0
+137 OK TIME 1395641371.784515 1395641422.933458
+Unlocking 681
+Unlocking 682
+Unlocking 683
+Unlocking 684
+Unlocking 685
+Unlocking 686
+Unlocking 687
+Unlocking 688
+Changing 678 to be 1000 from 0
+135 OK TIME 1395641371.784492 1395641422.933689
+Unlocking 671
+Unlocking 672
+Unlocking 673
+rying on 694
+Aquire140Unlocking  command - 695
+000 699 1000000 700 1000000
+Unlocking 675
+Picking up request 141 command - TRANS 701 1000000 702 1000000 703 1000000 704 1000000 705 1000000 706 1000000 707 1000000 708 1000
+Picking up request 142 command - 000 709 1000000 710 1000000
+Picking up request 143 command - TRANS 711 1000000 712 1000000 713 1000000 714 1000000 715 1000000 716 1000000 717 1000000 718 1000
+Number of args 17
+Trying on 711
+Aquired lock on 711
+Trying on 712
+Aquired lock on 712
+Trying on 713
+Aquired lock on 713
+Trying on 714
+Aquired lock on 714
+Trying on 715
+Aquired lock on 715
+Trying on 716
+Aquired lock on 716
+Trying on 717
+Aquired lock on 717
+Trying on 718
+Aquired lock on 718
+Changing 697 to be 1000000 from 0
+Changing 698 to be 1000 from 0
+139 OK TIME 1395641371.784532 1395641423.215287
+Unlocking 691
+Unlocking 692
+Unlocking 693
+Unlocking 694
+Unlocking 695
+Unlocking 696
+Unlocking 697
+Unlocking 698
+Picking up request 144 command - 000 719 1000000 720 1000000
+Picking up request 145 command - TRANS 721 1000000 722 1000000 723 1000000 724 1000000 725 1000000 726 1000000 727 1000000 728 1000
+Number of args 17
+Trying on 721
+Aquired lock on 721
+Trying on 722
+Aquired lock on 722
+Trying on 723
+Aquired lock on 723
+Trying on 724
+Aquired lock on 724
+Trying on 725
+Aquired lock on 725
+Trying on 726
+Aquired lock on 726
+Trying on 727
+Aquired lock on 727
+Trying on 728
+Aquired lock on 728
+Changing 701 to be 1000000 from 0
+Changing 711 to be 1000000 from 0
+Changing 702 to be 1000000 from 0
+Changing 712 to be 1000000 from 0
+Changing 721 to be 1000000 from 0
+Changing 713 to be 1000000 from 0
+Changing 703 to be 1000000 from 0
+Changing 722 to be 1000000 from 0
+Changing 714 to be 1000000 from 0
+Changing 704 to be 1000000 from 0
+Changing 723 to be 1000000 from 0
+Changing 715 to be 1000000 from 0
+Changing 705 to be 1000000 from 0
+Changing 724 to be 1000000 from 0
+Changing 706 to be 1000000 from 0
+Changing 716 to be 1000000 from 0
+Changing 725 to be 1000000 from 0
+Changing 707 to be 1000000 from 0
+Changing 717 to be 1000000 from 0
+Changing 726 to be 1000000 from 0
+Changing 718 to be 1000 from 0
+143 OK TIME 1395641371.784566 1395641425.355980
+Unlocking 711
+Unlocking 712
+Unlocking 713
+Unlocking 714
+Unlocking 715
+Unlocking 716
+Changing 708 to be 1000 from 0
+Unlocking 717
+141 OK TIME 1395641371.784549 1395641425.356037
+Unlocking 718
+Unlocking 701
+Picking up request 146 command - 000 729 1000000 730 1000000
+Unlocking 702
+Unlocking 703
+Unlocking 704
+Unlocking 705
+Unlocking 706
+Unlocking 707
+Unlocking 708
+Picking up request 147 command - TRANS 731 1000000 732 1000000 733 1000000 734 1000000 735 1000000 736 1000000 737 1000000 738 1000
+Picking up request 148 command - 000 739 1000000 740 1000000
+Picking up request 149 command - TRANS 741 1000000 742 1000000 743 1000000 744 1000000 745 1000000 746 1000000 747 1000000 748 1000
+Number of args 17
+Trying on 741
+Aquired lock on 741
+Trying on 742
+Aquired lock on 742
+Trying on 743
+Aquired lock on 743
+Trying on 744
+Aquired lock on 744
+Trying on 745
+Aquired lock on 745
+Trying on 746
+Aquired lock on 746
+Trying on 747
+Aquired lock on 747
+Trying on 748
+Aquired lock on 748
+Changing 727 to be 1000000 from 0
+Changing 728 to be 1000 from 0
+145 OK TIME 1395641371.784583 1395641425.639808
+Unlocking 721
+Unlocking 722
+Unlocking 723
+Unlocking 724
+Unlocking 725
+Unlocking 726
+Unlocking 727
+Unlocking 728
+Picking up request 150 command - 000 749 1000000 750 1000000
+Picking up request 151 command - TRANS 751 1000000 752 1000000 753 1000000 754 1000000 755 1000000 756 1000000 757 1000000 758 1000
+Request 501 received: CHECK 1
+Request 502 received: CHECK 2
+Request 503 received: CHECK 3
+Request 504 received: CHECK 4
+Request 505 received: CHECK 5
+Request 506 received: CHECK 6
+Request 507 received: CHECK 7
+Request 508 received: CHECK 8
+Request 509 received: CHECK 9
+Request 510 received: CHECK 10
+Request 511 received: CHECK 11
+Request 512 received: CHECK 12
+Request 513 received: CHECK 13
+Request 514 received: CHECK 14
+Request 515 received: CHECK 15
+Request 516 received: CHECK 16
+Request 517 received: CHECK 17
+Request 518 received: CHECK 18
+Request 519 received: CHECK 19
+Request 520 received: CHECK 20
+Request 521 received: CHECK 21
+Request 522 received: CHECK 22
+Request 523 received: CHECK 23
+Request 524 received: CHECK 24
+Request 525 received: CHECK 25
+Request 526 received: CHECK 26
+Request 527 received: CHECK 27
+Request 528 received: CHECK 28
+Request 529 received: CHECK 29
+Request 530 received: CHECK 30
+Request 531 received: CHECK 31
+Request 532 received: CHECK 32
+Request 533 received: CHECK 33
+Request 534 received: CHECK 34
+Request 535 received: CHECK 35
+Request 536 received: CHECK 36
+Request 537 received: CHECK 37
+Request 538 received: CHECK 38
+Request 539 received: CHECK 39
+Request 540 received: CHECK 40
+Request 541 received: CHECK 41
+Request 542 received: CHECK 42
+Request 543 received: CHECK 43
+Request 544 received: CHECK 44
+Request 545 received: CHECK 45
+Request 546 received: CHECK 46
+Request 547 received: CHECK 47
+Request 548 received: CHECK 48
+Request 549 received: CHECK 49
+Request 550 received: CHECK 50
+Request 551 received: CHECK 51
+Request 552 received: CHECK 52
+Request 553 received: CHECK 53
+Request 554 received: CHECK 54
+Request 555 received: CHECK 55
+Request 556 received: CHECK 56
+Request 557 received: CHECK 57
+Request 558 received: CHECK 58
+Request 559 received: CHECK 59
+Request 560 received: CHECK 60
+Request 561 received: CHECK 61
+Request 562 received: CHECK 62
+Request 563 received: CHECK 63
+Request 564 received: CHECK 64
+Request 565 received: CHECK 65
+Request 566 received: CHECK 66
+Request 567 received: CHECK 67
+Request 568 received: CHECK 68
+Request 569 received: CHECK 69
+Request 570 received: CHECK 70
+Request 571 received: CHECK 71
+Request 572 received: CHECK 72
+Request 573 received: CHECK 73
+Request 574 received: CHECK 74
+Request 575 received: CHECK 75
+Request 576 received: CHECK 76
+Request 577 received: CHECK 77
+Request 578 received: CHECK 78
+Request 579 received: CHECK 79
+Request 580 received: CHECK 80
+Request 581 received: CHECK 81
+Request 582 received: CHECK 82
+Request 583 received: CHECK 83
+Request 584 received: CHECK 84
+Request 585 received: CHECK 85
+Request 586 received: CHECK 86
+Request 587 received: CHECK 87
+Request 588 received: CHECK 88
+Request 589 received: CHECK 89
+Request 590 received: CHECK 90
+Request 591 received: CHECK 91
+Request 592 received: CHECK 92
+Request 593 received: CHECK 93
+Request 594 received: CHECK 94
+Request 595 received: CHECK 95
+Request 596 received: CHECK 96
+Request 597 received: CHECK 97
+Request 598 received: CHECK 98
+Request 599 received: CHECK 99
+Request 600 received: CHECK 100
+Request 601 received: CHECK 101
+Request 602 received: CHECK 102
+Request 603 received: CHECK 103
+Request 604 received: CHECK 104
+Request 605 received: CHECK 105
+Request 606 received: CHECK 106
+Request 607 received: CHECK 107
+Request 608 received: CHECK 108
+Request 609 received: CHECK 109
+Request 610 received: CHECK 110
+Request 611 received: CHECK 111
+Request 612 received: CHECK 112
+Request 613 received: CHECK 113
+Request 614 received: CHECK 114
+Request 615 received: CHECK 115
+Request 616 received: CHECK 116
+Request 617 received: CHECK 117
+Request 618 received: CHECK 118
+Request 619 received: CHECK 119
+Request 620 received: CHECK 120
+Request 621 received: CHECK 121
+Request 622 received: CHECK 122
+Request 623 received: CHECK 123
+Request 624 received: CHECK 124
+Request 625 received: CHECK 125
+Request 626 received: CHECK 126
+Request 627 received: CHECK 127
+Request 628 received: CHECK 128
+Request 629 received: CHECK 129
+Request 630 received: CHECK 130
+Request 631 received: CHECK 131
+Request 632 received: CHECK 132
+Request 633 received: CHECK 133
+Request 634 received: CHECK 134
+Request 635 received: CHECK 135
+Request 636 received: CHECK 136
+Request 637 received: CHECK 137
+Request 638 received: CHECK 138
+Request 639 received: CHECK 139
+Request 640 received: CHECK 140
+Request 641 received: CHECK 141
+Request 642 received: CHECK 142
+Request 643 received: CHECK 143
+Request 644 received: CHECK 144
+Request 645 received: CHECK 145
+Request 646 received: CHECK 146
+Request 647 received: CHECK 147
+Request 648 received: CHECK 148
+Request 649 received: CHECK 149
+Request 650 received: CHECK 150
+Request 651 received: CHECK 151
+Request 652 received: CHECK 152
+Request 653 received: CHECK 153
+Request 654 received: CHECK 154
+Request 655 received: CHECK 155
+Request 656 received: CHECK 156
+Request 657 received: CHECK 157
+Request 658 received: CHECK 158
+Request 659 received: CHECK 159
+Request 660 received: CHECK 160
+Request 661 received: CHECK 161
+Request 662 received: CHECK 162
+Request 663 received: CHECK 163
+Request 664 received: CHECK 164
+Request 665 received: CHECK 165
+Request 666 received: CHECK 166
+Request 667 received: CHECK 167
+Request 668 received: CHECK 168
+Request 669 received: CHECK 169
+Request 670 received: CHECK 170
+Request 671 received: CHECK 171
+Request 672 received: CHECK 172
+Request 673 received: CHECK 173
+Request 674 received: CHECK 174
+Request 675 received: CHECK 175
+Request 676 received: CHECK 176
+Request 677 received: CHECK 177
+Request 678 received: CHECK 178
+Request 679 received: CHECK 179
+Request 680 received: CHECK 180
+Request 681 received: CHECK 181
+Request 682 received: CHECK 182
+Request 683 received: CHECK 183
+Request 684 received: CHECK 184
+Request 685 received: CHECK 185
+Request 686 received: CHECK 186
+Request 687 received: CHECK 187
+Request 688 received: CHECK 188
+Request 689 received: CHECK 189
+Request 690 received: CHECK 190
+Request 691 received: CHECK 191
+Request 692 received: CHECK 192
+Request 693 received: CHECK 193
+Request 694 received: CHECK 194
+Request 695 received: CHECK 195
+Request 696 received: CHECK 196
+Request 697 received: CHECK 197
+Request 698 received: CHECK 198
+Request 699 received: CHECK 199
+Request 700 received: CHECK 200
+Request 701 received: CHECK 201
+Request 702 received: CHECK 202
+Request 703 received: CHECK 203
+Request 704 received: CHECK 204
+Request 705 received: CHECK 205
+Request 706 received: CHECK 206
+Request 707 received: CHECK 207
+Request 708 received: CHECK 208
+Request 709 received: CHECK 209
+Request 710 received: CHECK 210
+Request 711 received: CHECK 211
+Request 712 received: CHECK 212
+Request 713 received: CHECK 213
+Request 714 received: CHECK 214
+Request 715 received: CHECK 215
+Request 716 received: CHECK 216
+Request 717 received: CHECK 217
+Request 718 received: CHECK 218
+Request 719 received: CHECK 219
+Request 720 received: CHECK 220
+Request 721 received: CHECK 221
+Request 722 received: CHECK 222
+Request 723 received: CHECK 223
+Request 724 received: CHECK 224
+Request 725 received: CHECK 225
+Request 726 received: CHECK 226
+Request 727 received: CHECK 227
+Request 728 received: CHECK 228
+Request 729 received: CHECK 229
+Request 730 received: CHECK 230
+Request 731 received: CHECK 231
+Request 732 received: CHECK 232
+Request 733 received: CHECK 233
+Request 734 received: CHECK 234
+Request 735 received: CHECK 235
+Request 736 received: CHECK 236
+Request 737 received: CHECK 237
+Request 738 received: CHECK 238
+Request 739 received: CHECK 239
+Request 740 received: CHECK 240
+Request 741 received: CHECK 241
+Request 742 received: CHECK 242
+Request 743 received: CHECK 243
+Request 744 received: CHECK 244
+Request 745 received: CHECK 245
+Request 746 received: CHECK 246
+Request 747 received: CHECK 247
+Request 748 received: CHECK 248
+Request 749 received: CHECK 249
+Request 750 received: CHECK 250
+Request 751 received: CHECK 251
+Request 752 received: CHECK 252
+Request 753 received: CHECK 253
+Request 754 received: CHECK 254
+Request 755 received: CHECK 255
+Request 756 received: CHECK 256
+Request 757 received: CHECK 257
+Request 758 received: CHECK 258
+Request 759 received: CHECK 259
+Request 760 received: CHECK 260
+Request 761 received: CHECK 261
+Request 762 received: CHECK 262
+Request 763 received: CHECK 263
+Request 764 received: CHECK 264
+Request 765 received: CHECK 265
+Request 766 received: CHECK 266
+Request 767 received: CHECK 267
+Request 768 received: CHECK 268
+Request 769 received: CHECK 269
+Request 770 received: CHECK 270
+Request 771 received: CHECK 271
+Request 772 received: CHECK 272
+Request 773 received: CHECK 273
+Request 774 received: CHECK 274
+Request 775 received: CHECK 275
+Request 776 received: CHECK 276
+Request 777 received: CHECK 277
+Request 778 received: CHECK 278
+Request 779 received: CHECK 279
+Request 780 received: CHECK 280
+Request 781 received: CHECK 281
+Request 782 received: CHECK 282
+Request 783 received: CHECK 283
+Request 784 received: CHECK 284
+Request 785 received: CHECK 285
+Request 786 received: CHECK 286
+Request 787 received: CHECK 287
+Request 788 received: CHECK 288
+Request 789 received: CHECK 289
+Request 790 received: CHECK 290
+Request 791 received: CHECK 291
+Request 792 received: CHECK 292
+Request 793 received: CHECK 293
+Request 794 received: CHECK 294
+Request 795 received: CHECK 295
+Request 796 received: CHECK 296
+Request 797 received: CHECK 297
+Request 798 received: CHECK 298
+Request 799 received: CHECK 299
+Request 800 received: CHECK 300
+Request 801 received: CHECK 301
+Request 802 received: CHECK 302
+Request 803 received: CHECK 303
+Request 804 received: CHECK 304
+Request 805 received: CHECK 305
+Request 806 received: CHECK 306
+Request 807 received: CHECK 307
+Request 808 received: CHECK 308
+Request 809 received: CHECK 309
+Request 810 received: CHECK 310
+Request 811 received: CHECK 311
+Request 812 received: CHECK 312
+Request 813 received: CHECK 313
+Request 814 received: CHECK 314
+Request 815 received: CHECK 315
+Request 816 received: CHECK 316
+Request 817 received: CHECK 317
+Request 818 received: CHECK 318
+Request 819 received: CHECK 319
+Request 820 received: CHECK 320
+Request 821 received: CHECK 321
+Request 822 received: CHECK 322
+Request 823 received: CHECK 323
+Request 824 received: CHECK 324
+Request 825 received: CHECK 325
+Request 826 received: CHECK 326
+Request 827 received: CHECK 327
+Request 828 received: CHECK 328
+Request 829 received: CHECK 329
+Request 830 received: CHECK 330
+Request 831 received: CHECK 331
+Request 832 received: CHECK 332
+Request 833 received: CHECK 333
+Request 834 received: CHECK 334
+Request 835 received: CHECK 335
+Request 836 received: CHECK 336
+Request 837 received: CHECK 337
+Request 838 received: CHECK 338
+Request 839 received: CHECK 339
+Request 840 received: CHECK 340
+Request 841 received: CHECK 341
+Request 842 received: CHECK 342
+Request 843 received: CHECK 343
+Request 844 received: CHECK 344
+Request 845 received: CHECK 345
+Request 846 received: CHECK 346
+Request 847 received: CHECK 347
+Request 848 received: CHECK 348
+Request 849 received: CHECK 349
+Request 850 received: CHECK 350
+Request 851 received: CHECK 351
+Request 852 received: CHECK 352
+Request 853 received: CHECK 353
+Request 854 received: CHECK 354
+Request 855 received: CHECK 355
+Request 856 received: CHECK 356
+Request 857 received: CHECK 357
+Request 858 received: CHECK 358
+Request 859 received: CHECK 359
+Request 860 received: CHECK 360
+Request 861 received: CHECK 361
+Request 862 received: CHECK 362
+Request 863 received: CHECK 363
+Request 864 received: CHECK 364
+Request 865 received: CHECK 365
+Request 866 received: CHECK 366
+Request 867 received: CHECK 367
+Request 868 received: CHECK 368
+Request 869 received: CHECK 369
+Request 870 received: CHECK 370
+Request 871 received: CHECK 371
+Request 872 received: CHECK 372
+Request 873 received: CHECK 373
+Request 874 received: CHECK 374
+Request 875 received: CHECK 375
+Request 876 received: CHECK 376
+Request 877 received: CHECK 377
+Request 878 received: CHECK 378
+Request 879 received: CHECK 379
+Request 880 received: CHECK 380
+Request 881 received: CHECK 381
+Request 882 received: CHECK 382
+Request 883 received: CHECK 383
+Request 884 received: CHECK 384
+Request 885 received: CHECK 385
+Request 886 received: CHECK 386
+Request 887 received: CHECK 387
+Request 888 received: CHECK 388
+Request 889 received: CHECK 389
+Request 890 received: CHECK 390
+Request 891 received: CHECK 391
+Request 892 received: CHECK 392
+Request 893 received: CHECK 393
+Request 894 received: CHECK 394
+Request 895 received: CHECK 395
+Request 896 received: CHECK 396
+Request 897 received: CHECK 397
+Request 898 received: CHECK 398
+Request 899 received: CHECK 399
+Request 900 received: CHECK 400
+Request 901 received: CHECK 401
+Request 902 received: CHECK 402
+Request 903 received: CHECK 403
+Request 904 received: CHECK 404
+Request 905 received: CHECK 405
+Request 906 received: CHECK 406
+Request 907 received: CHECK 407
+Request 908 received: CHECK 408
+Request 909 received: CHECK 409
+Request 910 received: CHECK 410
+Request 911 received: CHECK 411
+Request 912 received: CHECK 412
+Request 913 received: CHECK 413
+Request 914 received: CHECK 414
+Request 915 received: CHECK 415
+Request 916 received: CHECK 416
+Request 917 received: CHECK 417
+Request 918 received: CHECK 418
+Request 919 received: CHECK 419
+Request 920 received: CHECK 420
+Request 921 received: CHECK 421
+Request 922 received: CHECK 422
+Request 923 received: CHECK 423
+Request 924 received: CHECK 424
+Request 925 received: CHECK 425
+Request 926 received: CHECK 426
+Request 927 received: CHECK 427
+Request 928 received: CHECK 428
+Request 929 received: CHECK 429
+Request 930 received: CHECK 430
+Request 931 received: CHECK 431
+Request 932 received: CHECK 432
+Request 933 received: CHECK 433
+Request 934 received: CHECK 434
+Request 935 received: CHECK 435
+Request 936 received: CHECK 436
+Request 937 received: CHECK 437
+Request 938 received: CHECK 438
+Request 939 received: CHECK 439
+Request 940 received: CHECK 440
+Request 941 received: CHECK 441
+Request 942 received: CHECK 442
+Request 943 received: CHECK 443
+Request 944 received: CHECK 444
+Request 945 received: CHECK 445
+Request 946 received: CHECK 446
+Request 947 received: CHECK 447
+Request 948 received: CHECK 448
+Request 949 received: CHECK 449
+Request 950 received: CHECK 450
+Request 951 received: CHECK 451
+Request 952 received: CHECK 452
+Request 953 received: CHECK 453
+Request 954 received: CHECK 454
+Request 955 received: CHECK 455
+Request 956 received: CHECK 456
+Request 957 received: CHECK 457
+Request 958 received: CHECK 458
+Request 959 received: CHECK 459
+Request 960 received: CHECK 460
+Request 961 received: CHECK 461
+Request 962 received: CHECK 462
+Request 963 received: CHECK 463
+Request 964 received: CHECK 464
+Request 965 received: CHECK 465
+Request 966 received: CHECK 466
+Request 967 received: CHECK 467
+Request 968 received: CHECK 468
+Request 969 received: CHECK 469
+Request 970 received: CHECK 470
+Request 971 received: CHECK 471
+Request 972 received: CHECK 472
+Request 973 received: CHECK 473
+Request 974 received: CHECK 474
+Request 975 received: CHECK 475
+Request 976 received: CHECK 476
+Request 977 received: CHECK 477
+Request 978 received: CHECK 478
+Request 979 received: CHECK 479
+Request 980 received: CHECK 480
+Request 981 received: CHECK 481
+Request 982 received: CHECK 482
+Request 983 received: CHECK 483
+Request 984 received: CHECK 484
+Request 985 received: CHECK 485
+Request 986 received: CHECK 486
+Request 987 received: CHECK 487
+Request 988 received: CHECK 488
+Request 989 received: CHECK 489
+Request 990 received: CHECK 490
+Request 991 received: CHECK 491
+Request 992 received: CHECK 492
+Request 993 received: CHECK 493
+Request 994 received: CHECK 494
+Request 995 received: CHECK 495
+Request 996 received: CHECK 496
+Request 997 received: CHECK 497
+Request 998 received: CHECK 498
+Request 999 received: CHECK 499
+Request 1000 received: CHECK 500
+Request 1001 received: CHECK 501
+Request 1002 received: CHECK 502
+Request 1003 received: CHECK 503
+Request 1004 received: CHECK 504
+Request 1005 received: CHECK 505
+Request 1006 received: CHECK 506
+Request 1007 received: CHECK 507
+Request 1008 received: CHECK 508
+Request 1009 received: CHECK 509
+Request 1010 received: CHECK 510
+Request 1011 received: CHECK 511
+Request 1012 received: CHECK 512
+Request 1013 received: CHECK 513
+Request 1014 received: CHECK 514
+Request 1015 received: CHECK 515
+Request 1016 received: CHECK 516
+Request 1017 received: CHECK 517
+Request 1018 received: CHECK 518
+Request 1019 received: CHECK 519
+Request 1020 received: CHECK 520
+Request 1021 received: CHECK 521
+Request 1022 received: CHECK 522
+Request 1023 received: CHECK 523
+Request 1024 received: CHECK 524
+Request 1025 received: CHECK 525
+Request 1026 received: CHECK 526
+Request 1027 received: CHECK 527
+Request 1028 received: CHECK 528
+Request 1029 received: CHECK 529
+Request 1030 received: CHECK 530
+Request 1031 received: CHECK 531
+Request 1032 received: CHECK 532
+Request 1033 received: CHECK 533
+Request 1034 received: CHECK 534
+Request 1035 received: CHECK 535
+Request 1036 received: CHECK 536
+Request 1037 received: CHECK 537
+Request 1038 received: CHECK 538
+Request 1039 received: CHECK 539
+Request 1040 received: CHECK 540
+Request 1041 received: CHECK 541
+Request 1042 received: CHECK 542
+Request 1043 received: CHECK 543
+Request 1044 received: CHECK 544
+Request 1045 received: CHECK 545
+Request 1046 received: CHECK 546
+Request 1047 received: CHECK 547
+Request 1048 received: CHECK 548
+Request 1049 received: CHECK 549
+Request 1050 received: CHECK 550
+Request 1051 received: CHECK 551
+Request 1052 received: CHECK 552
+Request 1053 received: CHECK 553
+Request 1054 received: CHECK 554
+Request 1055 received: CHECK 555
+Request 1056 received: CHECK 556
+Request 1057 received: CHECK 557
+Request 1058 received: CHECK 558
+Request 1059 received: CHECK 559
+Request 1060 received: CHECK 560
+Request 1061 received: CHECK 561
+Request 1062 received: CHECK 562
+Request 1063 received: CHECK 563
+Request 1064 received: CHECK 564
+Request 1065 received: CHECK 565
+Request 1066 received: CHECK 566
+Request 1067 received: CHECK 567
+Request 1068 received: CHECK 568
+Request 1069 received: CHECK 569
+Request 1070 received: CHECK 570
+Request 1071 received: CHECK 571
+Request 1072 received: CHECK 572
+Request 1073 received: CHECK 573
+Request 1074 received: CHECK 574
+Request 1075 received: CHECK 575
+Request 1076 received: CHECK 576
+Request 1077 received: CHECK 577
+Request 1078 received: CHECK 578
+Request 1079 received: CHECK 579
+Request 1080 received: CHECK 580
+Request 1081 received: CHECK 581
+Request 1082 received: CHECK 582
+Request 1083 received: CHECK 583
+Request 1084 received: CHECK 584
+Request 1085 received: CHECK 585
+Request 1086 received: CHECK 586
+Request 1087 received: CHECK 587
+Request 1088 received: CHECK 588
+Request 1089 received: CHECK 589
+Request 1090 received: CHECK 590
+Request 1091 received: CHECK 591
+Request 1092 received: CHECK 592
+Request 1093 received: CHECK 593
+Request 1094 received: CHECK 594
+Request 1095 received: CHECK 595
+Request 1096 received: CHECK 596
+Request 1097 received: CHECK 597
+Request 1098 received: CHECK 598
+Request 1099 received: CHECK 599
+Request 1100 received: CHECK 600
+Request 1101 received: CHECK 601
+Request 1102 received: CHECK 602
+Request 1103 received: CHECK 603
+Request 1104 received: CHECK 604
+Request 1105 received: CHECK 605
+Request 1106 received: CHECK 606
+Request 1107 received: CHECK 607
+Request 1108 received: CHECK 608
+Request 1109 received: CHECK 609
+Request 1110 received: CHECK 610
+Request 1111 received: CHECK 611
+Request 1112 received: CHECK 612
+Request 1113 received: CHECK 613
+Request 1114 received: CHECK 614
+Request 1115 received: CHECK 615
+Request 1116 received: CHECK 616
+Request 1117 received: CHECK 617
+Request 1118 received: CHECK 618
+Request 1119 received: CHECK 619
+Request 1120 received: CHECK 620
+Request 1121 received: CHECK 621
+Request 1122 received: CHECK 622
+Request 1123 received: CHECK 623
+Request 1124 received: CHECK 624
+Request 1125 received: CHECK 625
+Request 1126 received: CHECK 626
+Request 1127 received: CHECK 627
+Request 1128 received: CHECK 628
+Request 1129 received: CHECK 629
+Request 1130 received: CHECK 630
+Request 1131 received: CHECK 631
+Request 1132 received: CHECK 632
+Request 1133 received: CHECK 633
+Request 1134 received: CHECK 634
+Request 1135 received: CHECK 635
+Request 1136 received: CHECK 636
+Request 1137 received: CHECK 637
+Request 1138 received: CHECK 638
+Request 1139 received: CHECK 639
+Request 1140 received: CHECK 640
+Request 1141 received: CHECK 641
+Request 1142 received: CHECK 642
+Request 1143 received: CHECK 643
+Request 1144 received: CHECK 644
+Request 1145 received: CHECK 645
+Request 1146 received: CHECK 646
+Request 1147 received: CHECK 647
+Request 1148 received: CHECK 648
+Request 1149 received: CHECK 649
+Request 1150 received: CHECK 650
+Request 1151 received: CHECK 651
+Request 1152 received: CHECK 652
+Request 1153 received: CHECK 653
+Request 1154 received: CHECK 654
+Request 1155 received: CHECK 655
+Request 1156 received: CHECK 656
+Request 1157 received: CHECK 657
+Request 1158 received: CHECK 658
+Request 1159 received: CHECK 659
+Request 1160 received: CHECK 660
+Request 1161 received: CHECK 661
+Request 1162 received: CHECK 662
+Request 1163 received: CHECK 663
+Request 1164 received: CHECK 664
+Request 1165 received: CHECK 665
+Request 1166 received: CHECK 666
+Request 1167 received: CHECK 667
+Request 1168 received: CHECK 668
+Request 1169 received: CHECK 669
+Request 1170 received: CHECK 670
+Request 1171 received: CHECK 671
+Request 1172 received: CHECK 672
+Request 1173 received: CHECK 673
+Request 1174 received: CHECK 674
+Request 1175 received: CHECK 675
+Request 1176 received: CHECK 676
+Request 1177 received: CHECK 677
+Request 1178 received: CHECK 678
+Request 1179 received: CHECK 679
+Request 1180 received: CHECK 680
+Request 1181 received: CHECK 681
+Request 1182 received: CHECK 682
+Request 1183 received: CHECK 683
+Request 1184 received: CHECK 684
+Request 1185 received: CHECK 685
+Request 1186 received: CHECK 686
+Request 1187 received: CHECK 687
+Request 1188 received: CHECK 688
+Request 1189 received: CHECK 689
+Request 1190 received: CHECK 690
+Request 1191 received: CHECK 691
+Request 1192 received: CHECK 692
+Request 1193 received: CHECK 693
+Request 1194 received: CHECK 694
+Request 1195 received: CHECK 695
+Request 1196 received: CHECK 696
+Request 1197 received: CHECK 697
+Request 1198 received: CHECK 698
+Request 1199 received: CHECK 699
+Request 1200 received: CHECK 700
+Request 1201 received: CHECK 701
+Request 1202 received: CHECK 702
+Request 1203 received: CHECK 703
+Request 1204 received: CHECK 704
+Request 1205 received: CHECK 705
+Request 1206 received: CHECK 706
+Request 1207 received: CHECK 707
+Request 1208 received: CHECK 708
+Request 1209 received: CHECK 709
+Request 1210 received: CHECK 710
+Request 1211 received: CHECK 711
+Request 1212 received: CHECK 712
+Request 1213 received: CHECK 713
+Request 1214 received: CHECK 714
+Request 1215 received: CHECK 715
+Request 1216 received: CHECK 716
+Request 1217 received: CHECK 717
+Request 1218 received: CHECK 718
+Request 1219 received: CHECK 719
+Request 1220 received: CHECK 720
+Request 1221 received: CHECK 721
+Request 1222 received: CHECK 722
+Request 1223 received: CHECK 723
+Request 1224 received: CHECK 724
+Request 1225 received: CHECK 725
+Request 1226 received: CHECK 726
+Request 1227 received: CHECK 727
+Request 1228 received: CHECK 728
+Request 1229 received: CHECK 729
+Request 1230 received: CHECK 730
+Request 1231 received: CHECK 731
+Request 1232 received: CHECK 732
+Request 1233 received: CHECK 733
+Request 1234 received: CHECK 734
+Request 1235 received: CHECK 735
+Request 1236 received: CHECK 736
+Request 1237 received: CHECK 737
+Request 1238 received: CHECK 738
+Request 1239 received: CHECK 739
+Request 1240 received: CHECK 740
+Request 1241 received: CHECK 741
+Request 1242 received: CHECK 742
+Request 1243 received: CHECK 743
+Request 1244 received: CHECK 744
+Request 1245 received: CHECK 745
+Request 1246 received: CHECK 746
+Request 1247 received: CHECK 747
+Request 1248 received: CHECK 748
+Request 1249 received: CHECK 749
+Request 1250 received: CHECK 750
+Request 1251 received: CHECK 751
+Request 1252 received: CHECK 752
+Request 1253 received: CHECK 753
+Request 1254 received: CHECK 754
+Request 1255 received: CHECK 755
+Request 1256 received: CHECK 756
+Request 1257 received: CHECK 757
+Request 1258 received: CHECK 758
+Request 1259 received: CHECK 759
+Request 1260 received: CHECK 760
+Request 1261 received: CHECK 761
+Request 1262 received: CHECK 762
+Request 1263 received: CHECK 763
+Request 1264 received: CHECK 764
+Request 1265 received: CHECK 765
+Request 1266 received: CHECK 766
+Request 1267 received: CHECK 767
+Request 1268 received: CHECK 768
+Request 1269 received: CHECK 769
+Request 1270 received: CHECK 770
+Request 1271 received: CHECK 771
+Request 1272 received: CHECK 772
+Request 1273 received: CHECK 773
+Request 1274 received: CHECK 774
+Request 1275 received: CHECK 775
+Request 1276 received: CHECK 776
+Request 1277 received: CHECK 777
+Request 1278 received: CHECK 778
+Request 1279 received: CHECK 779
+Request 1280 received: CHECK 780
+Request 1281 received: CHECK 781
+Request 1282 received: CHECK 782
+Request 1283 received: CHECK 783
+Request 1284 received: CHECK 784
+Request 1285 received: CHECK 785
+Request 1286 received: CHECK 786
+Request 1287 received: CHECK 787
+Request 1288 received: CHECK 788
+Request 1289 received: CHECK 789
+Request 1290 received: CHECK 790
+Request 1291 received: CHECK 791
+Request 1292 received: CHECK 792
+Request 1293 received: CHECK 793
+Request 1294 received: CHECK 794
+Request 1295 received: CHECK 795
+Request 1296 received: CHECK 796
+Request 1297 received: CHECK 797
+Request 1298 received: CHECK 798
+Request 1299 received: CHECK 799
+Request 1300 received: CHECK 800
+Request 1301 received: CHECK 801
+Request 1302 received: CHECK 802
+Request 1303 received: CHECK 803
+Request 1304 received: CHECK 804
+Request 1305 received: CHECK 805
+Request 1306 received: CHECK 806
+Request 1307 received: CHECK 807
+Request 1308 received: CHECK 808
+Request 1309 received: CHECK 809
+Request 1310 received: CHECK 810
+Request 1311 received: CHECK 811
+Request 1312 received: CHECK 812
+Request 1313 received: CHECK 813
+Request 1314 received: CHECK 814
+Request 1315 received: CHECK 815
+Request 1316 received: CHECK 816
+Request 1317 received: CHECK 817
+Request 1318 received: CHECK 818
+Request 1319 received: CHECK 819
+Request 1320 received: CHECK 820
+Request 1321 received: CHECK 821
+Request 1322 received: CHECK 822
+Request 1323 received: CHECK 823
+Request 1324 received: CHECK 824
+Request 1325 received: CHECK 825
+Request 1326 received: CHECK 826
+Request 1327 received: CHECK 827
+Request 1328 received: CHECK 828
+Request 1329 received: CHECK 829
+Request 1330 received: CHECK 830
+Request 1331 received: CHECK 831
+Request 1332 received: CHECK 832
+Request 1333 received: CHECK 833
+Request 1334 received: CHECK 834
+Request 1335 received: CHECK 835
+Request 1336 received: CHECK 836
+Request 1337 received: CHECK 837
+Request 1338 received: CHECK 838
+Request 1339 received: CHECK 839
+Request 1340 received: CHECK 840
+Request 1341 received: CHECK 841
+Request 1342 received: CHECK 842
+Request 1343 received: CHECK 843
+Request 1344 received: CHECK 844
+Request 1345 received: CHECK 845
+Request 1346 received: CHECK 846
+Request 1347 received: CHECK 847
+Request 1348 received: CHECK 848
+Request 1349 received: CHECK 849
+Request 1350 received: CHECK 850
+Request 1351 received: CHECK 851
+Request 1352 received: CHECK 852
+Request 1353 received: CHECK 853
+Request 1354 received: CHECK 854
+Request 1355 received: CHECK 855
+Request 1356 received: CHECK 856
+Request 1357 received: CHECK 857
+Request 1358 received: CHECK 858
+Request 1359 received: CHECK 859
+Request 1360 received: CHECK 860
+Request 1361 received: CHECK 861
+Request 1362 received: CHECK 862
+Request 1363 received: CHECK 863
+Request 1364 received: CHECK 864
+Request 1365 received: CHECK 865
+Request 1366 received: CHECK 866
+Request 1367 received: CHECK 867
+Request 1368 received: CHECK 868
+Request 1369 received: CHECK 869
+Request 1370 received: CHECK 870
+Request 1371 received: CHECK 871
+Request 1372 received: CHECK 872
+Request 1373 received: CHECK 873
+Request 1374 received: CHECK 874
+Request 1375 received: CHECK 875
+Request 1376 received: CHECK 876
+Request 1377 received: CHECK 877
+Request 1378 received: CHECK 878
+Request 1379 received: CHECK 879
+Request 1380 received: CHECK 880
+Request 1381 received: CHECK 881
+Request 1382 received: CHECK 882
+Request 1383 received: CHECK 883
+Request 1384 received: CHECK 884
+Request 1385 received: CHECK 885
+Request 1386 received: CHECK 886
+Request 1387 received: CHECK 887
+Request 1388 received: CHECK 888
+Request 1389 received: CHECK 889
+Request 1390 received: CHECK 890
+Request 1391 received: CHECK 891
+Request 1392 received: CHECK 892
+Request 1393 received: CHECK 893
+Request 1394 received: CHECK 894
+Request 1395 received: CHECK 895
+Request 1396 received: CHECK 896
+Request 1397 received: CHECK 897
+Request 1398 received: CHECK 898
+Request 1399 received: CHECK 899
+Request 1400 received: CHECK 900
+Request 1401 received: CHECK 901
+Request 1402 received: CHECK 902
+Request 1403 received: CHECK 903
+Request 1404 received: CHECK 904
+Request 1405 received: CHECK 905
+Request 1406 received: CHECK 906
+Request 1407 received: CHECK 907
+Request 1408 received: CHECK 908
+Request 1409 received: CHECK 909
+Request 1410 received: CHECK 910
+Request 1411 received: CHECK 911
+Request 1412 received: CHECK 912
+Request 1413 received: CHECK 913
+Request 1414 received: CHECK 914
+Request 1415 received: CHECK 915
+Request 1416 received: CHECK 916
+Request 1417 received: CHECK 917
+Request 1418 received: CHECK 918
+Request 1419 received: CHECK 919
+Request 1420 received: CHECK 920
+Request 1421 received: CHECK 921
+Request 1422 received: CHECK 922
+Request 1423 received: CHECK 923
+Request 1424 received: CHECK 924
+Request 1425 received: CHECK 925
+Request 1426 received: CHECK 926
+Request 1427 received: CHECK 927
+Request 1428 received: CHECK 928
+Request 1429 received: CHECK 929
+Request 1430 received: CHECK 930
+Request 1431 received: CHECK 931
+Request 1432 received: CHECK 932
+Request 1433 received: CHECK 933
+Request 1434 received: CHECK 934
+Request 1435 received: CHECK 935
+Request 1436 received: CHECK 936
+Request 1437 received: CHECK 937
+Request 1438 received: CHECK 938
+Request 1439 received: CHECK 939
+Request 1440 received: CHECK 940
+Request 1441 received: CHECK 941
+Request 1442 received: CHECK 942
+Request 1443 received: CHECK 943
+Request 1444 received: CHECK 944
+Request 1445 received: CHECK 945
+Request 1446 received: CHECK 946
+Request 1447 received: CHECK 947
+Request 1448 received: CHECK 948
+Request 1449 received: CHECK 949
+Request 1450 received: CHECK 950
+Request 1451 received: CHECK 951
+Request 1452 received: CHECK 952
+Request 1453 received: CHECK 953
+Request 1454 received: CHECK 954
+Request 1455 received: CHECK 955
+Request 1456 received: CHECK 956
+Request 1457 received: CHECK 957
+Request 1458 received: CHECK 958
+Request 1459 received: CHECK 959
+Request 1460 received: CHECK 960
+Request 1461 received: CHECK 961
+Request 1462 received: CHECK 962
+Request 1463 received: CHECK 963
+Request 1464 received: CHECK 964
+Request 1465 received: CHECK 965
+Request 1466 received: CHECK 966
+Request 1467 received: CHECK 967
+Request 1468 received: CHECK 968
+Request 1469 received: CHECK 969
+Request 1470 received: CHECK 970
+Request 1471 received: CHECK 971
+Request 1472 received: CHECK 972
+Request 1473 received: CHECK 973
+Request 1474 received: CHECK 974
+Request 1475 received: CHECK 975
+Request 1476 received: CHECK 976
+Request 1477 received: CHECK 977
+Request 1478 received: CHECK 978
+Request 1479 received: CHECK 979
+Request 1480 received: CHECK 980
+Request 1481 received: CHECK 981
+Request 1482 received: CHECK 982
+Request 1483 received: CHECK 983
+Request 1484 received: CHECK 984
+Request 1485 received: CHECK 985
+Request 1486 received: CHECK 986
+Request 1487 received: CHECK 987
+Request 1488 received: CHECK 988
+Request 1489 received: CHECK 989
+Request 1490 received: CHECK 990
+Request 1491 received: CHECK 991
+Request 1492 received: CHECK 992
+Request 1493 received: CHECK 993
+Request 1494 received: CHECK 994
+Request 1495 received: CHECK 995
+Request 1496 received: CHECK 996
+Request 1497 received: CHECK 997
+Request 1498 received: CHECK 998
+Request 1499 received: CHECK 999
+Request 1500 received: CHECK 1000
+Request 1501 received: END
+Picking up request 152 command - 000 759 1000000 760 1000000
+Picking up request 153 command - TRANS 761 1000000 762 1000000 763 1000000 764 1000000 765 1000000 766 1000000 767 1000000 768 1000
+Picking up request 154 command - 000 769 1000000 770 1000000
+Picking up request 155 command - TRANS 771 1000000 772 1000000 773 1000000 774 1000000 775 1000000 776 1000000 777 1000000 778 1000
+Number of args 17
+Trying on 771
+Aquired lock on 771
+Trying on 772
+Aquired lock on 772
+Trying on 773
+Trying on 761
+Aquired lock on 773
+Aquired lock on 761
+Trying on 774
+Trying on 762
+Aquired lock on 774
+Aquired lock on 762
+Trying on 775
+Trying on 763
+Aquired lock on 775
+Aquired lock on 763
+Trying on 776
+Trying on 764
+Aquired lock on 776
+Aquired lock on 764
+Trying on 777
+Trying on 765
+Aquired lock on 777
+Aquired lock on 765
+Trying on 778
+Trying on 766
+Aquired lock on 778
+Aquired lock on 766
+Trying on 767
+Aquired lock on 767
+Trying on 768
+Aquired lock on 768
+Changing 757 to be 1000000 from 0
+Changing 758 to be 1000 from 0
+151 OK TIME 1395641371.784640 1395641428.054073
+Unlocking 751
+Unlocking 752
+Unlocking 753
+Unlocking 754
+Unlocking 755
+Unlocking 756
+Unlocking 757
+Unlocking 758
+Picking up request 156 command - 000 779 1000000 780 1000000
+Picking up request 157 command - TRANS 781 1000000 782 1000000 783 1000000 784 1000000 785 1000000 786 1000000 787 1000000 788 1000
+Number of args 17
+Trying on 781
+Aquired lock on 781
+Trying on 782
+Aquired lock on 782
+Trying on 783
+Aquired lock on 783
+Trying on 784
+Aquired lock on 784
+Trying on 785
+Aquired lock on 785
+Trying on 786
+Aquired lock on 786
+Trying on 787
+Aquired lock on 787
+Trying on 788
+Aquired lock on 788
+Changing 771 to be 1000000 from 0
+Changing 761 to be 1000000 from 0
+Changing 772 to be 1000000 from 0
+Changing 762 to be 1000000 from 0
+Changing 781 to be 1000000 from 0
+Changing 773 to be 1000000 from 0
+Changing 763 to be 1000000 from 0
+Changing 782 to be 1000000 from 0
+Changing 774 to be 1000000 from 0
+Changing 764 to be 1000000 from 0
+Changing 783 to be 1000000 from 0
+Changing 775 to be 1000000 from 0
+Changing 765 to be 1000000 from 0
+Changing 784 to be 1000000 from 0
+Changing 776 to be 1000000 from 0
+Changing 766 to be 1000000 from 0
+Changing 785 to be 1000000 from 0
+Changing 767 to be 1000000 from 0
+Changing 777 to be 1000000 from 0
+Changing 786 to be 1000000 from 0
+Changing 768 to be 1000 from 0
+153 OK TIME 1395641371.784657 1395641430.195564
+Unlocking 761
+Unlocking 762
+Unlocking 763
+Unlocking 764
+Unlocking 765
+Unlocking 766
+Unlocking 767
+Unlocking 768
+Changing 778 to be 1000 from 0
+155 OK TIME 1395641371.784675d - 000 789 1000000 790 1000000
+Picking up request 159 command - TRANS 791 1000000 792 1000000 793 1000000 794 1000000 795 1000000 796 1000000 797 1000000 798 1000
+Request 2 received:  1000000
+Picking up request 2 command -  1000000
+Request 3 received: TRANS 11 1000000 12 1000000 13 1000000 14 1000000 15 1000000 16 1000000 17 1000000 18 1000000 19 1
+Number of args 19
+Trying on 11
+Aquired lock on 11
+Trying on 12
+Aquired lock on 12
+Trying on 13
+Aquired lock on 13
+Trying on 14
+Aquired lock on 14
+Trying on 15
+Aquired lock on 15
+Trying on 16
+Aquired lock on 16
+Trying on 17
+Aquired lock on 17
+Trying on 18
+Aquired lock on 18
+Trying on 19
+Aquired lock on 19
+Request 5 received: TRANS 21 1000000 22 1000000 23 1000000 24 1000000 25 1000000 26 1000000 27 1000000 28 1000000 29 1
+Number of args 19
+Trying on 21
+Aquired lock on 21
+Trying on 22
+Aquired lock on 22
+Trying on 23
+Aquired lock on 23
+Trying on 24
+Aquired lock on 24
+Trying on 25
+Aquired lock on 25
+Trying on 26
+Aquired lock on 26
+Trying on 27
+Aquired lock on 27
+Trying on 28
+Aquired lock on 28
+Trying on 29
+Aquired lock on 29
+Request 6 received: 000000 30 1000000
+Number of args 19
+Trying on 31
+Number of args 19
+Trying on 41
+Aquired lock on 41
+Trying on 42
+Aquired lock on 42
+Trying on 43
+Aquired lock on 43
+Trying on 44
+Aquired lock on 44
+Trying on 45
+Aquired lock on 45
+Trying on 46
+Aquired lock on 46
+Trying on 47
+Aquired lock on 47
+Trying on 48
+Aquired lock on 48
+Trying on 49
+Aquired lock on 49
+Number of args 19
+Trying on 51
+Aquired lock on 51
+Trying on 52
+Aquired lock on 52
+Trying on 53
+Aquired lock on 53
+Trying on 54
+Aquired lock on 54
+Trying on 55
+Aquired lock on 55
+Trying on 56
+Aquired lock on 56
+Trying on 57
+Aquired lock on 57
+Trying on 58
+Aquired lock on 58
+Trying on 59
+Request 13 received: TRANS 61 1000000 62 1000000 63 1000000 64 1000000 65 1000000 66 1000000 67 1000000 68 1000000 69 1
+Request 16 received: 000000 80 1000000
+Trying on 71
+Number of args 19
+Request 17 received: TRANS 81 1000000 82 1000000 83 1000000 84 1000000 85 1000000 86 1000000 87 1000000 88 1000000 89 1
+Request 18 received: 000000 90 1000000
+Number of args 19
+Trying on 91
+Aquired lock on 91
+Trying on 92
+Aquired lock on 92
+Trying on 93
+Aquired lock on 93
+Trying on 94
+Aquired lock on 94
+Trying on 95
+Aquired lock on 95
+Trying on 96
+Picking up request 19 command - TRANS 91 1000000 92 1000000 93 1000000 94 1000000 95 1000000 96 1000000 97 1000000 98 1000000 99 1
+Number of args 17
+Number of args 17
+Trying on 161
+Aquired lock on 161
+Trying on 162
+Aquired lock on 162
+Trying on 163
+Aquired lock on 163
+Trying on 164
+Aquired lock on 164
+Trying on 165
+Number of args 17
+Trying on 221
+Aquired lock on 221
+Trying on 222
+Aquired lock on 222
+Trying on 223
+Aquired lock on 223
+Trying on 224
+Aquired lock on 224
+Trying on 225
+Aquired lock on 225
+Trying on 226
+Aquired lock on 226
+Trying on 227
+Aquired lock on 227
+Trying on 228
+Aquired lock on 228
+Picking up request 64 command - 000 319 1000000 320 1000000
+Number of args 17
+Number of args 17
+Trying on 371
+Aquired lock on 371
+Trying on 372
+Aquired lock on 372
+Trying on 373
+Aquired lock on 373
+Trying on 374
+Aquired lock on 374
+Trying on 375
+Aquired lock on 375
+Trying on 376
+Aquired lock on 376
+Trying on 377
+Aquired lock on 377
+Trying on 378
+Aquired lock on 378
+Number of args 17
+Number of args 17
+Trying on 391
+Aquired lock on 391
+Trying on 392
+Aquired lock on 392
+Trying on 393
+Aquired lock on 393
+Trying on 394
+Aquired lock on 394
+Trying on 395
+Aquired lock on 395
+Trying on 396
+Aquired lock on 396
+Trying on 397
+Aquired lock on 397
+Trying on 398
+Aquired lock on 398
+Number of args 17
+Trying on 431
+Aquired lock on 431
+Trying on 432
+Aquired lock on 432
+Trying on 433
+Aquired lock on 433
+Trying on 434
+Aquired lock on 434
+Trying on 435
+Aquired lock on 435
+Trying on 436
+Aquired lock on 436
+Trying on 437
+Aquired lock on 437
+Trying on 438
+Aquired lock on 438
+Number of args 17
+Trying on 491
+Aquired lock on 491
+Trying on 492
+Aquired lock on 492
+Trying on 493
+Aquired lock on 493
+Trying on 494
+Aquired lock on 494
+Trying on 495
+Aquired lock on 495
+Trying on 496
+Aquired lock on 496
+Trying on 497
+Aquired lock on 497
+Trying on 498
+Aquired lock on 498
+Picking up request 94 command - 000 469 1000000 470 1000000
+Picking up request 112 command - 000 559 1000000 560 1000000
+Picking up request 124 command - 000 619 1000000 620 1000000
+Number of args 17
+Trying on 641
+Number of args 17
+Trying on 671
+Aquired lock on 671
+Trying on 672
+Aquired lock on 672
+Trying on 673
+Aquired lock on 673
+Trying on 674
+Aquired lock on 674
+Trying on 675
+Aquired lock on 675
+Trying on 676
+Aquired lock on 676
+Trying on 677
+Aquired lock on 677
+Trying on 678
+Aquired lock on 678
+Number of args 17
+Trying on 751
+Aquired lock on 751
+Trying on 752
+Aquired lock on 752
+Trying on 753
+Aquired lock on 753
+Trying on 754
+Aquired lock on 754
+Trying on 755
+Aquired lock on 755
+Trying on 756
+Aquired lock on 756
+Trying on 757
+Aquired lock on 757
+Trying on 758
+Aquired lock on 758
+Number of args 17
+Number of args 17
+Trying on 791
+Aquired lock on 791
+Trying on 792
+Aquired lock on 792
+Trying on 793
+Aquired lock on 793
+Trying on 794
+Aquired lock on 794
+Trying on 795
+Aquired lock on 795
+Trying on 796
+Aquired lock on 796
+Trying on 797
+Aquired lock on 797
+Trying on 798
+Aquired lock on 798

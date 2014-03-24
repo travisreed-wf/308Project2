@@ -1,0 +1,29 @@
+Picking up request 1 command - TRANS 1 1000000 2 1000000 3 1000000 4 1000000 5 1000000 6 1000000 7 1000000 8 1000000 9 1000000 10
+Request 2 received:  1000000
+Number of args 20
+Trying on 1
+Aquired lock on 1
+Trying on 2
+Aquired lock on 2
+Trying on 3
+Aquired lock on 3
+Trying on 4
+Picking up request 3 command - TRANS 11 1000000 12 1000000 13 1000000 14 1000000 15 1000000 16 1000000 17 1000000 18 1000000 19 1
+Number of args 19
+Picking up request 4 command - 000000 20 1000000
+Trying on 6
+Aquired lock on 11
+Trying on 12
+Aquired lock on 12
+Picking up request 5 command - TRANS 21 1000000 22 1000000 23 1000000 24 1000000 25 1000000 26 1000000 27 1000000 28 1000000 29 1
+Aquired lock on 13
+Aquired lock on 4
+Request 3 received: TRANS 11 1000000 12 1000000 13 1000000 14 1000000 15 1000000 16 1000000 17 1000000 18 1000000 19 1
+Picking up request 2 command -  1000000
+Aquired lock on 5
+Trying on 11
+Trying on 14
+Request 4 received: 000000 20 1000000
+Trying on 13
+Request 5 received: TRANS 21 1000000 22 1000000 23 1000000 24 1000000 25 1000000 26 1000000 27 1000000 28 1000000 29 1
+Aquired lock on 14

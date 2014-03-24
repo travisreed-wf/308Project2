@@ -1,0 +1,448 @@
+argc is 5
+argc is 5
+argc is 6
+Attempting to get lock on 222846052
+Aquired lock on 222846052
+Attempting to get lock on 222846092
+Aquired lock on 222846092
+Attempting to get lock on 222846132
+Unlocking 222846092argc is 2
+Attempting to get lock on 32
+argc is 5
+Attempting to get lock on 1
+Aquired lock on 1
+Attempting to get lock on 52
+argc is 5
+Attempting to get lock on 1
+Aquired lock on 1
+Attempting to get lock on 8
+Aquired lock on 8
+argc is 5
+Attempting to get lock on 1
+Aquired lock on 1
+Attempting to get lock on 3
+Aquired lock on 3
+3 BAL 3
+4 BAL 5
+1 BAL 0
+argc is 3
+Attempting to get lock on 1
+Aquired lock on 1
+4 BAL 0
+5 BAL 0
+6 BAL 0
+8 BAL 0
+1 BAL 0
+argc is 6
+Attempting to get lock on 1
+Aquired lock on 1
+Attempting to get lock on 0
+Attempting to get lock on 0
+Unlocking 0Unlocking 1Unlocking 0Unlocking 03 BAL 0
+5 BAL 0
+6 BAL 0
+7 BAL 0
+8 BAL 0
+argc is 3
+Attempting to get lock on 1
+Aquired lock on 1
+Unlocking 110 BAL 0
+argc is 3
+Attempting to get lock on 1
+Aquired lock on 1
+Changing 0 to be 23 from 0Unlocking 12 BAL 0
+argc is 6
+Attempting to get lock on 1
+Aquired lock on 1
+Attempting to get lock on 0
+Attempting to get lock on 0
+Unlocking 0Unlocking 1Unlocking 0Unlocking 02 BAL 0
+3 BAL 0
+argc is 3
+Attempting to get lock on 1
+Aquired lock on 1
+Changing 1 to be 23 from 0Unlocking 12 BAL 23
+Aquired lock on 1
+Aquired lock on 2
+Aquired lock on 3
+Changing 1 to be 32 from 0
+Changing 2 to be 54 from 0
+Changing 3 to be 21 from 0
+Unlocking 1
+Unlocking 2
+Unlocking 3
+2 BAL 21
+Aquired lock on 3
+Changing 3 to be 11 from 21
+Unlocking 3
+4 BAL 11
+Aquired lock on 1
+Aquired lock on 5
+Aquired lock on 3
+Changing 1 to be 23 from 0
+Changing 5 to be 100 from 0
+Changing 3 to be 14 from 0
+Unlocking 1
+Unlocking 5
+Unlocking 3
+2 BAL 100
+Aquired lock on 3
+Aquired lock on 5
+Unlocking 5
+Unlocking 3
+Unlocking 5
+Unlocking 3
+Aquired lock on 1
+Aquired lock on 5
+Changing 1 to be 32 from 0
+Changing 5 to be 3 from 0
+Unlocking 1
+Unlocking 5
+Aquired lock on 3
+Aquired lock on 1
+Unlocking 1
+Unlocking 3
+Unlocking 1
+Unlocking 0
+Aquired lock on 1
+Aquired lock on 5
+Unsafe - Unlocking 5
+Unlocking 1
+Unlocking 5
+Unlocking 0
+Trying on 1
+Aquired lock on 1
+Trying on 5
+Aquired lock on 5
+Trying on 0
+Unsafe - Unlocking 5
+Unlocking 1
+Unlocking 5
+Unlocking 0
+NUMBER OF ARGS 6Trying on 1
+Aquired lock on 1
+Trying on 5
+Aquired lock on 5
+Trying on 0
+Unsafe - Unlocking 5
+Unlocking 1
+Unlocking 5
+Unlocking 0
+NUMBER OF ARGS 8Trying on 1
+Aquired lock on 1
+Trying on 5
+Aquired lock on 5
+Trying on 13
+Unsafe - Unlocking 5
+Trying on 0
+Unsafe - Unlocking 13
+Unsafe - Unlocking 5
+Unlocking 1
+Unlocking 5
+Unlocking 13
+Unlocking 0
+NUMBER OF ARGS 5Trying on 1
+Aquired lock on 1
+Trying on 5
+Aquired lock on 5
+Changing 1 to be 32 from 0
+Changing 5 to be 3 from 0
+Unlocking 1
+Unlocking 5
+NUMBER OF ARGS 5Trying on 1
+Aquired lock on 1
+Trying on 5
+Aquired lock on 5
+Changing 1 to be 64 from 32
+Changing 5 to be 6 from 3
+Unlocking 1
+Unlocking 5
+NUMBER OF ARGS 8Trying on 1
+Aquired lock on 1
+Trying on 5
+Aquired lock on 5
+Trying on 6
+Aquired lock on 6
+Trying on 3
+Aquired lock on 3
+Changing 1 to be 96 from 64
+Changing 5 to be 24 from 6
+Changing 6 to be 32 from 0
+Changing 3 to be 2 from 0
+Unlocking 1
+Unlocking 5
+Unlocking 6
+Unlocking 3
+NUMBER OF ARGS 4Trying on 3
+Aquired lock on 3
+Trying on 1
+Aquired lock on 1
+5 ISF 3Unlocking 3
+Unlocking 1
+6 BAL 2
+7 BAL 96
+1 BAL 0
+2 OK
+3 BAL 32767
+4 BAL 0
+Aquired lock on 1
+6 BAL 32767
+1 BAL 0
+1 BAL 0
+Aquired lock on 1
+2 OK
+3 BAL 32767
+4 BAL 0
+5 BAL 32
+ENDENDENDENDEND
+1 BAL 0
+2 BAL 0
+END
+END
+END
+END
+END
+END
+END
+END
+END
+END
+END
+END
+1 BAL 0
+2 OK
+3 BAL 32
+END
+1 BAL 0 TIME 1395627108.781961 1395627108.882747
+1 BAL 0 TIME 1395627216.941725 1395627217.042786
+2 OK TIME 1395627223.789372 1395627224.290703
+3 BAL 48 TIME 1395627227.413612 1395627227.513972
+1 BAL 0 TIME 1395627256.022089 1395627256.122223
+2 OK TIME 1395627267.398581 1395627267.901831
+3 OK TIME 1395627278.486487 1395627279.189512
+4 OK TIME 1395627290.270714 1395627290.973789
+5 BAL 100000 TIME 1395627293.326451 1395627293.427124
+6 OK TIME 1395627302.447103 1395627303.151165
+7 OK TIME 1395627317.758343 1395627318.460480
+8 BAL 9900 TIME 1395627321.886214 1395627321.986984
+1 BAL 0 TIME 1395627446.329702 1395627446.430137
+2 OK TIME 1395627455.561409 1395627456.064576
+3 OK TIME 1395627463.777459 1395627464.280104
+4 OK TIME 1395627476.953440 1395627477.654470
+5 BAL 90000 TIME 1395627478.729597 1395627478.830052
+6 OK TIME 1395627489.865457 1395627490.368520
+7 OK TIME 1395627501.145147 1395627501.847098
+8 BAL -100 TIME 1395627504.257172 1395627504.357539
+1 BAL 0 TIME 1395627574.494779 1395627574.595865
+2 OK TIME 1395627583.646846 1395627584.148960
+3 OK TIME 1395627591.070790 1395627591.572802
+4 OK TIME 1395627600.422864 1395627601.125839
+5 BAL 90000 TIME 1395627602.278827 1395627602.379667
+6 OK TIME 1395627608.271015 1395627608.774241
+7 OK TIME 1395627625.270574 1395627625.972775
+8 BAL 10000 TIME 1395627627.126586 1395627627.227399
+1 BAL 0 TIME 1395627695.691689 1395627695.792332
+2 OK TIME 1395627706.579944 1395627707.082309
+3 OK TIME 1395627714.299761 1395627714.802921
+4 OK TIME 1395627724.467847 1395627725.171301
+5 BAL 90000 TIME 1395627726.283777 1395627726.383926
+6 OK TIME 1395627732.147663 1395627732.851086
+7 OK TIME 1395627742.523542 1395627743.227539
+8 BAL -100 TIME 1395627747.531782 1395627747.632891
+1 ISF 2 TIME 1395627768.843398 1395627768.944466
+2 BAL 0 TIME 1395627772.915315 1395627773.016392
+3 BAL 0 TIME 1395627777.607349 1395627777.707436
+4 OK TIME 1395627791.129304 1395627791.431005
+5 BAL 10000 TIME 1395627793.217006 1395627793.317064
+END
+3 BAL 0 TIME 1395637006.121794 1395637006.222209
+4 OK TIME 1395637015.129825 1395637015.630577
+5 BAL 0 TIME 1395637016.866178 1395637016.967218
+6 BAL 8 TIME 1395637020.841624 1395637020.942613
+1 BAL 0 TIME 1395637067.945380 1395637068.045489
+1 BAL 0 TIME 1395637164.601008 1395637164.701830
+Trying on 2
+Aquired lock on 2
+Trying on 0
+Trying on 0
+Unsafe - Unlocking 0
+1 BAL 0 TIME 1395637229.321064 1395637229.422052
+Number of args 2
+Trying on 2
+Aquired lock on 2
+2 ISF 2 TIME 1395637247.160589 1395637247.261679
+0 BAL 0 TIME 0.000000 1395637274.005506
+Number of args 3
+Trying on 2
+Aquired lock on 2
+4 ISF 2 TIME 1395637281.688403 1395637281.788938
+1 BAL 0 TIME 1395637484.719217 1395637484.819301
+Number of args 2
+Trying on 3
+Aquired lock on 3
+Changing 3 to be 10000 from 0
+2 OK TIME 1395637494.415169 1395637494.717837
+Number of args 2
+Trying on 3
+Aquired lock on 3
+3 ISF 3 TIME 1395637506.295171 1395637506.395250
+4 BAL 10000 TIME 1395637510.703056 1395637510.804119
+Number of args 4
+Trying on 3
+Aquired lock on 3
+Trying on 4
+Aquired lock on 4
+Changing 3 to be 20000 from 10000
+Changing 4 to be -10000 from 0
+5 OK TIME 1395637520.199303 1395637520.701615
+6 BAL -10000 TIME 1395637525.511078 1395637525.611504
+1 BAL 0 TIME 1395637613.582758 1395637613.683133
+Number of args 2
+Trying on 3
+Aquired lock on 3
+Changing 3 to be 10000 from 0
+2 OK TIME 1395637618.462767 1395637618.763875
+Number of args 4
+Trying on 3
+Aquired lock on 3
+Trying on 4
+Aquired lock on 4
+3 ISF 4 TIME 1395637626.070555 1395637626.272292
+Number of args 4
+Trying on 3
+Aquired lock on 3
+Trying on 2
+Aquired lock on 2
+4 ISF 3 TIME 1395637637.838589 1395637637.939489
+Number of args 10
+Trying on 4
+Aquired lock on 4
+Trying on 8
+Aquired lock on 8
+Trying on 2
+Aquired lock on 2
+Trying on 1
+Aquired lock on 1
+Trying on 5
+Aquired lock on 5
+Changing 4 to be 1000 from 0
+Changing 8 to be 3000 from 0
+Changing 2 to be 1000 from 0
+Changing 1 to be 10 from 0
+Changing 5 to be 1 from 0
+5 OK TIME 1395637651.990439 1395637653.499437
+1 ISF 3 TIME 1395637697.990190 1395637698.090289
+2 OK TIME 1395637702.502124 1395637702.802808
+1 BAL 0 TIME 1395640486.605133 1395640486.706223
+Request 2 received: CHECK 3
+2 BAL 0 TIME 1395640489.357178 1395640489.457265
+Request 3 received: CHECK 4
+3 BAL 0 TIME 1395640491.485251 1395640491.586053
+Request 4 received: CHECK 9
+4 BAL 0 TIME 1395640493.789192 1395640493.890270
+Number of args 2
+Request 6 received: CHECK 1
+6 BAL 0 TIME 1395640506.085287 1395640506.185638
+Number of args 2
+Number of args 2
+Trying on 3
+Aquired lock on 3
+1 ISF 3 TIME 1395640540.132768 1395640540.233705
+Unlocking 3
+Request 2 received: CHECK 3
+2 BAL 0 TIME 1395640549.164632 1395640549.264782
+1 BAL 0 TIME 1395640574.532523 1395640574.633598
+Request 2 received: TRANS 1 -3000
+Number of args 3
+Trying on 1
+Aquired lock on 1
+2 ISF 1 TIME 1395640580.869198 1395640580.970074
+Unlocking 1
+Request 3 received: CHECK 3
+3 BAL 0 TIME 1395640584.148584 1395640584.248669
+Number of args 3
+Request 5 received: CHECK 2
+5 BAL 0 TIME 1395640595.036535 1395640595.136712
+Request 6 received: TRANS 2 -1000
+Trying on 2
+Number of args 3
+Number of args 3
+Trying on 9
+Aquired lock on 9
+Number of args 3
+Trying on 10
+Aquired lock on 10
+1 BAL 0 TIME 1395640654.740293 1395640654.841374
+Request 2 received: TRANS 6
+Number of args 3
+Trying on 2
+Aquired lock on 2
+1 ISF 2 TIME 1395640665.564477 1395640665.664652
+Unlocking 2
+Request 2 received: TRANS 2 -1000
+Request 3 received: TRANS 3 -1000
+Picking up request 1 command - CHECK 31 BAL 0 TIME 1395640768.651503 1395640768.751705
+Picking up request 1 command - CHECK 3
+1 BAL 0 TIME 1395640784.219552 1395640784.320268
+Picking up request 2 command - CHECK 2
+2 BAL 0 TIME 1395640785.951511 1395640786.052208
+Picking up request 3 command - CHECK 4
+3 BAL 0 TIME 1395640787.651600 1395640787.752079
+Request 4 received: TRANS 2 -1000
+Number of args 3
+Trying on 2
+Aquired lock on 2
+4 ISF 2 TIME 1395640797.227419 1395640797.328023
+Unlocking 2
+Picking up request 5 command - TRANS 3 -1000
+Number of args 3
+Trying on 3
+Aquired lock on 3
+5 ISF 3 TIME 1395640823.235292 1395640823.336423
+Unlocking 3
+Request 6 received: TRANS 6 -1000
+Number of args 3
+Trying on 6
+Aquired lock on 6
+6 ISF 6 TIME 1395640832.883232 1395640832.983931
+Unlocking 6
+Picking up request 7 command - TRANS 7 -2000
+Number of args 3
+Trying on 7
+Aquired lock on 7
+7 ISF 7 TIME 1395640842.355691 1395640842.455899
+Unlocking 7
+Picking up request 8 command - CHECK 5
+8 BAL 0 TIME 1395640851.115131 1395640851.215335
+Request 9 received: TRANS 3 -1000
+Number of args 3
+Trying on 3
+Aquired lock on 3
+9 ISF 3 TIME 1395640856.907250 1395640857.007941
+Unlocking 3
+Picking up request 1 command - CHECK 3
+1 BAL 0 TIME 1395641090.490474 1395641090.590759
+Picking up request 2 command - TRANS 1 -1000
+Number of args 3
+Trying on 1
+Aquired lock on 1
+2 ISF 1 TIME 1395641095.713937 1395641095.814866
+Unlocking 1
+Picking up request 3 command - TRANS 2 -1000
+Number of args 3
+Trying on 2
+Aquired lock on 2
+3 ISF 2 TIME 1395641100.897829 1395641100.998778
+Unlocking 2
+Request 4 received: TRANS 3 -1000
+Number of args 3
+Trying on 3
+Aquired lock on 3
+4 ISF 3 TIME 1395641106.801775 1395641106.902463
+Unlocking 3
+Picking up request 5 command - TRANS 6 -2000
+Number of args 3
+Trying on 6
+Aquired lock on 6
+5 ISF 6 TIME 1395641122.505725 1395641122.605935
+Unlocking 6
