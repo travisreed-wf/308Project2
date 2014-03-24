@@ -158,6 +158,12 @@ void handle_end(int request_id){
 
 }
 void handle_balance_check(int request_id, int account_id, struct timeval start){
+    if (account_id > num_of_accounts or account_id <= 0){
+        fprintf(output_file"%d Invalid Input", request_id);
+        fclose(output_file);
+        printf("Invalid account number");
+        return;
+    }
     pthread_mutex_lock(&accounts[account_id-1].lock);
     int balance = read_account(account_id);
     pthread_mutex_unlock(&accounts[account_id-1].lock);
@@ -177,6 +183,14 @@ void handle_transaction(int request_id, char list[21][20], struct timeval start)
         while(strcmp(list[args], "")){
             args++;
         }
+        for (int m =1; i<args;i=i+2){
+            if (atoi(list[j]) > num_of_accounts or atoi(list[j]) <= 0){
+                fprintf(output_file"%d Invalid Input", request_id);
+                fclose(output_file);
+                printf("Invalid account number");
+                return;
+            }
+        }
         fprintf(output_file, "Number of args %d\n", args);
         for (int i = 1;i<args;i=i+2){
             fprintf(output_file, "Trying on %d\n", atoi(list[i]));
@@ -184,9 +198,9 @@ void handle_transaction(int request_id, char list[21][20], struct timeval start)
                 safe = 0;
                 if (i > 1){
                    for (int j=i-2;j>1;j=j-2){
-                       fprintf(output_file, "Unsafe - Unlocking %d\n", atoi(list[j]));
-                       pthread_mutex_unlock(&accounts[atoi(list[j])-1].lock);
-                       usleep(50000);
+                        fprintf(output_file, "Unsafe - Unlocking %d\n", atoi(list[j]));
+                        pthread_mutex_unlock(&accounts[atoi(list[j])-1].lock);
+                        usleep(50000);
                     }
                 }
             }
@@ -212,7 +226,7 @@ void handle_transaction(int request_id, char list[21][20], struct timeval start)
             for (int k=2; k<=args;k+=2){
                 value = read_account(atoi(list[k-1]));
                 write_account(atoi(list[k-1]), value+atoi(list[k]));
-               fprintf(output_file, "Changing %d to be %d from %d\n", atoi(list[k-1]),  (value+atoi(list[k])), value);
+                fprintf(output_file, "Changing %d to be %d from %d\n", atoi(list[k-1]),  (value+atoi(list[k])), value);
             }
             struct timeval end;
             gettimeofday(&end, NULL);
@@ -220,7 +234,7 @@ void handle_transaction(int request_id, char list[21][20], struct timeval start)
         }
         if (safe != 0){
             for (int i=1;i<args;i+=2){
-              fprintf(output_file, "Unlocking %d\n", atoi(list[i]));
+               fprintf(output_file, "Unlocking %d\n", atoi(list[i]));
                pthread_mutex_unlock(&accounts[atoi(list[i])-1].lock);
             }
             successful = 1;
@@ -268,10 +282,10 @@ void worker_thread()
 
 }
 
-// void add_to_output(char str[]){
-//     output_file = fopen(output_file_name, "a");
-//     fprintf(output_file, str);
-//     fclose(output_file);
-// }
+void add_to_output(char str[]){
+    output_file = fopen(output_file_name, "a");
+    fprintf(output_file, str);
+    fclose(output_file);
+}
 
 
