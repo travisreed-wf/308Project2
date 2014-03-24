@@ -185,6 +185,7 @@ void handle_transaction(int request_id, char list[21][20], struct timeval start)
     int safe = 1;
     int successful = 0;
     while (successful == 0){
+        flockfile(output_file);
         while(strcmp(list[args], "")){
             args++;
         }
@@ -192,28 +193,31 @@ void handle_transaction(int request_id, char list[21][20], struct timeval start)
             if (atoi(list[m]) > num_of_accounts || atoi(list[m]) <= 0){
                 fprintf(output_file,"%d Invalid Input\n", request_id);
                 fclose(output_file);
+                funlockfile(output_file);
                 printf("Invalid account number");
                 return;
             }
         }
         fprintf(output_file, "Number of args %d\n", args);
         for (int i = 1;i<args;i=i+2){
-            fprintf(output_file, "Trying on %d\n", atoi(list[i]));
+            fprintf(output_file, "Trying on %d (arg %d of %d)\n", atoi(list[i]), i, args);
             if (pthread_mutex_trylock(&accounts[atoi(list[i])-1].lock) != 0){
                 safe = 0;
                 if (i > 1){
                    for (int j=i-2;j>=1;j=j-2){
-                        fprintf(output_file, "Unsafe - Unlocking %d\n", atoi(list[j]));
+                        fprintf(output_file, "Unsafe - Unlocking %d (arg %d of %d)\n", atoi(list[j]), j, args);
                         pthread_mutex_unlock(&accounts[atoi(list[j])-1].lock);
-                        usleep(50000);
                     }
                 }
+                funlockfile(output_file);
+                usleep(50000);
             }
             else {
-               fprintf(output_file, "Aquired lock on %d\n", atoi(list[i]));
+               fprintf(output_file, "Aquired lock on %d (arg %d of %d)\n", atoi(list[i]), i, args);
             }
         }
         if (safe == 1){
+            //Aquired locks
             int value = 0;
             for (int k=2; k<=args;k+=2){
                 value = read_account(atoi(list[k-1]));
@@ -227,6 +231,7 @@ void handle_transaction(int request_id, char list[21][20], struct timeval start)
             }
         }
         if (safe == 1){
+            //Aquired locks and sufficient funds
             int value = 0;
             for (int k=2; k<=args;k+=2){
                 value = read_account(atoi(list[k-1]));
@@ -238,11 +243,13 @@ void handle_transaction(int request_id, char list[21][20], struct timeval start)
             fprintf(output_file, "%d OK TIME %d.%06d %d.%06d\n", request_id, start.tv_sec, start.tv_usec, end.tv_sec, end.tv_usec);
         }
         if (safe != 0){
+            //Aquired locks
             for (int i=1;i<args;i+=2){
                fprintf(output_file, "Unlocking %d\n", atoi(list[i]));
                pthread_mutex_unlock(&accounts[atoi(list[i])-1].lock);
             }
             successful = 1;
+            funlockfile(output_file);
         }
         fclose(output_file);
     }
