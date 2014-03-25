@@ -132,3 +132,27 @@ Unlocking 7
 Unlocking 8
 Unlocking 9
 Unlocking 10
+Opening 1
+1 BAL 0 TIME 1395711576.477970 1395711576.578418
+Opening 2
+Aquired Locks
+Fetching value for 2
+Got value for 2
+Fetching value for 4
+Got value for 4
+Changing 3 to be 2 from 0
+Changing 1 to be 8 from 0
+2 OK TIME 1395711580.637960 1395711581.241417
+Unlocking 3
+Unlocking 1
+Opening 1
+1 BAL 0 TIME 1395711723.125149 1395711723.225942
+Opening 2
+0PASSING IN 
+Aquired Locks
+Fetching value for 2
+Got value for 2
+Changing 1 to be 2 from 0
+2 OK TIME 1395711726.141065 1395711726.443413
+Unlocking 1
+Opening 1
