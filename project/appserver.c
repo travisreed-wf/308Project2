@@ -117,7 +117,7 @@ void handle_input(){
         // fclose(output_file);
         num_of_requests++;
     }
-    fprintf(output_file, "END command received by main\n");
+    // fprintf(output_file, "END command received by main\n");
 
     for (int i = 0;i < num_of_worker_threads; i++){
         pthread_join(threads[i], NULL);
@@ -140,7 +140,6 @@ void run_command(request req){
         i++;
     }
     if (!strcmp(list[0], "END")){
-        handle_end(req.request_id);
     }
     else if (!strcmp(list[0], "CHECK")){
         handle_balance_check(req.request_id, atoi(list[1]), req.start);
@@ -153,12 +152,6 @@ void run_command(request req){
     }
 }
 
-void handle_end(int request_id){
-    take_input = 0;
-    fprintf(output_file, "END\n");
-
-
-}
 void handle_balance_check(int request_id, int account_id, struct timeval start){
     if (account_id > num_of_accounts || account_id <= 0){
         fprintf(output_file,"%d Invalid Input\n", request_id);
@@ -250,6 +243,7 @@ void worker_thread()
     while (1) {
         pthread_mutex_lock(&mutex);
         if (take_input == 0 && root == NULL){
+            pthread_mutex_unlock(&mutex);
             break;
         }
         request req;
@@ -265,7 +259,7 @@ void worker_thread()
             pthread_mutex_unlock(&mutex);
         }
     }
-    fprintf(output_file, "Thread Done");
+    // fprintf(output_file, "Thread Done");
     return;
     //     // current = root;
     //     // while ( current != NULL ) {
