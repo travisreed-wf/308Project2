@@ -33,11 +33,10 @@ int main(int argc, char * argv[]) {
     num_of_accounts = atoi(argv[2]);
     strcpy(output_file_name, argv[3]);
     output_file = get_file(output_file_name);
-    fclose(output_file);
     initialize_accounts(num_of_accounts);
     pthread_mutex_init(&mutex, NULL);
     create_worker_threads(num_of_worker_threads);
-    accounts = (int *) malloc(sizeof(account) * num_of_accounts);
+    accounts = (account *) malloc(sizeof(account) * num_of_accounts);
     for( int i = 0; i < num_of_accounts; i++)
     {
         account a;
@@ -118,12 +117,12 @@ void handle_input(){
         // fclose(output_file);
         num_of_requests++;
     }
-    output_file = fopen(output_file_name, "a");
     fprintf(output_file, "END command received by main\n");
-    fclose(output_file);
+
     for (int i = 0;i < num_of_worker_threads; i++){
         pthread_join(threads[i], NULL);
     }
+    fclose(output_file);
     return;
 
 
@@ -156,32 +155,25 @@ void run_command(request req){
 
 void handle_end(int request_id){
     take_input = 0;
-    output_file = fopen(output_file_name, "a");
     fprintf(output_file, "END\n");
-    fclose(output_file);
 
 
 }
 void handle_balance_check(int request_id, int account_id, struct timeval start){
     if (account_id > num_of_accounts || account_id <= 0){
-        output_file = fopen(output_file_name, "a");
         fprintf(output_file,"%d Invalid Input\n", request_id);
-        fclose(output_file);
         printf("Invalid account number\n");
         return;
     }
     pthread_mutex_lock(&accounts[account_id-1].lock);
     int balance = read_account(account_id);
     pthread_mutex_unlock(&accounts[account_id-1].lock);
-    output_file = fopen(output_file_name, "a");
     struct timeval end;
     gettimeofday(&end, NULL);
-    fprintf(output_file, "%d BAL %d TIME %d.%06d %d.%06d\n", request_id, balance, start.tv_sec, start.tv_usec, end.tv_sec, end.tv_usec);
-    fclose(output_file);
+    fprintf(output_file, "%d BAL %d TIME %ld.%06d %ld.%06d\n", request_id, balance, start.tv_sec, start.tv_usec, end.tv_sec, end.tv_usec);
 
 }
 void handle_transaction(int request_id, char list[21][20], struct timeval start, int args) {
-    output_file = fopen(output_file_name, "a");
     int safe = 1;
     int list_of_accounts[10] = {0};
     int * sorted_accounts = (int *) malloc(sizeof(int) * 10);
@@ -191,8 +183,7 @@ void handle_transaction(int request_id, char list[21][20], struct timeval start,
     for (int m =1; m<args;m=m+2){
         list_of_accounts[m/2] = atoi(list[m]);
         if (atoi(list[m]) > num_of_accounts || atoi(list[m]) <= 0){
-            fprintf(output_file,"%d Invalid Input\n", request_id);
-            fclose(output_file);
+            // fprintf(output_file,"%d Invalid Input\n", request_id);
             // funlockfile(output_file);
             printf("Invalid account number");
             return;
@@ -204,11 +195,11 @@ void handle_transaction(int request_id, char list[21][20], struct timeval start,
     for (int i=0;i<10;i++){
         if (sorted_accounts[i] != 0){
             pthread_mutex_lock(&accounts[sorted_accounts[i]-1].lock);
-            fprintf(output_file, "Aquired Lock %d\n", sorted_accounts[i]);
+            // fprintf(output_file, "Aquired Lock %d\n", sorted_accounts[i]);
         }
     }
     //Aquired locks
-    fprintf(output_file, "Aquired Locks\n");
+    // fprintf(output_file, "Aquired Locks\n");
     int value = 0;
     for (int k=2; k<=args;k+=2){
         value = read_account(atoi(list[k-1]));
@@ -216,7 +207,8 @@ void handle_transaction(int request_id, char list[21][20], struct timeval start,
             safe = 2;
             struct timeval end;
             gettimeofday(&end, NULL);
-            fprintf(output_file, "%d ISF %d TIME %d.%06d %d.%06d\n", request_id, atoi(list[k-1]), start.tv_sec, start.tv_usec, end.tv_sec, end.tv_usec);
+            fprintf(output_file, "%d ISF %d TIME %ld.%06d %ld.%06d\n", request_id, atoi(list[k-1]), start.tv_sec, start.tv_usec, end.tv_sec, end.tv_usec);
+            fflush(output_file);
             break;
         }
     }
@@ -226,25 +218,25 @@ void handle_transaction(int request_id, char list[21][20], struct timeval start,
         for (int k=2; k<=args;k+=2){
             value = read_account(atoi(list[k-1]));
             write_account(atoi(list[k-1]), value+atoi(list[k]));
-            fprintf(output_file, "Changing %d to be %d from %d\n", atoi(list[k-1]),  (value+atoi(list[k])), value);
+            // fprintf(output_file, "Changing %d to be %d from %d\n", atoi(list[k-1]),  (value+atoi(list[k])), value);
         }
         struct timeval end;
         gettimeofday(&end, NULL);
-        fprintf(output_file, "%d OK TIME %d.%06d %d.%06d\n", request_id, start.tv_sec, start.tv_usec, end.tv_sec, end.tv_usec);
+        fprintf(output_file, "%d OK TIME %ld.%06d %ld.%06d\n", request_id, start.tv_sec, start.tv_usec, end.tv_sec, end.tv_usec);
+        fflush(output_file);
     }
     for (int i=9;i>=0;i--){
         if (sorted_accounts[i] != 0){
-            fprintf(output_file, "Unlocking %d\n", sorted_accounts[i]);
+            // fprintf(output_file, "Unlocking %d\n", sorted_accounts[i]);
             pthread_mutex_unlock(&accounts[sorted_accounts[i]-1].lock);
         }
     }
     // funlockfile(output_file);
-    fclose(output_file);
 
 
 }
 void create_worker_threads(int num_of_worker_threads){
-    threads = (int *) malloc(sizeof(pthread_t) * num_of_worker_threads);
+    threads = (pthread_t *) malloc(sizeof(pthread_t) * num_of_worker_threads);
     for (int i=0;i<num_of_worker_threads;i++){
         /* thread id or type*/
         pthread_t thread;
@@ -255,16 +247,17 @@ void create_worker_threads(int num_of_worker_threads){
 
 void worker_thread()
 {
-    while (take_input == 1 || root != NULL) {
+    while (1) {
         pthread_mutex_lock(&mutex);
+        if (take_input == 0 && root == NULL){
+            break;
+        }
         request req;
         if (root != NULL){
             req = root->r;
             root = root->next;
             pthread_mutex_unlock(&mutex);
-            output_file = fopen(output_file_name, "a");
             // fprintf(output_file, "Picking up request %d command - %s\n", req.request_id, req.command);
-            fclose(output_file);
             run_command(req);
 
         }
@@ -272,9 +265,7 @@ void worker_thread()
             pthread_mutex_unlock(&mutex);
         }
     }
-    output_file = fopen(output_file_name, "a");
     fprintf(output_file, "Thread Done");
-    fclose(output_file);
     return;
     //     // current = root;
     //     // while ( current != NULL ) {
@@ -284,11 +275,7 @@ void worker_thread()
 
 }
 
-void add_to_output(char str[]){
-    output_file = fopen(output_file_name, "a");
-    fprintf(output_file, str);
-    fclose(output_file);
-}
+
 int * insertion_sort(int array[10]){
     int n = 10;
     int c, d, t;

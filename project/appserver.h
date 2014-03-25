@@ -9,7 +9,7 @@ typedef struct {
     struct timeval start;
 } request;
 
-typedef struct {
+typedef struct node{
   request r;
   struct node *next;
 } node;
