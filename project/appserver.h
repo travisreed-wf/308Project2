@@ -25,4 +25,3 @@ void handle_balance_check(int request_id, int account_id, struct timeval start);
 void handle_transaction(int request_id, char list[5][20], struct timeval start, int args);
 void worker_thread();
 void add_to_output(char * str);
-void insertionSort(int *a, int array_size);

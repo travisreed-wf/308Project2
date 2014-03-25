@@ -186,16 +186,11 @@ void handle_transaction(int request_id, char list[21][20], struct timeval start,
     output_file = fopen(output_file_name, "a");
     int safe = 1;
     int successful = 0;
-    int sorted_accounts[10] = { 0 };
-
     while (successful == 0){
         flockfile(output_file);
-        int n = 0;
 
         for (int m =1; m<args;m=m+2){
             if (atoi(list[m]) > num_of_accounts || atoi(list[m]) <= 0){
-                sorted_accounts[n] = atoi(list[m]);
-                n++;
                 fprintf(output_file,"%d Invalid Input\n", request_id);
                 fclose(output_file);
                 funlockfile(output_file);
@@ -203,25 +198,39 @@ void handle_transaction(int request_id, char list[21][20], struct timeval start,
                 return;
             }
         }
-        fprintf(output_file, "%dPASSING IN \n", n);
-        insertionSort(*sorted_accounts, n+1);
-        for (int l=0;l<=n;l++){
-            fprintf(output_file, sorted_accounts[l]);
+        fprintf(output_file, "Number of args %d\n", args);
+        for (int i = 1;i<args;i=i+2){
+            fprintf(output_file, "Trying on %d (arg %d of %d)\n", atoi(list[i]), i, args);
+            if (pthread_mutex_trylock(&accounts[atoi(list[i])-1].lock) != 0){
+                safe = 0;
+                if (i > 1){
+                   for (int j=i-2;j>=1;j=j-2){
+                        fprintf(output_file, "Unsafe - Unlocking %d (arg %d of %d)\n", atoi(list[j]), j, args);
+                        pthread_mutex_unlock(&accounts[atoi(list[j])-1].lock);
+                    }
+                }
+                funlockfile(output_file);
+                usleep(50000);
+            }
+            else {
+               fprintf(output_file, "Aquired lock on %d (arg %d of %d)\n", atoi(list[i]), i, args);
+            }
         }
-
-        fprintf(output_file, "Aquired Locks\n");
-        //Aquired locks
-        int value = 0;
-        for (int k=2; k<=args;k+=2){
-            fprintf(output_file, "Fetching value for %d\n", k);
-            value = read_account(atoi(list[k-1]));
-            fprintf(output_file, "Got value for %d\n", k);
-            if (value+atoi(list[k]) < 0){
-                safe = 2;
-                struct timeval end;
-                gettimeofday(&end, NULL);
-                fprintf(output_file, "%d ISF %d TIME %d.%06d %d.%06d\n", request_id, atoi(list[k-1]), start.tv_sec, start.tv_usec, end.tv_sec, end.tv_usec);
-                break;
+        if (safe == 1){
+            fprintf(output_file, "Aquired Locks\n");
+            //Aquired locks
+            int value = 0;
+            for (int k=2; k<=args;k+=2){
+                fprintf(output_file, "Fetching value for %d\n", k);
+                value = read_account(atoi(list[k-1]));
+                fprintf(output_file, "Got value for %d\n", k);
+                if (value+atoi(list[k]) < 0){
+                    safe = 2;
+                    struct timeval end;
+                    gettimeofday(&end, NULL);
+                    fprintf(output_file, "%d ISF %d TIME %d.%06d %d.%06d\n", request_id, atoi(list[k-1]), start.tv_sec, start.tv_usec, end.tv_sec, end.tv_usec);
+                    break;
+                }
             }
         }
         if (safe == 1){
@@ -295,19 +304,6 @@ void add_to_output(char str[]){
     output_file = fopen(output_file_name, "a");
     fprintf(output_file, str);
     fclose(output_file);
-}
-
-void insertionSort(int *a, int array_size)
-{
-     int i, j, index;
-     for (i = 1; i < array_size; ++i)
-     {
-          index = a[i];
-          for (j = i; j > 0 && a[j-1] > index; j--)
-               a[j] = a[j-1];
-
-          a[j] = index;
-     }
 }
 
 
