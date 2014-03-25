@@ -135,9 +135,6 @@ void run_command(request req){
     char* token;
     int i = 0;
     token = strtok(req.command, " ");
-    output_file = fopen(output_file_name, "a");
-    fprintf(output_file, "Opening %d\n", req.request_id);
-    fclose(output_file);
     while (token != NULL){
         strcpy(list[i],token);
         token = (strtok(NULL, " "));
@@ -186,77 +183,63 @@ void handle_balance_check(int request_id, int account_id, struct timeval start){
 void handle_transaction(int request_id, char list[21][20], struct timeval start, int args) {
     output_file = fopen(output_file_name, "a");
     int safe = 1;
-    int successful = 0;
     int list_of_accounts[10] = {0};
     int * sorted_accounts = (int *) malloc(sizeof(int) * 10);
     int * sorted_values = (int *) malloc(sizeof(int) * 10);
-    while (successful == 0){
-        flockfile(output_file);
+    // flockfile(output_file);
 
-        for (int m =1; m<args;m=m+2){
-            list_of_accounts[m/2] = atoi(list[m]);
-            if (atoi(list[m]) > num_of_accounts || atoi(list[m]) <= 0){
-                fprintf(output_file,"%d Invalid Input\n", request_id);
-                fclose(output_file);
-                funlockfile(output_file);
-                printf("Invalid account number");
-                return;
-            }
+    for (int m =1; m<args;m=m+2){
+        list_of_accounts[m/2] = atoi(list[m]);
+        if (atoi(list[m]) > num_of_accounts || atoi(list[m]) <= 0){
+            fprintf(output_file,"%d Invalid Input\n", request_id);
+            fclose(output_file);
+            // funlockfile(output_file);
+            printf("Invalid account number");
+            return;
         }
-        sorted_accounts = insertion_sort(list_of_accounts);
-        for (int i = 0; i<10;i++){
-            if (sorted_accounts[i] == 0){
-                sorted_values[i]== 0;
-            }
-            else {
-                for (int j = 1;j<20;j+=2){
-                    if (atoi(list[j]) == sorted_accounts[i]){
-                        sorted_values[i] = atoi(list[j+1]);
-                        break;
-                    }
-                }
-            }
-        }
+    }
+    sorted_accounts = insertion_sort(list_of_accounts);
 
-        // for (int i=0;i<10;i++){
-        //     if sorted_accounts[i] >
-        // }
-        //Aquired locks
+
+    for (int i=0;i<10;i++){
+        if (sorted_accounts[i] != 0){
+            pthread_mutex_lock(&accounts[sorted_accounts[i]-1].lock);
+            fprintf(output_file, "Aquired Lock %d\n", sorted_accounts[i]);
+        }
+    }
+    //Aquired locks
+    fprintf(output_file, "Aquired Locks\n");
+    int value = 0;
+    for (int k=2; k<=args;k+=2){
+        value = read_account(atoi(list[k-1]));
+        if (value+atoi(list[k]) < 0){
+            safe = 2;
+            struct timeval end;
+            gettimeofday(&end, NULL);
+            fprintf(output_file, "%d ISF %d TIME %d.%06d %d.%06d\n", request_id, atoi(list[k-1]), start.tv_sec, start.tv_usec, end.tv_sec, end.tv_usec);
+            break;
+        }
+    }
+    if (safe == 1){
+        //Aquired locks and sufficient funds
         int value = 0;
         for (int k=2; k<=args;k+=2){
             value = read_account(atoi(list[k-1]));
-            if (value+atoi(list[k]) < 0){
-                safe = 2;
-                struct timeval end;
-                gettimeofday(&end, NULL);
-                fprintf(output_file, "%d ISF %d TIME %d.%06d %d.%06d\n", request_id, atoi(list[k-1]), start.tv_sec, start.tv_usec, end.tv_sec, end.tv_usec);
-                break;
-            }
+            write_account(atoi(list[k-1]), value+atoi(list[k]));
+            fprintf(output_file, "Changing %d to be %d from %d\n", atoi(list[k-1]),  (value+atoi(list[k])), value);
         }
-        if (safe == 1){
-            //Aquired locks and sufficient funds
-            int value = 0;
-            for (int k=2; k<=args;k+=2){
-                value = read_account(atoi(list[k-1]));
-                write_account(atoi(list[k-1]), value+atoi(list[k]));
-                fprintf(output_file, "Changing %d to be %d from %d\n", atoi(list[k-1]),  (value+atoi(list[k])), value);
-            }
-            struct timeval end;
-            gettimeofday(&end, NULL);
-            fprintf(output_file, "%d OK TIME %d.%06d %d.%06d\n", request_id, start.tv_sec, start.tv_usec, end.tv_sec, end.tv_usec);
-        }
-        if (safe != 0){
-            //Aquired locks
-            for (int i=1;i<args;i+=2){
-               fprintf(output_file, "Unlocking %d\n", atoi(list[i]));
-               pthread_mutex_unlock(&accounts[atoi(list[i])-1].lock);
-            }
-            successful = 1;
-            funlockfile(output_file);
-        }
-        funlockfile(output_file);
-        fclose(output_file);
+        struct timeval end;
+        gettimeofday(&end, NULL);
+        fprintf(output_file, "%d OK TIME %d.%06d %d.%06d\n", request_id, start.tv_sec, start.tv_usec, end.tv_sec, end.tv_usec);
     }
+    for (int i=9;i>=0;i--){
+        if (sorted_accounts[i] != 0){
+            fprintf(output_file, "Unlocking %d\n", sorted_accounts[i]);
+            pthread_mutex_unlock(&accounts[sorted_accounts[i]-1].lock);
+        }
+    }
+    // funlockfile(output_file);
+    fclose(output_file);
 
 
 }

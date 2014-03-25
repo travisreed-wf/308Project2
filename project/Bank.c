@@ -31,7 +31,7 @@ int initialize_accounts( int n )
  */
 int read_account( int ID )
 {
-	usleep( 100000 );
+	//usleep( 100000 );
 	return BANK_accounts[ID - 1];
 }
 
@@ -42,6 +42,6 @@ int read_account( int ID )
  */
 void write_account( int ID, int value)
 {
-	usleep( 100000 );
+	//usleep( 100000 );
 	BANK_accounts[ID - 1] = value;
 }

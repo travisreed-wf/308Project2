@@ -222,3 +222,31 @@ Opening 1
 Opening 2
 Opening 1
 Opening 2
+Opening 1
+1 BAL 0 TIME 1395716220.902158 1395716221.002339
+Opening 2
+Aquired Lock 1Aquired Lock 4Aquired LocksChanging 4 to be 2 from 0
+Changing 1 to be 8 from 0
+2 OK TIME 1395716225.750120 1395716226.352413
+Unlocking 0
+Unlocking 0
+Opening 3
+Opening 4
+1 BAL 0 TIME 1395716414.605093 1395716414.706198
+Aquired Lock 4
+Aquired Locks
+Changing 4 to be 2 from 0
+2 OK TIME 1395716418.205102 1395716418.505915
+Unlocking 4
+3 BAL 2 TIME 1395716422.165401 1395716422.265727
+Aquired Lock 1
+Aquired Lock 3
+Aquired Lock 6
+Aquired Locks
+Changing 3 to be 2 from 0
+Changing 1 to be 8 from 0
+Changing 6 to be 18 from 0
+4 OK TIME 1395716433.581045 1395716434.484570
+Unlocking 6
+Unlocking 3
+Unlocking 1
