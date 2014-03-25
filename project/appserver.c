@@ -91,9 +91,10 @@ void handle_input(){
         if (!strcmp(str, "END")){
             take_input = 0;
         }
-        //Iterate to the end of the linked list
+
         pthread_mutex_lock(&mutex);
         if ( root != NULL ) {
+            //Iterate to the end of the linked list
             current = root;
             while ( current->next != NULL)
             {
@@ -186,10 +187,14 @@ void handle_transaction(int request_id, char list[21][20], struct timeval start,
     output_file = fopen(output_file_name, "a");
     int safe = 1;
     int successful = 0;
+    int list_of_accounts[10] = {0};
+    int * sorted_accounts = (int *) malloc(sizeof(int) * 10);
+    int * sorted_values = (int *) malloc(sizeof(int) * 10);
     while (successful == 0){
         flockfile(output_file);
 
         for (int m =1; m<args;m=m+2){
+            list_of_accounts[m/2] = atoi(list[m]);
             if (atoi(list[m]) > num_of_accounts || atoi(list[m]) <= 0){
                 fprintf(output_file,"%d Invalid Input\n", request_id);
                 fclose(output_file);
@@ -198,36 +203,34 @@ void handle_transaction(int request_id, char list[21][20], struct timeval start,
                 return;
             }
         }
-        fprintf(output_file, "Number of args %d\n", args);
-        for (int i = 1;i<args;i=i+2){
-            fprintf(output_file, "Trying on %d (arg %d of %d)\n", atoi(list[i]), i, args);
-            if (pthread_mutex_trylock(&accounts[atoi(list[i])-1].lock) != 0){
-                safe = 0;
-                if (i > 1){
-                   for (int j=i-2;j>=1;j=j-2){
-                        fprintf(output_file, "Unsafe - Unlocking %d (arg %d of %d)\n", atoi(list[j]), j, args);
-                        pthread_mutex_unlock(&accounts[atoi(list[j])-1].lock);
-                    }
-                }
-                funlockfile(output_file);
-                usleep(50000);
+        sorted_accounts = insertion_sort(list_of_accounts);
+        for (int i = 0; i<10;i++){
+            if (sorted_accounts[i] == 0){
+                sorted_values[i]== 0;
             }
             else {
-               fprintf(output_file, "Aquired lock on %d (arg %d of %d)\n", atoi(list[i]), i, args);
+                for (int j = 1;j<20;j+=2){
+                    if (atoi(list[j]) == sorted_accounts[i]){
+                        sorted_values[i] = atoi(list[j+1]);
+                        break;
+                    }
+                }
             }
         }
-        if (safe == 1){
-            //Aquired locks
-            int value = 0;
-            for (int k=2; k<=args;k+=2){
-                value = read_account(atoi(list[k-1]));
-                if (value+atoi(list[k]) < 0){
-                    safe = 2;
-                    struct timeval end;
-                    gettimeofday(&end, NULL);
-                    fprintf(output_file, "%d ISF %d TIME %d.%06d %d.%06d\n", request_id, atoi(list[k-1]), start.tv_sec, start.tv_usec, end.tv_sec, end.tv_usec);
-                    break;
-                }
+
+        // for (int i=0;i<10;i++){
+        //     if sorted_accounts[i] >
+        // }
+        //Aquired locks
+        int value = 0;
+        for (int k=2; k<=args;k+=2){
+            value = read_account(atoi(list[k-1]));
+            if (value+atoi(list[k]) < 0){
+                safe = 2;
+                struct timeval end;
+                gettimeofday(&end, NULL);
+                fprintf(output_file, "%d ISF %d TIME %d.%06d %d.%06d\n", request_id, atoi(list[k-1]), start.tv_sec, start.tv_usec, end.tv_sec, end.tv_usec);
+                break;
             }
         }
         if (safe == 1){
@@ -251,6 +254,7 @@ void handle_transaction(int request_id, char list[21][20], struct timeval start,
             successful = 1;
             funlockfile(output_file);
         }
+        funlockfile(output_file);
         fclose(output_file);
     }
 
@@ -301,6 +305,21 @@ void add_to_output(char str[]){
     output_file = fopen(output_file_name, "a");
     fprintf(output_file, str);
     fclose(output_file);
+}
+int * insertion_sort(int array[10]){
+    int n = 10;
+    int c, d, t;
+    for (c = 1 ; c <= n - 1; c++) {
+        d = c;
+        while ( d > 0 && array[d] < array[d-1]) {
+          t          = array[d];
+          array[d]   = array[d-1];
+          array[d-1] = t;
+
+          d--;
+        }
+    }
+    return array;
 }
 
 
