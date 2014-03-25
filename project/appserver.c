@@ -217,13 +217,10 @@ void handle_transaction(int request_id, char list[21][20], struct timeval start,
             }
         }
         if (safe == 1){
-            fprintf(output_file, "Aquired Locks\n");
             //Aquired locks
             int value = 0;
             for (int k=2; k<=args;k+=2){
-                fprintf(output_file, "Fetching value for %d\n", k);
                 value = read_account(atoi(list[k-1]));
-                fprintf(output_file, "Got value for %d\n", k);
                 if (value+atoi(list[k]) < 0){
                     safe = 2;
                     struct timeval end;
