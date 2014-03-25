@@ -134,6 +134,9 @@ void run_command(request req){
     char* token;
     int i = 0;
     token = strtok(req.command, " ");
+    output_file = fopen(output_file_name, "a");
+    fprintf(output_file, "Opening %d\n", req.request_id);
+    fclose(output_file);
     while (token != NULL){
         strcpy(list[i],token);
         token = (strtok(NULL, " "));
@@ -146,7 +149,7 @@ void run_command(request req){
         handle_balance_check(req.request_id, atoi(list[1]), req.start);
     }
     else if (!strcmp(list[0], "TRANS")){
-        handle_transaction(req.request_id, list, req.start);
+        handle_transaction(req.request_id, list, req.start, i);
     }
     else{
         printf("Invalid Input\n");
@@ -179,21 +182,13 @@ void handle_balance_check(int request_id, int account_id, struct timeval start){
     fclose(output_file);
 
 }
-void handle_transaction(int request_id, char list[21][20], struct timeval start) {
-    int args = 0;
+void handle_transaction(int request_id, char list[21][20], struct timeval start, int args) {
     output_file = fopen(output_file_name, "a");
     int safe = 1;
     int successful = 0;
     while (successful == 0){
         flockfile(output_file);
-        // for (args=0;args<21;args++){
-        //     if (!strcmp(list[args], "")) {
-        //         break;
-        //     }
-        // }
-        while(strcmp(list[args], "")){
-            args++;
-        }
+
         for (int m =1; m<args;m=m+2){
             if (atoi(list[m]) > num_of_accounts || atoi(list[m]) <= 0){
                 fprintf(output_file,"%d Invalid Input\n", request_id);
@@ -222,10 +217,13 @@ void handle_transaction(int request_id, char list[21][20], struct timeval start)
             }
         }
         if (safe == 1){
+            fprintf(output_file, "Aquired Locks\n");
             //Aquired locks
             int value = 0;
             for (int k=2; k<=args;k+=2){
+                fprintf(output_file, "Fetching value for %d\n", k);
                 value = read_account(atoi(list[k-1]));
+                fprintf(output_file, "Got value for %d\n", k);
                 if (value+atoi(list[k]) < 0){
                     safe = 2;
                     struct timeval end;
@@ -290,6 +288,9 @@ void worker_thread()
             pthread_mutex_unlock(&mutex);
         }
     }
+    output_file = fopen(output_file_name, "a");
+    fprintf(output_file, "Thread Done");
+    fclose(output_file);
     return;
     //     // current = root;
     //     // while ( current != NULL ) {

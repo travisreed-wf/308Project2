@@ -42,4 +42,93 @@ Aquired lock on 8
 Changing 8 to be 1000 from 0
 7 OK TIME 1395671068.958943 1395671069.259906
 Unlocking 8
-8 Invalid Input
+8 Invalid Input1 BAL 0 TIME 1395676795.055762 1395676795.156872
+2 BAL 0 TIME 1395676806.207646 1395676806.308211
+3 BAL 0 TIME 1395676808.343716 1395676808.444268
+Number of args 5
+Trying on 3 (arg 1 of 5)
+Aquired lock on 3 (arg 1 of 5)
+Trying on 1 (arg 3 of 5)
+Aquired lock on 1 (arg 3 of 5)
+Aquired Locks
+Fetching value for 2
+Fetching value for 4
+Changing 3 to be 2 from 0
+Changing 1 to be 8 from 0
+4 OK TIME 1395676811.983804 1395676812.585302
+Unlocking 3
+Unlocking 1
+5 BAL 2 TIME 1395676818.047575 1395676818.147998
+Number of args 3
+Trying on 3 (arg 1 of 3)
+Aquired lock on 3 (arg 1 of 3)
+Aquired Locks
+Fetching value for 2
+Changing 3 to be 702 from 2
+6 OK TIME 1395676830.207561 1395676830.509606
+Unlocking 3
+8 BAL 702 TIME 1395676842.447465 1395676842.547751
+1 BAL 0 TIME 1395709070.570927 1395709070.671096
+Number of args 21
+Trying on 1 (arg 1 of 21)
+Aquired lock on 1 (arg 1 of 21)
+Trying on 2 (arg 3 of 21)
+Aquired lock on 2 (arg 3 of 21)
+Trying on 3 (arg 5 of 21)
+Aquired lock on 3 (arg 5 of 21)
+Trying on 4 (arg 7 of 21)
+Aquired lock on 4 (arg 7 of 21)
+Trying on 5 (arg 9 of 21)
+Aquired lock on 5 (arg 9 of 21)
+Trying on 6 (arg 11 of 21)
+Aquired lock on 6 (arg 11 of 21)
+Trying on 7 (arg 13 of 21)
+Aquired lock on 7 (arg 13 of 21)
+Trying on 8 (arg 15 of 21)
+Aquired lock on 8 (arg 15 of 21)
+Trying on 9 (arg 17 of 21)
+Aquired lock on 9 (arg 17 of 21)
+Trying on 10 (arg 19 of 21)
+Aquired lock on 10 (arg 19 of 21)
+Aquired Locks
+Fetching value for 2
+Got value for 2
+Fetching value for 4
+Got value for 4
+Fetching value for 6
+Got value for 6
+Fetching value for 8
+Got value for 8
+Fetching value for 10
+Got value for 10
+Fetching value for 12
+Got value for 12
+Fetching value for 14
+Got value for 14
+Fetching value for 16
+Got value for 16
+Fetching value for 18
+Got value for 18
+Fetching value for 20
+Got value for 20
+Changing 1 to be 10 from 0
+Changing 2 to be 10 from 0
+Changing 3 to be 10 from 0
+Changing 4 to be 10 from 0
+Changing 5 to be 10 from 0
+Changing 6 to be 10 from 0
+Changing 7 to be 10 from 0
+Changing 8 to be 10 from 0
+Changing 9 to be 10 from 0
+Changing 10 to be 10 from 0
+2 OK TIME 1395709095.130776 1395709098.143333
+Unlocking 1
+Unlocking 2
+Unlocking 3
+Unlocking 4
+Unlocking 5
+Unlocking 6
+Unlocking 7
+Unlocking 8
+Unlocking 9
+Unlocking 10
